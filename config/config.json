@@ -54,9 +54,9 @@
   },
   "sentiment": {
     "enabled": true,
-    "only_if_margin_under": 15,
+    "only_if_margin_under": 6,
     "gdelt_timespan": "14d",
-    "seconds_between_calls": 6
+    "seconds_between_calls": 2
   },
   "prior": {
     "expert_weight": 0.5,
