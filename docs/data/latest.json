@@ -1,0 +1,7333 @@
+{
+ "generated_at": "2026-09-21T16:34+00:00",
+ "as_of": "2026-09-21",
+ "days_left": 43,
+ "live_data": false,
+ "generic": {
+  "margin": 8.88,
+  "raw_margin": 8.96,
+  "n_polls": 8,
+  "polls": [
+   {
+    "pollster": "John Zogby Strategies",
+    "end_date": "2026-09-17",
+    "n": 1007,
+    "population": "lv",
+    "margin": 6.2,
+    "adjusted": 6.7,
+    "weight": 0.629,
+    "tier": "538 1.8/3",
+    "partisan": null,
+    "url": "",
+    "answers": null,
+    "sources": [
+     "realclearpolling"
+    ],
+    "verified": null,
+    "side": "D"
+   },
+   {
+    "pollster": "New York Times/Siena",
+    "end_date": "2026-09-17",
+    "n": 1000,
+    "population": "lv",
+    "margin": 8.5,
+    "adjusted": 8.6,
+    "weight": 0.89,
+    "tier": "538 3.0/3",
+    "partisan": null,
+    "url": "",
+    "answers": null,
+    "sources": [
+     "realclearpolling"
+    ],
+    "verified": null,
+    "side": "D"
+   },
+   {
+    "pollster": "YouGov",
+    "end_date": "2026-09-15",
+    "n": 1000,
+    "population": "rv",
+    "margin": 12.0,
+    "adjusted": 10.9,
+    "weight": 0.664,
+    "tier": "538 3.0/3",
+    "partisan": null,
+    "url": "",
+    "answers": null,
+    "sources": [
+     "realclearpolling"
+    ],
+    "verified": null,
+    "side": "D"
+   },
+   {
+    "pollster": "Morning Consult",
+    "end_date": "2026-09-15",
+    "n": 2200,
+    "population": "rv",
+    "margin": 6.0,
+    "adjusted": 6.6,
+    "weight": 0.75,
+    "tier": "538 1.9/3",
+    "partisan": null,
+    "url": "",
+    "answers": null,
+    "sources": [
+     "realclearpolling"
+    ],
+    "verified": null,
+    "side": "D"
+   },
+   {
+    "pollster": "Marquette University Law School",
+    "end_date": "2026-09-14",
+    "n": 1000,
+    "population": "rv",
+    "margin": 13.0,
+    "adjusted": 12.2,
+    "weight": 0.65,
+    "tier": "538 3.0/3",
+    "partisan": null,
+    "url": "",
+    "answers": null,
+    "sources": [
+     "realclearpolling"
+    ],
+    "verified": null,
+    "side": "D"
+   },
+   {
+    "pollster": "Ipsos",
+    "end_date": "2026-09-14",
+    "n": 1000,
+    "population": "rv",
+    "margin": 7.0,
+    "adjusted": 7.4,
+    "weight": 0.624,
+    "tier": "538 2.8/3",
+    "partisan": null,
+    "url": "",
+    "answers": null,
+    "sources": [
+     "realclearpolling"
+    ],
+    "verified": null,
+    "side": "D"
+   },
+   {
+    "pollster": "Quinnipiac University",
+    "end_date": "2026-09-12",
+    "n": 1000,
+    "population": "rv",
+    "margin": 11.0,
+    "adjusted": 10.6,
+    "weight": 0.543,
+    "tier": "538 2.8/3",
+    "partisan": null,
+    "url": "",
+    "answers": null,
+    "sources": [
+     "realclearpolling"
+    ],
+    "verified": null,
+    "side": "D"
+   },
+   {
+    "pollster": "Cygnal",
+    "end_date": "2026-09-12",
+    "n": 1000,
+    "population": "lv",
+    "margin": 8.6,
+    "adjusted": 8.6,
+    "weight": 0.482,
+    "tier": "538 2.1/3",
+    "partisan": null,
+    "url": "",
+    "answers": null,
+    "sources": [
+     "realclearpolling"
+    ],
+    "verified": null,
+    "side": "D"
+   }
+  ],
+  "aggregates": [
+   {
+    "source": "Decision Desk HQ",
+    "margin": 7.3,
+    "updated": "September 17, 2026"
+   },
+   {
+    "source": "FiftyPlusOne",
+    "margin": 7.2,
+    "updated": "September 20, 2026"
+   },
+   {
+    "source": "RealClearPolitics",
+    "margin": 6.4,
+    "updated": "August 30, 2026"
+   },
+   {
+    "source": "Silver Bulletin",
+    "margin": 6.6,
+    "updated": "August 30, 2026"
+   },
+   {
+    "source": "VoteHub",
+    "margin": 6.2,
+    "updated": "August 30, 2026"
+   },
+   {
+    "source": "Race to the WH",
+    "margin": 6.4,
+    "updated": "August 30, 2026"
+   }
+  ]
+ },
+ "control": {
+  "senate": {
+   "p_d_control": 0.6699,
+   "p_r_control": 0.3244,
+   "p_depends_on_independent": 0.0057,
+   "d_seats_median": 52,
+   "d_seats_mean": 51.6,
+   "i_seats_mean": 0.12,
+   "d_seats_80": [
+    47,
+    55
+   ],
+   "histogram": [
+    {
+     "seats": 40,
+     "pct": 0.185
+    },
+    {
+     "seats": 41,
+     "pct": 0.14
+    },
+    {
+     "seats": 42,
+     "pct": 0.32
+    },
+    {
+     "seats": 43,
+     "pct": 0.705
+    },
+    {
+     "seats": 44,
+     "pct": 1.06
+    },
+    {
+     "seats": 45,
+     "pct": 1.635
+    },
+    {
+     "seats": 46,
+     "pct": 2.68
+    },
+    {
+     "seats": 47,
+     "pct": 3.92
+    },
+    {
+     "seats": 48,
+     "pct": 5.465
+    },
+    {
+     "seats": 49,
+     "pct": 7.51
+    },
+    {
+     "seats": 50,
+     "pct": 9.39
+    },
+    {
+     "seats": 51,
+     "pct": 11.64
+    },
+    {
+     "seats": 52,
+     "pct": 12.55
+    },
+    {
+     "seats": 53,
+     "pct": 13.71
+    },
+    {
+     "seats": 54,
+     "pct": 12.23
+    },
+    {
+     "seats": 55,
+     "pct": 8.665
+    },
+    {
+     "seats": 56,
+     "pct": 4.89
+    },
+    {
+     "seats": 57,
+     "pct": 2.085
+    },
+    {
+     "seats": 58,
+     "pct": 0.72
+    },
+    {
+     "seats": 59,
+     "pct": 0.26
+    },
+    {
+     "seats": 60,
+     "pct": 0.24
+    }
+   ]
+  },
+  "house": {
+   "p_d_control": 0.8688,
+   "p_d_control_model_only": 0.8688,
+   "d_seats_median": 235,
+   "d_seats_80": [
+    215,
+    256
+   ],
+   "histogram": [
+    {
+     "seats": 160,
+     "pct": 0.135
+    },
+    {
+     "seats": 161,
+     "pct": 0.02
+    },
+    {
+     "seats": 162,
+     "pct": 0.0
+    },
+    {
+     "seats": 163,
+     "pct": 0.035
+    },
+    {
+     "seats": 164,
+     "pct": 0.015
+    },
+    {
+     "seats": 165,
+     "pct": 0.015
+    },
+    {
+     "seats": 166,
+     "pct": 0.01
+    },
+    {
+     "seats": 167,
+     "pct": 0.01
+    },
+    {
+     "seats": 168,
+     "pct": 0.015
+    },
+    {
+     "seats": 169,
+     "pct": 0.02
+    },
+    {
+     "seats": 170,
+     "pct": 0.02
+    },
+    {
+     "seats": 171,
+     "pct": 0.01
+    },
+    {
+     "seats": 172,
+     "pct": 0.02
+    },
+    {
+     "seats": 173,
+     "pct": 0.01
+    },
+    {
+     "seats": 174,
+     "pct": 0.015
+    },
+    {
+     "seats": 175,
+     "pct": 0.03
+    },
+    {
+     "seats": 176,
+     "pct": 0.02
+    },
+    {
+     "seats": 177,
+     "pct": 0.02
+    },
+    {
+     "seats": 178,
+     "pct": 0.03
+    },
+    {
+     "seats": 179,
+     "pct": 0.01
+    },
+    {
+     "seats": 180,
+     "pct": 0.025
+    },
+    {
+     "seats": 181,
+     "pct": 0.07
+    },
+    {
+     "seats": 182,
+     "pct": 0.04
+    },
+    {
+     "seats": 183,
+     "pct": 0.025
+    },
+    {
+     "seats": 184,
+     "pct": 0.05
+    },
+    {
+     "seats": 185,
+     "pct": 0.05
+    },
+    {
+     "seats": 186,
+     "pct": 0.06
+    },
+    {
+     "seats": 187,
+     "pct": 0.045
+    },
+    {
+     "seats": 188,
+     "pct": 0.095
+    },
+    {
+     "seats": 189,
+     "pct": 0.07
+    },
+    {
+     "seats": 190,
+     "pct": 0.075
+    },
+    {
+     "seats": 191,
+     "pct": 0.08
+    },
+    {
+     "seats": 192,
+     "pct": 0.11
+    },
+    {
+     "seats": 193,
+     "pct": 0.105
+    },
+    {
+     "seats": 194,
+     "pct": 0.155
+    },
+    {
+     "seats": 195,
+     "pct": 0.155
+    },
+    {
+     "seats": 196,
+     "pct": 0.15
+    },
+    {
+     "seats": 197,
+     "pct": 0.18
+    },
+    {
+     "seats": 198,
+     "pct": 0.165
+    },
+    {
+     "seats": 199,
+     "pct": 0.205
+    },
+    {
+     "seats": 200,
+     "pct": 0.26
+    },
+    {
+     "seats": 201,
+     "pct": 0.19
+    },
+    {
+     "seats": 202,
+     "pct": 0.28
+    },
+    {
+     "seats": 203,
+     "pct": 0.315
+    },
+    {
+     "seats": 204,
+     "pct": 0.325
+    },
+    {
+     "seats": 205,
+     "pct": 0.45
+    },
+    {
+     "seats": 206,
+     "pct": 0.4
+    },
+    {
+     "seats": 207,
+     "pct": 0.405
+    },
+    {
+     "seats": 208,
+     "pct": 0.44
+    },
+    {
+     "seats": 209,
+     "pct": 0.565
+    },
+    {
+     "seats": 210,
+     "pct": 0.6
+    },
+    {
+     "seats": 211,
+     "pct": 0.62
+    },
+    {
+     "seats": 212,
+     "pct": 0.93
+    },
+    {
+     "seats": 213,
+     "pct": 0.805
+    },
+    {
+     "seats": 214,
+     "pct": 0.925
+    },
+    {
+     "seats": 215,
+     "pct": 0.985
+    },
+    {
+     "seats": 216,
+     "pct": 1.07
+    },
+    {
+     "seats": 217,
+     "pct": 1.19
+    },
+    {
+     "seats": 218,
+     "pct": 1.025
+    },
+    {
+     "seats": 219,
+     "pct": 1.195
+    },
+    {
+     "seats": 220,
+     "pct": 1.385
+    },
+    {
+     "seats": 221,
+     "pct": 1.68
+    },
+    {
+     "seats": 222,
+     "pct": 1.63
+    },
+    {
+     "seats": 223,
+     "pct": 1.76
+    },
+    {
+     "seats": 224,
+     "pct": 1.815
+    },
+    {
+     "seats": 225,
+     "pct": 1.91
+    },
+    {
+     "seats": 226,
+     "pct": 2.085
+    },
+    {
+     "seats": 227,
+     "pct": 2.28
+    },
+    {
+     "seats": 228,
+     "pct": 2.37
+    },
+    {
+     "seats": 229,
+     "pct": 2.56
+    },
+    {
+     "seats": 230,
+     "pct": 2.445
+    },
+    {
+     "seats": 231,
+     "pct": 2.63
+    },
+    {
+     "seats": 232,
+     "pct": 2.67
+    },
+    {
+     "seats": 233,
+     "pct": 2.57
+    },
+    {
+     "seats": 234,
+     "pct": 2.655
+    },
+    {
+     "seats": 235,
+     "pct": 2.635
+    },
+    {
+     "seats": 236,
+     "pct": 2.625
+    },
+    {
+     "seats": 237,
+     "pct": 2.34
+    },
+    {
+     "seats": 238,
+     "pct": 2.59
+    },
+    {
+     "seats": 239,
+     "pct": 2.555
+    },
+    {
+     "seats": 240,
+     "pct": 2.385
+    },
+    {
+     "seats": 241,
+     "pct": 2.655
+    },
+    {
+     "seats": 242,
+     "pct": 2.285
+    },
+    {
+     "seats": 243,
+     "pct": 2.26
+    },
+    {
+     "seats": 244,
+     "pct": 2.14
+    },
+    {
+     "seats": 245,
+     "pct": 2.165
+    },
+    {
+     "seats": 246,
+     "pct": 1.9
+    },
+    {
+     "seats": 247,
+     "pct": 1.84
+    },
+    {
+     "seats": 248,
+     "pct": 1.765
+    },
+    {
+     "seats": 249,
+     "pct": 1.74
+    },
+    {
+     "seats": 250,
+     "pct": 1.53
+    },
+    {
+     "seats": 251,
+     "pct": 1.31
+    },
+    {
+     "seats": 252,
+     "pct": 1.37
+    },
+    {
+     "seats": 253,
+     "pct": 1.185
+    },
+    {
+     "seats": 254,
+     "pct": 1.28
+    },
+    {
+     "seats": 255,
+     "pct": 1.05
+    },
+    {
+     "seats": 256,
+     "pct": 1.005
+    },
+    {
+     "seats": 257,
+     "pct": 0.805
+    },
+    {
+     "seats": 258,
+     "pct": 0.815
+    },
+    {
+     "seats": 259,
+     "pct": 0.665
+    },
+    {
+     "seats": 260,
+     "pct": 0.67
+    },
+    {
+     "seats": 261,
+     "pct": 0.655
+    },
+    {
+     "seats": 262,
+     "pct": 0.59
+    },
+    {
+     "seats": 263,
+     "pct": 0.505
+    },
+    {
+     "seats": 264,
+     "pct": 0.325
+    },
+    {
+     "seats": 265,
+     "pct": 0.44
+    },
+    {
+     "seats": 266,
+     "pct": 0.37
+    },
+    {
+     "seats": 267,
+     "pct": 0.33
+    },
+    {
+     "seats": 268,
+     "pct": 0.33
+    },
+    {
+     "seats": 269,
+     "pct": 0.315
+    },
+    {
+     "seats": 270,
+     "pct": 0.18
+    },
+    {
+     "seats": 271,
+     "pct": 0.25
+    },
+    {
+     "seats": 272,
+     "pct": 0.235
+    },
+    {
+     "seats": 273,
+     "pct": 0.175
+    },
+    {
+     "seats": 274,
+     "pct": 0.15
+    },
+    {
+     "seats": 275,
+     "pct": 0.15
+    },
+    {
+     "seats": 276,
+     "pct": 0.145
+    },
+    {
+     "seats": 277,
+     "pct": 0.095
+    },
+    {
+     "seats": 278,
+     "pct": 0.095
+    },
+    {
+     "seats": 279,
+     "pct": 0.09
+    },
+    {
+     "seats": 280,
+     "pct": 0.125
+    },
+    {
+     "seats": 281,
+     "pct": 0.13
+    },
+    {
+     "seats": 282,
+     "pct": 0.09
+    },
+    {
+     "seats": 283,
+     "pct": 0.065
+    },
+    {
+     "seats": 284,
+     "pct": 0.035
+    },
+    {
+     "seats": 285,
+     "pct": 0.08
+    },
+    {
+     "seats": 286,
+     "pct": 0.05
+    },
+    {
+     "seats": 287,
+     "pct": 0.06
+    },
+    {
+     "seats": 288,
+     "pct": 0.065
+    },
+    {
+     "seats": 289,
+     "pct": 0.01
+    },
+    {
+     "seats": 290,
+     "pct": 0.51
+    }
+   ]
+  },
+  "national_sd": 3.72,
+  "regional_sd": 1.5,
+  "tail_df": 5,
+  "simulations": 20000
+ },
+ "markets": {
+  "senate_d": 0.55,
+  "house_d": null
+ },
+ "races": [
+  {
+   "id": "sen-ia",
+   "state": "IA",
+   "name": "Iowa",
+   "special": false,
+   "region": "Midwest",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Josh Turek",
+    "R": "Ashley Hinson",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -13.2,
+   "est": {
+    "prior": -2.02,
+    "structural": -2.82,
+    "expert": -1.23,
+    "poll_avg": -0.2,
+    "poll_weight": 0.86,
+    "mean": -0.45,
+    "race_sd": 3.62,
+    "nat_sd": 3.72,
+    "total_sd": 5.19,
+    "p_model": 0.4655
+   },
+   "markets": {
+    "Polymarket": 0.395,
+    "Kalshi": 0.4
+   },
+   "market_urls": {},
+   "p_market": 0.3975,
+   "p_final": 0.4553,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Tossup",
+     "as_of": "Aug. 20, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Tilt R",
+     "as_of": "Aug. 6, 2026",
+     "points": -1.5
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Lean R",
+     "as_of": "Aug. 26, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Tossup",
+     "as_of": "Aug. 30, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Lean R",
+     "as_of": "Aug. 7, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Tossup",
+     "as_of": "Aug. 27, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Tossup",
+     "as_of": "Aug. 5, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Tossup",
+     "as_of": "Aug. 18, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Tossup",
+     "as_of": "Aug. 11, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Lean R",
+     "as_of": "Aug. 28, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Tossup",
+     "as_of": "Aug. 21, 2026",
+     "points": 0.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "Trafalgar Group",
+     "end_date": "2026-09-19",
+     "n": 800,
+     "population": "lv",
+     "margin": -2.0,
+     "adjusted": -1.1,
+     "weight": 0.409,
+     "tier": "538 0.7/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Josh Turek",
+       "pct": 42
+      },
+      {
+       "choice": "Ashley Hinson",
+       "pct": 44
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "co/efficient",
+     "end_date": "2026-09-16",
+     "n": 800,
+     "population": "lv",
+     "margin": -5.0,
+     "adjusted": -2.5,
+     "weight": 0.207,
+     "tier": "538 1.1/3",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Josh Turek",
+       "pct": 43
+      },
+      {
+       "choice": "Ashley Hinson",
+       "pct": 48
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Cygnal (ITR Foundation)",
+     "end_date": "2026-09-15",
+     "n": 800,
+     "population": "lv",
+     "margin": 0.0,
+     "adjusted": 0.0,
+     "weight": 0.251,
+     "tier": "Manual B",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Josh Turek",
+       "pct": 43
+      },
+      {
+       "choice": "Ashley Hinson",
+       "pct": 43
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "YouGov",
+     "end_date": "2026-09-11",
+     "n": 800,
+     "population": "lv",
+     "margin": 2.0,
+     "adjusted": 0.9,
+     "weight": 0.549,
+     "tier": "538 3.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Josh Turek",
+       "pct": 45
+      },
+      {
+       "choice": "Ashley Hinson",
+       "pct": 43
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Rasmussen Reports",
+     "end_date": "2026-09-11",
+     "n": 800,
+     "population": "lv",
+     "margin": 5.0,
+     "adjusted": 3.7,
+     "weight": 0.411,
+     "tier": "Manual B",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Josh Turek",
+       "pct": 45
+      },
+      {
+       "choice": "Ashley Hinson",
+       "pct": 40
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Emerson College",
+     "end_date": "2026-09-03",
+     "n": 800,
+     "population": "lv",
+     "margin": -5.0,
+     "adjusted": -3.9,
+     "weight": 0.38,
+     "tier": "538 2.9/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Josh Turek",
+       "pct": 45
+      },
+      {
+       "choice": "Ashley Hinson",
+       "pct": 50
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 6,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
+   "p_sim": 0.4558,
+   "rating": "Empate técnico"
+  },
+  {
+   "id": "sen-ks",
+   "state": "KS",
+   "name": "Kansas",
+   "special": false,
+   "region": "Midwest",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Adam Hamilton",
+    "R": "Roger Marshall",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -16.1,
+   "est": {
+    "prior": -8.0,
+    "structural": -7.72,
+    "expert": -8.27,
+    "poll_avg": 2.13,
+    "poll_weight": 0.73,
+    "mean": -0.58,
+    "race_sd": 4.67,
+    "nat_sd": 3.72,
+    "total_sd": 5.97,
+    "p_model": 0.4615
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.4615,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Likely R",
+     "as_of": "Aug. 20, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Likely R",
+     "as_of": "Aug. 26, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Likely R",
+     "as_of": "Aug. 30, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Lean R",
+     "as_of": "Aug. 7, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Likely R",
+     "as_of": "Aug. 27, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Likely R",
+     "as_of": "Aug. 5, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Likely R",
+     "as_of": "Aug. 18, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Likely R",
+     "as_of": "Aug. 11, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Likely R",
+     "as_of": "Aug. 28, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Likely R",
+     "as_of": "Aug. 21, 2026",
+     "points": -8.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "Emerson College",
+     "end_date": "2026-09-18",
+     "n": 800,
+     "population": "lv",
+     "margin": 2.0,
+     "adjusted": 3.1,
+     "weight": 0.798,
+     "tier": "538 2.9/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Adam Hamilton",
+       "pct": 45
+      },
+      {
+       "choice": "Roger Marshall",
+       "pct": 43
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "co/efficient",
+     "end_date": "2026-09-11",
+     "n": 800,
+     "population": "lv",
+     "margin": -5.0,
+     "adjusted": -2.5,
+     "weight": 0.161,
+     "tier": "538 1.1/3",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Adam Hamilton",
+       "pct": 44
+      },
+      {
+       "choice": "Roger Marshall",
+       "pct": 49
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 2,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
+   "p_sim": 0.455,
+   "rating": "Empate técnico"
+  },
+  {
+   "id": "sen-ak",
+   "state": "AK",
+   "name": "Alaska",
+   "special": false,
+   "region": "West",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Mary Peltola",
+    "R": "Dan Sullivan",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -13.1,
+   "est": {
+    "prior": -2.54,
+    "structural": -4.72,
+    "expert": -0.36,
+    "poll_avg": 3.93,
+    "poll_weight": 0.76,
+    "mean": 2.36,
+    "race_sd": 4.36,
+    "nat_sd": 3.72,
+    "total_sd": 5.73,
+    "p_model": 0.6595
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.6595,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Tossup",
+     "as_of": "Aug. 20, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Lean R",
+     "as_of": "Aug. 6, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Tossup",
+     "as_of": "Aug. 26, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Tossup",
+     "as_of": "Aug. 30, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Tossup",
+     "as_of": "Aug. 7, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Tossup",
+     "as_of": "Aug. 27, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Tossup",
+     "as_of": "Aug. 5, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Tossup",
+     "as_of": "Aug. 18, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Tossup",
+     "as_of": "Aug. 11, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Tossup",
+     "as_of": "Aug. 28, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Tossup",
+     "as_of": "Aug. 21, 2026",
+     "points": 0.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "Fabrizio/Anzalone",
+     "end_date": "2026-09-17",
+     "n": 800,
+     "population": "lv",
+     "margin": 6.0,
+     "adjusted": 5.5,
+     "weight": 0.738,
+     "tier": "Manual A",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Mary Peltola",
+       "pct": 53
+      },
+      {
+       "choice": "Dan Sullivan",
+       "pct": 47
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "co/efficient",
+     "end_date": "2026-09-17",
+     "n": 800,
+     "population": "lv",
+     "margin": -3.0,
+     "adjusted": -0.5,
+     "weight": 0.217,
+     "tier": "538 1.1/3",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Mary Peltola",
+       "pct": 46
+      },
+      {
+       "choice": "Dan Sullivan",
+       "pct": 49
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Alaska Survey Research",
+     "end_date": "2026-09-02",
+     "n": 800,
+     "population": "lv",
+     "margin": 2.0,
+     "adjusted": 2.4,
+     "weight": 0.134,
+     "tier": "538 1.9/3",
+     "partisan": "DEM",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Mary Peltola",
+       "pct": 51
+      },
+      {
+       "choice": "Dan Sullivan",
+       "pct": 49
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 3,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+   "p_sim": 0.6838,
+   "rating": "Inclinado D"
+  },
+  {
+   "id": "sen-me",
+   "state": "ME",
+   "name": "Maine",
+   "special": false,
+   "region": "Northeast",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Troy Jackson",
+    "R": "Susan Collins",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 6.9,
+   "est": {
+    "prior": 8.37,
+    "structural": 15.28,
+    "expert": 1.45,
+    "poll_avg": 1.53,
+    "poll_weight": 0.83,
+    "mean": 2.7,
+    "race_sd": 3.84,
+    "nat_sd": 3.72,
+    "total_sd": 5.34,
+    "p_model": 0.6932
+   },
+   "markets": {
+    "Polymarket": 0.695,
+    "Kalshi": 0.67
+   },
+   "market_urls": {},
+   "p_market": 0.6825,
+   "p_final": 0.6916,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Tossup",
+     "as_of": "Aug. 20, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Tilt R",
+     "as_of": "Aug. 6, 2026",
+     "points": -1.5
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Tossup",
+     "as_of": "Aug. 26, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Tilt D",
+     "as_of": "Aug. 30, 2026",
+     "points": 1.5
+    },
+    {
+     "source": "The Economist",
+     "rating": "Lean D",
+     "as_of": "Aug. 7, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Tossup",
+     "as_of": "Aug. 27, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Tossup",
+     "as_of": "Aug. 5, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Tossup",
+     "as_of": "Aug. 18, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Lean D",
+     "as_of": "Aug. 11, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Lean D",
+     "as_of": "Aug. 28, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Lean D",
+     "as_of": "Aug. 21, 2026",
+     "points": 4.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "Quantus Insights",
+     "end_date": "2026-09-16",
+     "n": 800,
+     "population": "lv",
+     "margin": -1.0,
+     "adjusted": -0.6,
+     "weight": 0.263,
+     "tier": "Manual B",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Troy Jackson",
+       "pct": 46
+      },
+      {
+       "choice": "Susan Collins",
+       "pct": 47
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Rasmussen Reports",
+     "end_date": "2026-09-11",
+     "n": 800,
+     "population": "lv",
+     "margin": 1.0,
+     "adjusted": -0.3,
+     "weight": 0.411,
+     "tier": "Manual B",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Troy Jackson",
+       "pct": 46
+      },
+      {
+       "choice": "Susan Collins",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "YouGov",
+     "end_date": "2026-09-10",
+     "n": 800,
+     "population": "lv",
+     "margin": 4.0,
+     "adjusted": 2.9,
+     "weight": 0.522,
+     "tier": "538 3.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Troy Jackson",
+       "pct": 48
+      },
+      {
+       "choice": "Susan Collins",
+       "pct": 44
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "CNN/SSRS",
+     "end_date": "2026-09-09",
+     "n": 800,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 2.7,
+     "weight": 0.5,
+     "tier": "538 2.8/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Troy Jackson",
+       "pct": 48
+      },
+      {
+       "choice": "Susan Collins",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 4,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
+   "p_sim": 0.7122,
+   "rating": "Inclinado D"
+  },
+  {
+   "id": "sen-tx",
+   "state": "TX",
+   "name": "Texas",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "James Talarico",
+    "R": "Ken Paxton",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -13.7,
+   "est": {
+    "prior": -1.41,
+    "structural": -3.32,
+    "expert": 0.5,
+    "poll_avg": 3.08,
+    "poll_weight": 0.92,
+    "mean": 2.7,
+    "race_sd": 3.52,
+    "nat_sd": 3.72,
+    "total_sd": 5.12,
+    "p_model": 0.7011
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.7011,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Tossup",
+     "as_of": "Aug. 20, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Lean R",
+     "as_of": "Aug. 6, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Tossup",
+     "as_of": "Aug. 26, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Tilt D",
+     "as_of": "Aug. 30, 2026",
+     "points": 1.5
+    },
+    {
+     "source": "The Economist",
+     "rating": "Tossup",
+     "as_of": "Aug. 7, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Tossup",
+     "as_of": "Aug. 27, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Tossup",
+     "as_of": "Aug. 5, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Tossup",
+     "as_of": "Aug. 18, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Tossup",
+     "as_of": "Aug. 11, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Lean D",
+     "as_of": "Aug. 28, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Lean D",
+     "as_of": "Aug. 21, 2026",
+     "points": 4.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "Trafalgar Group",
+     "end_date": "2026-09-18",
+     "n": 800,
+     "population": "lv",
+     "margin": 1.0,
+     "adjusted": 1.9,
+     "weight": 0.389,
+     "tier": "538 0.7/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "James Talarico",
+       "pct": 46
+      },
+      {
+       "choice": "Ken Paxton",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Emerson College",
+     "end_date": "2026-09-17",
+     "n": 800,
+     "population": "lv",
+     "margin": 1.0,
+     "adjusted": 2.1,
+     "weight": 0.759,
+     "tier": "538 2.9/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "James Talarico",
+       "pct": 47
+      },
+      {
+       "choice": "Ken Paxton",
+       "pct": 46
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Texas A&M/Siena",
+     "end_date": "2026-09-17",
+     "n": 800,
+     "population": "lv",
+     "margin": 6.0,
+     "adjusted": 5.4,
+     "weight": 0.727,
+     "tier": "538 2.7/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "James Talarico",
+       "pct": 49
+      },
+      {
+       "choice": "Ken Paxton",
+       "pct": 43
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Mason-Dixon",
+     "end_date": "2026-09-15",
+     "n": 800,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 3.0,
+     "weight": 0.611,
+     "tier": "538 2.6/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "James Talarico",
+       "pct": 46
+      },
+      {
+       "choice": "Ken Paxton",
+       "pct": 43
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Fabrizio/Anzalone",
+     "end_date": "2026-09-10",
+     "n": 800,
+     "population": "lv",
+     "margin": 4.0,
+     "adjusted": 3.5,
+     "weight": 0.522,
+     "tier": "Manual A",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "James Talarico",
+       "pct": 48
+      },
+      {
+       "choice": "Ken Paxton",
+       "pct": 44
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "InsiderAdvantage",
+     "end_date": "2026-09-10",
+     "n": 800,
+     "population": "lv",
+     "margin": 1.0,
+     "adjusted": 1.4,
+     "weight": 0.409,
+     "tier": "538 2.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "James Talarico",
+       "pct": 47
+      },
+      {
+       "choice": "Ken Paxton",
+       "pct": 46
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Univision",
+     "end_date": "2026-09-09",
+     "n": 800,
+     "population": "lv",
+     "margin": 5.0,
+     "adjusted": 4.6,
+     "weight": 0.248,
+     "tier": "Sin calificación",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "James Talarico",
+       "pct": 48
+      },
+      {
+       "choice": "Ken Paxton",
+       "pct": 43
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Overton Insights (TPPF)",
+     "end_date": "2026-09-02",
+     "n": 800,
+     "population": "lv",
+     "margin": 0.0,
+     "adjusted": 0.6,
+     "weight": 0.132,
+     "tier": "Manual B",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "James Talarico",
+       "pct": 50
+      },
+      {
+       "choice": "Ken Paxton",
+       "pct": 50
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 8,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+   "p_sim": 0.7206,
+   "rating": "Inclinado D"
+  },
+  {
+   "id": "sen-mi",
+   "state": "MI",
+   "name": "Michigan",
+   "special": false,
+   "region": "Midwest",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Abdul El-Sayed",
+    "R": "Mike Rogers",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -1.4,
+   "est": {
+    "prior": 5.1,
+    "structural": 8.98,
+    "expert": 1.23,
+    "poll_avg": 2.53,
+    "poll_weight": 0.91,
+    "mean": 2.76,
+    "race_sd": 3.56,
+    "nat_sd": 3.72,
+    "total_sd": 5.15,
+    "p_model": 0.704
+   },
+   "markets": {
+    "Polymarket": 0.6617
+   },
+   "market_urls": {},
+   "p_market": 0.6617,
+   "p_final": 0.6976,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Tossup",
+     "as_of": "Aug. 20, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Tossup",
+     "as_of": "Aug. 6, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Tossup",
+     "as_of": "Aug. 26, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Tilt D",
+     "as_of": "Aug. 30, 2026",
+     "points": 1.5
+    },
+    {
+     "source": "The Economist",
+     "rating": "Tossup",
+     "as_of": "Aug. 7, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Tossup",
+     "as_of": "Aug. 27, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Tossup",
+     "as_of": "Aug. 5, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Tossup",
+     "as_of": "Aug. 18, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Lean D",
+     "as_of": "Aug. 11, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Lean D",
+     "as_of": "Aug. 28, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Lean D",
+     "as_of": "Aug. 21, 2026",
+     "points": 4.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "InsiderAdvantage",
+     "end_date": "2026-09-18",
+     "n": 800,
+     "population": "lv",
+     "margin": 2.0,
+     "adjusted": 2.4,
+     "weight": 0.608,
+     "tier": "538 2.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Abdul El-Sayed",
+       "pct": 47
+      },
+      {
+       "choice": "Mike Rogers",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Emerson College",
+     "end_date": "2026-09-17",
+     "n": 800,
+     "population": "lv",
+     "margin": 2.0,
+     "adjusted": 3.1,
+     "weight": 0.759,
+     "tier": "538 2.9/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Abdul El-Sayed",
+       "pct": 48
+      },
+      {
+       "choice": "Mike Rogers",
+       "pct": 46
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Washington Post",
+     "end_date": "2026-09-17",
+     "n": 800,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 2.9,
+     "weight": 0.775,
+     "tier": "538 3.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Abdul El-Sayed",
+       "pct": 48
+      },
+      {
+       "choice": "Mike Rogers",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Trafalgar Group",
+     "end_date": "2026-09-10",
+     "n": 800,
+     "population": "lv",
+     "margin": 1.0,
+     "adjusted": 1.9,
+     "weight": 0.262,
+     "tier": "538 0.7/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Abdul El-Sayed",
+       "pct": 46
+      },
+      {
+       "choice": "Mike Rogers",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "CNN/SSRS",
+     "end_date": "2026-09-09",
+     "n": 800,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 2.7,
+     "weight": 0.5,
+     "tier": "538 2.8/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Abdul El-Sayed",
+       "pct": 47
+      },
+      {
+       "choice": "Mike Rogers",
+       "pct": 44
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Glengariff Group",
+     "end_date": "2026-09-08",
+     "n": 800,
+     "population": "lv",
+     "margin": -2.0,
+     "adjusted": -1.1,
+     "weight": 0.319,
+     "tier": "538 1.5/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Abdul El-Sayed",
+       "pct": 44
+      },
+      {
+       "choice": "Mike Rogers",
+       "pct": 46
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Michigan State/YouGov",
+     "end_date": "2026-09-01",
+     "n": 800,
+     "population": "lv",
+     "margin": 5.0,
+     "adjusted": 4.5,
+     "weight": 0.334,
+     "tier": "538 3.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Abdul El-Sayed",
+       "pct": 50
+      },
+      {
+       "choice": "Mike Rogers",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 7,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+   "p_sim": 0.7172,
+   "rating": "Inclinado D"
+  },
+  {
+   "id": "sen-oh",
+   "state": "OH",
+   "name": "Ohio",
+   "special": true,
+   "region": "Midwest",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Sherrod Brown",
+    "R": "Jon Husted",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -11.2,
+   "est": {
+    "prior": -0.93,
+    "structural": -2.82,
+    "expert": 0.95,
+    "poll_avg": 3.97,
+    "poll_weight": 0.81,
+    "mean": 3.03,
+    "race_sd": 4.07,
+    "nat_sd": 3.72,
+    "total_sd": 5.51,
+    "p_model": 0.709
+   },
+   "markets": {
+    "Polymarket": 0.5825,
+    "Kalshi": 0.56
+   },
+   "market_urls": {},
+   "p_market": 0.5712,
+   "p_final": 0.6883,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Tossup",
+     "as_of": "Aug. 20, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Tilt R",
+     "as_of": "Aug. 6, 2026",
+     "points": -1.5
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Tossup",
+     "as_of": "Aug. 26, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Lean D",
+     "as_of": "Aug. 30, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Tossup",
+     "as_of": "Aug. 7, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Tossup",
+     "as_of": "Aug. 27, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Tossup",
+     "as_of": "Aug. 5, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Tossup",
+     "as_of": "Aug. 18, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Tossup",
+     "as_of": "Aug. 11, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Lean D",
+     "as_of": "Aug. 28, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Lean D",
+     "as_of": "Aug. 21, 2026",
+     "points": 4.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "Trafalgar Group",
+     "end_date": "2026-09-17",
+     "n": 800,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 3.9,
+     "weight": 0.37,
+     "tier": "538 0.7/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Sherrod Brown",
+       "pct": 45
+      },
+      {
+       "choice": "Jon Husted",
+       "pct": 42
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Bowling Green/YouGov",
+     "end_date": "2026-09-16",
+     "n": 800,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 3.2,
+     "weight": 0.703,
+     "tier": "538 3.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Sherrod Brown",
+       "pct": 48
+      },
+      {
+       "choice": "Jon Husted",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "InsiderAdvantage",
+     "end_date": "2026-09-10",
+     "n": 800,
+     "population": "lv",
+     "margin": 5.0,
+     "adjusted": 5.4,
+     "weight": 0.409,
+     "tier": "538 2.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Sherrod Brown",
+       "pct": 47
+      },
+      {
+       "choice": "Jon Husted",
+       "pct": 42
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 3,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
+   "p_sim": 0.709,
+   "rating": "Inclinado D"
+  },
+  {
+   "id": "sen-fl",
+   "state": "FL",
+   "name": "Florida",
+   "special": true,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Angie Nixon",
+    "R": "Ashley Moody",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -13.1,
+   "est": {
+    "prior": -7.45,
+    "structural": -4.72,
+    "expert": -10.18,
+    "poll_avg": -1.48,
+    "poll_weight": 0.72,
+    "mean": -3.13,
+    "race_sd": 4.57,
+    "nat_sd": 3.72,
+    "total_sd": 5.9,
+    "p_model": 0.2976
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.2976,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Likely R",
+     "as_of": "Aug. 30, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Lean R",
+     "as_of": "Aug. 7, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Likely R",
+     "as_of": "Aug. 27, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Likely R",
+     "as_of": "Aug. 5, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Likely R",
+     "as_of": "Aug. 11, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Likely R",
+     "as_of": "Aug. 28, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Likely R",
+     "as_of": "Aug. 21, 2026",
+     "points": -8.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "St. Pete Polls",
+     "end_date": "2026-09-19",
+     "n": 800,
+     "population": "lv",
+     "margin": 0.0,
+     "adjusted": 0.0,
+     "weight": 0.709,
+     "tier": "538 2.4/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Angie Nixon",
+       "pct": 45
+      },
+      {
+       "choice": "Ashley Moody",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Quantus Insights",
+     "end_date": "2026-09-11",
+     "n": 800,
+     "population": "lv",
+     "margin": -7.0,
+     "adjusted": -6.6,
+     "weight": 0.206,
+     "tier": "Manual B",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Angie Nixon",
+       "pct": 43
+      },
+      {
+       "choice": "Ashley Moody",
+       "pct": 50
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 2,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
+   "p_sim": 0.2781,
+   "rating": "Inclinado R"
+  },
+  {
+   "id": "sen-mn",
+   "state": "MN",
+   "name": "Minnesota",
+   "special": false,
+   "region": "Midwest",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Peggy Flanagan",
+    "R": "Michele Tafoya",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 4.2,
+   "est": {
+    "prior": 11.74,
+    "structural": 14.58,
+    "expert": 8.91,
+    "poll_avg": 1.75,
+    "poll_weight": 0.78,
+    "mean": 3.94,
+    "race_sd": 4.06,
+    "nat_sd": 3.72,
+    "total_sd": 5.51,
+    "p_model": 0.7626
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.7626,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Likely D",
+     "as_of": "Aug. 20, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Likely D",
+     "as_of": "Aug. 6, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Likely D",
+     "as_of": "Aug. 26, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe D",
+     "as_of": "Aug. 30, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Likely D",
+     "as_of": "Aug. 7, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Lean D",
+     "as_of": "Aug. 27, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Likely D",
+     "as_of": "Aug. 5, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Likely D",
+     "as_of": "Aug. 18, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe D",
+     "as_of": "Aug. 11, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Likely D",
+     "as_of": "Aug. 28, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Likely D",
+     "as_of": "Aug. 21, 2026",
+     "points": 8.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "SurveyUSA",
+     "end_date": "2026-09-16",
+     "n": 800,
+     "population": "lv",
+     "margin": 0.0,
+     "adjusted": 0.3,
+     "weight": 0.672,
+     "tier": "538 2.8/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 42
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 42
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "co/efficient",
+     "end_date": "2026-09-15",
+     "n": 800,
+     "population": "lv",
+     "margin": 1.0,
+     "adjusted": 3.5,
+     "weight": 0.197,
+     "tier": "538 1.1/3",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 43
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 42
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Quantus Insights",
+     "end_date": "2026-09-11",
+     "n": 800,
+     "population": "lv",
+     "margin": 4.0,
+     "adjusted": 4.4,
+     "weight": 0.206,
+     "tier": "Manual B",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 48
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 44
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "TIPP",
+     "end_date": "2026-09-08",
+     "n": 800,
+     "population": "lv",
+     "margin": 2.0,
+     "adjusted": 1.9,
+     "weight": 0.175,
+     "tier": "538 1.8/3",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 44
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 42
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 4,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+   "p_sim": 0.7854,
+   "rating": "Inclinado D"
+  },
+  {
+   "id": "sen-sc",
+   "state": "SC",
+   "name": "South Carolina",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Annie Andrews",
+    "R": "Darline Graham",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -17.8,
+   "est": {
+    "prior": -9.48,
+    "structural": -9.42,
+    "expert": -9.55,
+    "poll_avg": -4.17,
+    "poll_weight": 0.72,
+    "mean": -5.65,
+    "race_sd": 4.34,
+    "nat_sd": 3.72,
+    "total_sd": 5.72,
+    "p_model": 0.1617
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.1617,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Likely R",
+     "as_of": "Aug. 6, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Likely R",
+     "as_of": "Aug. 30, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Lean R",
+     "as_of": "Aug. 7, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Likely R",
+     "as_of": "Aug. 27, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Likely R",
+     "as_of": "Aug. 5, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Likely R",
+     "as_of": "Aug. 11, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Likely R",
+     "as_of": "Aug. 28, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Likely R",
+     "as_of": "Aug. 21, 2026",
+     "points": -8.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "Rasmussen Reports",
+     "end_date": "2026-09-15",
+     "n": 800,
+     "population": "lv",
+     "margin": -5.0,
+     "adjusted": -6.3,
+     "weight": 0.502,
+     "tier": "Manual B",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Annie Andrews",
+       "pct": 43
+      },
+      {
+       "choice": "Darline Graham",
+       "pct": 48
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "InsiderAdvantage",
+     "end_date": "2026-09-10",
+     "n": 800,
+     "population": "lv",
+     "margin": -2.0,
+     "adjusted": -1.6,
+     "weight": 0.409,
+     "tier": "538 2.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Annie Andrews",
+       "pct": 43
+      },
+      {
+       "choice": "Darline Graham",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 2,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina",
+   "p_sim": 0.1461,
+   "rating": "Probable R"
+  },
+  {
+   "id": "sen-ga",
+   "state": "GA",
+   "name": "Georgia",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Jon Ossoff",
+    "R": "Mike Collins",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -2.2,
+   "est": {
+    "prior": 8.07,
+    "structural": 10.18,
+    "expert": 5.95,
+    "poll_avg": 6.74,
+    "poll_weight": 0.78,
+    "mean": 7.03,
+    "race_sd": 3.91,
+    "nat_sd": 3.72,
+    "total_sd": 5.4,
+    "p_model": 0.9037
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.9037,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Lean D",
+     "as_of": "Aug. 20, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Tilt D",
+     "as_of": "Aug. 6, 2026",
+     "points": 1.5
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Likely D",
+     "as_of": "Aug. 26, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Likely D",
+     "as_of": "Aug. 30, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Lean D",
+     "as_of": "Aug. 7, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Lean D",
+     "as_of": "Aug. 27, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Likely D",
+     "as_of": "Aug. 5, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Lean D",
+     "as_of": "Aug. 18, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Likely D",
+     "as_of": "Aug. 11, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Likely D",
+     "as_of": "Aug. 28, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Likely D",
+     "as_of": "Aug. 21, 2026",
+     "points": 8.0
+    }
+   ],
+   "aggregates": [
+    {
+     "source": "270toWin",
+     "margin": 8.0,
+     "updated": "August 18, 2026"
+    },
+    {
+     "source": "Decision Desk HQ",
+     "margin": 6.8,
+     "updated": "August 20, 2026"
+    },
+    {
+     "source": "FiftyPlusOne",
+     "margin": 8.1,
+     "updated": "September 2, 2026"
+    },
+    {
+     "source": "Race to the WH",
+     "margin": 8.1,
+     "updated": "August 18, 2026"
+    },
+    {
+     "source": "RealClearPolitics",
+     "margin": 7.5,
+     "updated": "August 18, 2026"
+    },
+    {
+     "source": "Silver Bulletin",
+     "margin": 8.4,
+     "updated": "September 11, 2026"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "Quantus Insights",
+     "end_date": "2026-09-18",
+     "n": 800,
+     "population": "lv",
+     "margin": 4.0,
+     "adjusted": 4.4,
+     "weight": 0.291,
+     "tier": "Manual B",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Jon Ossoff",
+       "pct": 49
+      },
+      {
+       "choice": "Mike Collins",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Rasmussen Reports",
+     "end_date": "2026-09-15",
+     "n": 800,
+     "population": "lv",
+     "margin": 9.0,
+     "adjusted": 7.7,
+     "weight": 0.502,
+     "tier": "Manual B",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Jon Ossoff",
+       "pct": 51
+      },
+      {
+       "choice": "Mike Collins",
+       "pct": 42
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Trafalgar Group",
+     "end_date": "2026-09-12",
+     "n": 800,
+     "population": "lv",
+     "margin": 6.0,
+     "adjusted": 6.9,
+     "weight": 0.321,
+     "tier": "538 0.7/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Jon Ossoff",
+       "pct": 49
+      },
+      {
+       "choice": "Mike Collins",
+       "pct": 43
+      }
+     ],
+     "sources": [
+      "realclearpolling",
+      "wikipedia"
+     ],
+     "verified": true,
+     "side": "D"
+    },
+    {
+     "pollster": "InsiderAdvantage",
+     "end_date": "2026-08-17",
+     "n": 800,
+     "population": "lv",
+     "margin": 7.0,
+     "adjusted": 7.4,
+     "weight": 0.062,
+     "tier": "538 2.0/3",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Jon Ossoff",
+       "pct": 50,
+       "party": "D"
+      },
+      {
+       "choice": "Mike Collins",
+       "pct": 43,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Fabrizio Ward/Impact Research",
+     "end_date": "2026-07-16",
+     "n": 1060,
+     "population": "lv",
+     "margin": 9.0,
+     "adjusted": 8.5,
+     "weight": 0.025,
+     "tier": "538 1.5/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Jon Ossoff",
+       "pct": 52,
+       "party": "D"
+      },
+      {
+       "choice": "Mike Collins",
+       "pct": 43,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Wick",
+     "end_date": "2026-06-30",
+     "n": 1175,
+     "population": "lv",
+     "margin": 4.0,
+     "adjusted": 4.5,
+     "weight": 0.012,
+     "tier": "538 1.4/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Jon Ossoff",
+       "pct": 47,
+       "party": "D"
+      },
+      {
+       "choice": "Mike Collins",
+       "pct": 43,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Beacon Research/Shaw & Co. Research",
+     "end_date": "2026-06-27",
+     "n": 1002,
+     "population": "rv",
+     "margin": 13.0,
+     "adjusted": 11.7,
+     "weight": 0.013,
+     "tier": "538 2.8/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Jon Ossoff",
+       "pct": 56,
+       "party": "D"
+      },
+      {
+       "choice": "Mike Collins",
+       "pct": 43,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 7,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
+   "p_sim": 0.9165,
+   "rating": "Probable D"
+  },
+  {
+   "id": "sen-nc",
+   "state": "NC",
+   "name": "North Carolina",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Roy Cooper",
+    "R": "Michael Whatley",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -3.2,
+   "est": {
+    "prior": 6.57,
+    "structural": 7.18,
+    "expert": 5.95,
+    "poll_avg": 7.7,
+    "poll_weight": 0.89,
+    "mean": 7.57,
+    "race_sd": 3.57,
+    "nat_sd": 3.72,
+    "total_sd": 5.16,
+    "p_model": 0.9291
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.9291,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Lean D",
+     "as_of": "Aug. 20, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Tilt D",
+     "as_of": "Aug. 6, 2026",
+     "points": 1.5
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Lean D",
+     "as_of": "Aug. 26, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Likely D",
+     "as_of": "Aug. 30, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Likely D",
+     "as_of": "Aug. 7, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Lean D",
+     "as_of": "Aug. 27, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Likely D",
+     "as_of": "Aug. 5, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Lean D",
+     "as_of": "Aug. 18, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Likely D",
+     "as_of": "Aug. 11, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Likely D",
+     "as_of": "Aug. 28, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Likely D",
+     "as_of": "Aug. 21, 2026",
+     "points": 8.0
+    }
+   ],
+   "aggregates": [
+    {
+     "source": "270toWin",
+     "margin": 8.8,
+     "updated": "September 18, 2026"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "InsiderAdvantage",
+     "end_date": "2026-09-18",
+     "n": 1200,
+     "population": "lv",
+     "margin": 5.0,
+     "adjusted": 5.4,
+     "weight": 0.827,
+     "tier": "538 2.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 48
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 43
+      }
+     ],
+     "sources": [
+      "realclearpolling",
+      "wikipedia"
+     ],
+     "verified": true,
+     "side": "D"
+    },
+    {
+     "pollster": "Harper Polling",
+     "end_date": "2026-09-17",
+     "n": 608,
+     "population": "lv",
+     "margin": 15.0,
+     "adjusted": 12.9,
+     "weight": 0.341,
+     "tier": "Manual B",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 49
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 34
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Trafalgar Group",
+     "end_date": "2026-09-11",
+     "n": 1084,
+     "population": "lv",
+     "margin": 6.0,
+     "adjusted": 6.9,
+     "weight": 0.356,
+     "tier": "538 0.7/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 48
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 42
+      }
+     ],
+     "sources": [
+      "realclearpolling",
+      "wikipedia"
+     ],
+     "verified": true,
+     "side": "D"
+    },
+    {
+     "pollster": "East Carolina University",
+     "end_date": "2026-09-10",
+     "n": 675,
+     "population": "lv",
+     "margin": 7.0,
+     "adjusted": 7.1,
+     "weight": 0.462,
+     "tier": "538 2.6/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 46
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 39
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Elon University",
+     "end_date": "2026-09-10",
+     "n": 565,
+     "population": "lv",
+     "margin": 11.0,
+     "adjusted": 9.9,
+     "weight": 0.325,
+     "tier": "538 2.5/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 49
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 38
+      }
+     ],
+     "sources": [
+      "realclearpolling",
+      "wikipedia"
+     ],
+     "verified": true,
+     "side": "D"
+    },
+    {
+     "pollster": "High Point University",
+     "end_date": "2026-08-21",
+     "n": 660,
+     "population": "lv",
+     "margin": 5.0,
+     "adjusted": 5.5,
+     "weight": 0.166,
+     "tier": "538 2.5/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 50
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 45
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Harper Polling",
+     "end_date": "2026-08-13",
+     "n": 600,
+     "population": "lv",
+     "margin": 13.0,
+     "adjusted": 10.9,
+     "weight": 0.06,
+     "tier": "Manual B",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 52,
+       "party": "D"
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 39,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Elon University",
+     "end_date": "2026-08-12",
+     "n": 800,
+     "population": "lv",
+     "margin": 11.0,
+     "adjusted": 9.9,
+     "weight": 0.083,
+     "tier": "538 2.5/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 53,
+       "party": "D"
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 42,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Change Research",
+     "end_date": "2026-08-09",
+     "n": 915,
+     "population": "lv",
+     "margin": 7.0,
+     "adjusted": 7.1,
+     "weight": 0.081,
+     "tier": "538 1.4/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 50,
+       "party": "D"
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 43,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Fox News",
+     "end_date": "2026-07-29",
+     "n": 1005,
+     "population": "rv",
+     "margin": 9.0,
+     "adjusted": 8.7,
+     "weight": 0.063,
+     "tier": "Manual A",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 53
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 44
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Public Policy Polling",
+     "end_date": "2026-07-13",
+     "n": 759,
+     "population": "rv",
+     "margin": 4.0,
+     "adjusted": 4.7,
+     "weight": 0.016,
+     "tier": "538 1.4/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 48,
+       "party": "D"
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 44,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Siena College",
+     "end_date": "2026-07-01",
+     "n": 601,
+     "population": "lv",
+     "margin": 7.0,
+     "adjusted": 7.1,
+     "weight": 0.013,
+     "tier": "538 2.7/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Roy Cooper",
+       "pct": 50,
+       "party": "D"
+      },
+      {
+       "choice": "Michael Whatley",
+       "pct": 43,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 12,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina",
+   "p_sim": 0.9394,
+   "rating": "Probable D"
+  },
+  {
+   "id": "sen-nh",
+   "state": "NH",
+   "name": "New Hampshire",
+   "special": false,
+   "region": "Northeast",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Chris Pappas",
+    "R": "John E. Sununu",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 2.8,
+   "est": {
+    "prior": 9.09,
+    "structural": 13.18,
+    "expert": 5.0,
+    "poll_avg": 7.9,
+    "poll_weight": 0.78,
+    "mean": 8.17,
+    "race_sd": 4.12,
+    "nat_sd": 3.72,
+    "total_sd": 5.55,
+    "p_model": 0.9293
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.9293,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Lean D",
+     "as_of": "Aug. 20, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Tilt D",
+     "as_of": "Aug. 6, 2026",
+     "points": 1.5
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Lean D",
+     "as_of": "Aug. 26, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Tilt D",
+     "as_of": "Aug. 30, 2026",
+     "points": 1.5
+    },
+    {
+     "source": "The Economist",
+     "rating": "Likely D",
+     "as_of": "Aug. 7, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Tossup",
+     "as_of": "Aug. 27, 2026",
+     "points": 0.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Likely D",
+     "as_of": "Aug. 5, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Lean D",
+     "as_of": "Aug. 18, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Likely D",
+     "as_of": "Aug. 11, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Likely D",
+     "as_of": "Aug. 28, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Likely D",
+     "as_of": "Aug. 21, 2026",
+     "points": 8.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "InsiderAdvantage",
+     "end_date": "2026-09-18",
+     "n": 800,
+     "population": "lv",
+     "margin": 8.0,
+     "adjusted": 8.4,
+     "weight": 0.608,
+     "tier": "538 2.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Chris Pappas",
+       "pct": 48
+      },
+      {
+       "choice": "John E. Sununu",
+       "pct": 40
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "co/efficient",
+     "end_date": "2026-09-15",
+     "n": 800,
+     "population": "lv",
+     "margin": 0.0,
+     "adjusted": 2.5,
+     "weight": 0.197,
+     "tier": "538 1.1/3",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Chris Pappas",
+       "pct": 46
+      },
+      {
+       "choice": "John E. Sununu",
+       "pct": 46
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Rasmussen Reports",
+     "end_date": "2026-09-11",
+     "n": 800,
+     "population": "lv",
+     "margin": 11.0,
+     "adjusted": 9.7,
+     "weight": 0.411,
+     "tier": "Manual B",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Chris Pappas",
+       "pct": 45
+      },
+      {
+       "choice": "John E. Sununu",
+       "pct": 34
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 3,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
+   "p_sim": 0.9388,
+   "rating": "Probable D"
+  },
+  {
+   "id": "sen-mt",
+   "state": "MT",
+   "name": "Montana",
+   "special": false,
+   "region": "West",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Alani Bankhead",
+    "R": "Kurt Alme",
+    "I": "Seth Bodnar"
+   },
+   "side": "D",
+   "pres_2024_margin": -19.9,
+   "est": {
+    "prior": -10.81,
+    "structural": -9.52,
+    "expert": -12.09,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -10.81,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.0864
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.0864,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Likely R",
+     "as_of": "Aug. 30, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe R",
+     "as_of": "Aug. 7, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Lean R",
+     "as_of": "Aug. 27, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Likely R",
+     "as_of": "Aug. 5, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Likely R",
+     "as_of": "Aug. 11, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Montana",
+   "p_sim": 0.0744,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-ne",
+   "state": "NE",
+   "name": "Nebraska",
+   "special": false,
+   "region": "Midwest",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": null,
+    "R": "Pete Ricketts",
+    "I": "Dan Osborn"
+   },
+   "side": "I",
+   "pres_2024_margin": -20.5,
+   "est": {
+    "prior": -11.01,
+    "structural": -15.12,
+    "expert": -6.91,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -11.01,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.0823
+   },
+   "markets": {
+    "Polymarket": 0.3218,
+    "Kalshi": 0.3131
+   },
+   "market_urls": {},
+   "p_market": 0.3175,
+   "p_final": 0.1176,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Likely R",
+     "as_of": "Aug. 20, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Likely R",
+     "as_of": "Aug. 6, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Likely R",
+     "as_of": "Aug. 26, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Lean R",
+     "as_of": "Aug. 30, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Lean R",
+     "as_of": "Aug. 7, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Lean R",
+     "as_of": "Aug. 27, 2026",
+     "points": -4.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Likely R",
+     "as_of": "Aug. 5, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Likely R",
+     "as_of": "Aug. 18, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Likely R",
+     "as_of": "Aug. 11, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Likely R",
+     "as_of": "Aug. 28, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Likely R",
+     "as_of": "Aug. 21, 2026",
+     "points": -8.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska",
+   "p_sim": 0.1002,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-la",
+   "state": "LA",
+   "name": "Louisiana",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Jamie Davis",
+    "R": "Julia Letlow",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -22.0,
+   "est": {
+    "prior": -12.36,
+    "structural": -11.62,
+    "expert": -13.09,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -12.36,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.0595
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.0595,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Likely R",
+     "as_of": "Aug. 30, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Likely R",
+     "as_of": "Aug. 7, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid R",
+     "as_of": "Aug. 27, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Likely R",
+     "as_of": "Aug. 5, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe R",
+     "as_of": "Aug. 11, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana",
+   "p_sim": 0.0544,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-ms",
+   "state": "MS",
+   "name": "Mississippi",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Scott Colom",
+    "R": "Cindy Hyde-Smith",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -22.9,
+   "est": {
+    "prior": -14.44,
+    "structural": -14.52,
+    "expert": -14.36,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -14.44,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.0342
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.0342,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe R",
+     "as_of": "Aug. 30, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Likely R",
+     "as_of": "Aug. 7, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid R",
+     "as_of": "Aug. 27, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe R",
+     "as_of": "Aug. 5, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe R",
+     "as_of": "Aug. 11, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+   "p_sim": 0.0321,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-nm",
+   "state": "NM",
+   "name": "New Mexico",
+   "special": false,
+   "region": "West",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Ben Ray Luján",
+    "R": "Larry Marker",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 6.0,
+   "est": {
+    "prior": 16.37,
+    "structural": 18.38,
+    "expert": 14.36,
+    "poll_avg": 15.0,
+    "poll_weight": 0.32,
+    "mean": 15.93,
+    "race_sd": 5.0,
+    "nat_sd": 3.72,
+    "total_sd": 6.23,
+    "p_model": 0.9947
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.9947,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid D",
+     "as_of": "Aug. 20, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid D",
+     "as_of": "Aug. 6, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe D",
+     "as_of": "Aug. 26, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe D",
+     "as_of": "Aug. 30, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Likely D",
+     "as_of": "Aug. 7, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid D",
+     "as_of": "Aug. 27, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe D",
+     "as_of": "Aug. 5, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid D",
+     "as_of": "Aug. 18, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe D",
+     "as_of": "Aug. 11, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe D",
+     "as_of": "Aug. 28, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid D",
+     "as_of": "Aug. 21, 2026",
+     "points": 15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "Albuquerque Journal",
+     "end_date": "2026-09-01",
+     "n": 800,
+     "population": "lv",
+     "margin": 15.0,
+     "adjusted": 15.0,
+     "weight": 0.167,
+     "tier": "Sin calificación",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Ben Ray Luján",
+       "pct": 53
+      },
+      {
+       "choice": "Larry Marker",
+       "pct": 38
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 1,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Mexico",
+   "p_sim": 0.9909,
+   "rating": "Seguro D"
+  },
+  {
+   "id": "sen-va",
+   "state": "VA",
+   "name": "Virginia",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Mark Warner",
+    "R": "Bert Mizusawa",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 5.8,
+   "est": {
+    "prior": 16.59,
+    "structural": 18.18,
+    "expert": 15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": 16.59,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.9818
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.9818,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid D",
+     "as_of": "Aug. 20, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid D",
+     "as_of": "Aug. 6, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe D",
+     "as_of": "Aug. 26, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe D",
+     "as_of": "Aug. 30, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe D",
+     "as_of": "Aug. 7, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid D",
+     "as_of": "Aug. 27, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe D",
+     "as_of": "Aug. 5, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid D",
+     "as_of": "Aug. 18, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe D",
+     "as_of": "Aug. 11, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe D",
+     "as_of": "Aug. 28, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid D",
+     "as_of": "Aug. 21, 2026",
+     "points": 15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Virginia",
+   "p_sim": 0.9796,
+   "rating": "Seguro D"
+  },
+  {
+   "id": "sen-nj",
+   "state": "NJ",
+   "name": "New Jersey",
+   "special": false,
+   "region": "Northeast",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Cory Booker",
+    "R": "Justin Murphy",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 5.9,
+   "est": {
+    "prior": 16.64,
+    "structural": 18.28,
+    "expert": 15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": 16.64,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.9821
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.9821,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid D",
+     "as_of": "Aug. 20, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid D",
+     "as_of": "Aug. 6, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe D",
+     "as_of": "Aug. 26, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe D",
+     "as_of": "Aug. 30, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe D",
+     "as_of": "Aug. 7, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid D",
+     "as_of": "Aug. 27, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe D",
+     "as_of": "Aug. 5, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid D",
+     "as_of": "Aug. 18, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe D",
+     "as_of": "Aug. 11, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe D",
+     "as_of": "Aug. 28, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid D",
+     "as_of": "Aug. 21, 2026",
+     "points": 15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Jersey",
+   "p_sim": 0.9806,
+   "rating": "Seguro D"
+  },
+  {
+   "id": "sen-al",
+   "state": "AL",
+   "name": "Alabama",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Everett Wess",
+    "R": "Barry Moore",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -30.5,
+   "est": {
+    "prior": -17.56,
+    "structural": -20.12,
+    "expert": -15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -17.56,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.0134
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.0134,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe R",
+     "as_of": "Aug. 30, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe R",
+     "as_of": "Aug. 7, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid R",
+     "as_of": "Aug. 27, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe R",
+     "as_of": "Aug. 5, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe R",
+     "as_of": "Aug. 11, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alabama",
+   "p_sim": 0.0175,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-ky",
+   "state": "KY",
+   "name": "Kentucky",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Charles Booker",
+    "R": "Andy Barr",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -30.5,
+   "est": {
+    "prior": -17.56,
+    "structural": -20.12,
+    "expert": -15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -17.56,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.0134
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.0134,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe R",
+     "as_of": "Aug. 30, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe R",
+     "as_of": "Aug. 7, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid R",
+     "as_of": "Aug. 27, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe R",
+     "as_of": "Aug. 5, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe R",
+     "as_of": "Aug. 11, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kentucky",
+   "p_sim": 0.0181,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-il",
+   "state": "IL",
+   "name": "Illinois",
+   "special": false,
+   "region": "Midwest",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Juliana Stratton",
+    "R": "Don Tracy",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 10.9,
+   "est": {
+    "prior": 18.14,
+    "structural": 21.28,
+    "expert": 15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": 18.14,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.9889
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.9889,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid D",
+     "as_of": "Aug. 20, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid D",
+     "as_of": "Aug. 6, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe D",
+     "as_of": "Aug. 26, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe D",
+     "as_of": "Aug. 30, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe D",
+     "as_of": "Aug. 7, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid D",
+     "as_of": "Aug. 27, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe D",
+     "as_of": "Aug. 5, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid D",
+     "as_of": "Aug. 18, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe D",
+     "as_of": "Aug. 11, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe D",
+     "as_of": "Aug. 28, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid D",
+     "as_of": "Aug. 21, 2026",
+     "points": 15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+   "p_sim": 0.9843,
+   "rating": "Seguro D"
+  },
+  {
+   "id": "sen-ar",
+   "state": "AR",
+   "name": "Arkansas",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Hallie Shoffner",
+    "R": "Tom Cotton",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -30.6,
+   "est": {
+    "prior": -18.29,
+    "structural": -22.22,
+    "expert": -14.36,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -18.29,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.0105
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.0105,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe R",
+     "as_of": "Aug. 30, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Likely R",
+     "as_of": "Aug. 7, 2026",
+     "points": -8.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid R",
+     "as_of": "Aug. 27, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe R",
+     "as_of": "Aug. 5, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe R",
+     "as_of": "Aug. 11, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
+   "p_sim": 0.0132,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-co",
+   "state": "CO",
+   "name": "Colorado",
+   "special": false,
+   "region": "West",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "John Hickenlooper",
+    "R": "Mark Baisley",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 11.0,
+   "est": {
+    "prior": 19.19,
+    "structural": 23.38,
+    "expert": 15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": 19.19,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.9923
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.9923,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid D",
+     "as_of": "Aug. 20, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid D",
+     "as_of": "Aug. 6, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe D",
+     "as_of": "Aug. 26, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe D",
+     "as_of": "Aug. 30, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe D",
+     "as_of": "Aug. 7, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid D",
+     "as_of": "Aug. 27, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe D",
+     "as_of": "Aug. 5, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid D",
+     "as_of": "Aug. 18, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe D",
+     "as_of": "Aug. 11, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe D",
+     "as_of": "Aug. 28, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid D",
+     "as_of": "Aug. 21, 2026",
+     "points": 15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
+   "p_sim": 0.989,
+   "rating": "Seguro D"
+  },
+  {
+   "id": "sen-sd",
+   "state": "SD",
+   "name": "South Dakota",
+   "special": false,
+   "region": "Midwest",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": null,
+    "R": "Mike Rounds",
+    "I": "Brian Bengs"
+   },
+   "side": "I",
+   "pres_2024_margin": -29.2,
+   "est": {
+    "prior": -19.41,
+    "structural": -23.82,
+    "expert": -15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -19.41,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.0072
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.0072,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe R",
+     "as_of": "Aug. 30, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe R",
+     "as_of": "Aug. 7, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid R",
+     "as_of": "Aug. 27, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe R",
+     "as_of": "Aug. 5, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe R",
+     "as_of": "Aug. 11, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Dakota",
+   "p_sim": 0.0115,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-ok",
+   "state": "OK",
+   "name": "Oklahoma",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Jasmine Thomas",
+    "R": "Kevin Hern",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -34.3,
+   "est": {
+    "prior": -19.46,
+    "structural": -23.92,
+    "expert": -15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -19.46,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.007
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.007,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe R",
+     "as_of": "Aug. 30, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe R",
+     "as_of": "Aug. 7, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid R",
+     "as_of": "Aug. 27, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe R",
+     "as_of": "Aug. 5, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe R",
+     "as_of": "Aug. 11, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oklahoma",
+   "p_sim": 0.0098,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-tn",
+   "state": "TN",
+   "name": "Tennessee",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Marquita Bradshaw",
+    "R": "Bill Hagerty",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -29.7,
+   "est": {
+    "prior": -18.16,
+    "structural": -21.32,
+    "expert": -15.0,
+    "poll_avg": -25.0,
+    "poll_weight": 0.35,
+    "mean": -20.53,
+    "race_sd": 5.0,
+    "nat_sd": 3.72,
+    "total_sd": 6.23,
+    "p_model": 0.0005
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.0005,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe R",
+     "as_of": "Aug. 30, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe R",
+     "as_of": "Aug. 7, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid R",
+     "as_of": "Aug. 27, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe R",
+     "as_of": "Aug. 5, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe R",
+     "as_of": "Aug. 11, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [
+    {
+     "pollster": "Beacon Center",
+     "end_date": "2026-09-03",
+     "n": 800,
+     "population": "lv",
+     "margin": -25.0,
+     "adjusted": -25.0,
+     "weight": 0.185,
+     "tier": "Sin calificación",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Marquita Bradshaw",
+       "pct": 33
+      },
+      {
+       "choice": "Bill Hagerty",
+       "pct": 58
+      }
+     ],
+     "sources": [
+      "realclearpolling"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 1,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+   "p_sim": 0.0024,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-ri",
+   "state": "RI",
+   "name": "Rhode Island",
+   "special": false,
+   "region": "Northeast",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Jack Reed",
+    "R": "Raymond McKay",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 13.8,
+   "est": {
+    "prior": 20.59,
+    "structural": 26.18,
+    "expert": 15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": 20.59,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.9953
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.9953,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid D",
+     "as_of": "Aug. 20, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid D",
+     "as_of": "Aug. 6, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe D",
+     "as_of": "Aug. 26, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe D",
+     "as_of": "Aug. 30, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe D",
+     "as_of": "Aug. 7, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid D",
+     "as_of": "Aug. 27, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe D",
+     "as_of": "Aug. 5, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid D",
+     "as_of": "Aug. 18, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe D",
+     "as_of": "Aug. 11, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe D",
+     "as_of": "Aug. 28, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid D",
+     "as_of": "Aug. 21, 2026",
+     "points": 15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Rhode_Island",
+   "p_sim": 0.9906,
+   "rating": "Seguro D"
+  },
+  {
+   "id": "sen-or",
+   "state": "OR",
+   "name": "Oregon",
+   "special": false,
+   "region": "West",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Jeff Merkley",
+    "R": "David Brock Smith",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 14.3,
+   "est": {
+    "prior": 20.84,
+    "structural": 26.68,
+    "expert": 15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": 20.84,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.9957
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.9957,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid D",
+     "as_of": "Aug. 20, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid D",
+     "as_of": "Aug. 6, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe D",
+     "as_of": "Aug. 26, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe D",
+     "as_of": "Aug. 30, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe D",
+     "as_of": "Aug. 7, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid D",
+     "as_of": "Aug. 27, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe D",
+     "as_of": "Aug. 5, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid D",
+     "as_of": "Aug. 18, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe D",
+     "as_of": "Aug. 11, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe D",
+     "as_of": "Aug. 28, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid D",
+     "as_of": "Aug. 21, 2026",
+     "points": 15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oregon",
+   "p_sim": 0.992,
+   "rating": "Seguro D"
+  },
+  {
+   "id": "sen-de",
+   "state": "DE",
+   "name": "Delaware",
+   "special": false,
+   "region": "Northeast",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Chris Coons",
+    "R": "Michael Katz",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 14.7,
+   "est": {
+    "prior": 21.04,
+    "structural": 27.08,
+    "expert": 15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": 21.04,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.996
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.996,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid D",
+     "as_of": "Aug. 20, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid D",
+     "as_of": "Aug. 6, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe D",
+     "as_of": "Aug. 26, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe D",
+     "as_of": "Aug. 30, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe D",
+     "as_of": "Aug. 7, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid D",
+     "as_of": "Aug. 27, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe D",
+     "as_of": "Aug. 5, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid D",
+     "as_of": "Aug. 18, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe D",
+     "as_of": "Aug. 11, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe D",
+     "as_of": "Aug. 28, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid D",
+     "as_of": "Aug. 21, 2026",
+     "points": 15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware",
+   "p_sim": 0.9918,
+   "rating": "Seguro D"
+  },
+  {
+   "id": "sen-id",
+   "state": "ID",
+   "name": "Idaho",
+   "special": false,
+   "region": "West",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": null,
+    "R": "Jim Risch",
+    "I": "Todd Achilles"
+   },
+   "side": "I",
+   "pres_2024_margin": -36.5,
+   "est": {
+    "prior": -23.06,
+    "structural": -31.12,
+    "expert": -15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -23.06,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.0018
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.0018,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe R",
+     "as_of": "Aug. 30, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe R",
+     "as_of": "Aug. 7, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid R",
+     "as_of": "Aug. 27, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe R",
+     "as_of": "Aug. 5, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe R",
+     "as_of": "Aug. 11, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
+   "p_sim": 0.0055,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-wv",
+   "state": "WV",
+   "name": "West Virginia",
+   "special": false,
+   "region": "South",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "Rachel Fetty Anderson",
+    "R": "Shelley Moore Capito",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -41.9,
+   "est": {
+    "prior": -24.26,
+    "structural": -33.52,
+    "expert": -15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -24.26,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.0011
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.0011,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe R",
+     "as_of": "Aug. 30, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe R",
+     "as_of": "Aug. 7, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid R",
+     "as_of": "Aug. 27, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe R",
+     "as_of": "Aug. 5, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe R",
+     "as_of": "Aug. 11, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia",
+   "p_sim": 0.0034,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-wy",
+   "state": "WY",
+   "name": "Wyoming",
+   "special": false,
+   "region": "West",
+   "seat_held_by": "R",
+   "candidates": {
+    "D": "James Byrd",
+    "R": "Harriet Hageman",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": -45.8,
+   "est": {
+    "prior": -25.21,
+    "structural": -35.42,
+    "expert": -15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": -25.21,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.0007
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.0007,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid R",
+     "as_of": "Aug. 20, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid R",
+     "as_of": "Aug. 6, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe R",
+     "as_of": "Aug. 26, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe R",
+     "as_of": "Aug. 30, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe R",
+     "as_of": "Aug. 7, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid R",
+     "as_of": "Aug. 27, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe R",
+     "as_of": "Aug. 5, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid R",
+     "as_of": "Aug. 18, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe R",
+     "as_of": "Aug. 11, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe R",
+     "as_of": "Aug. 28, 2026",
+     "points": -15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid R",
+     "as_of": "Aug. 21, 2026",
+     "points": -15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Wyoming",
+   "p_sim": 0.0039,
+   "rating": "Seguro R"
+  },
+  {
+   "id": "sen-ma",
+   "state": "MA",
+   "name": "Massachusetts",
+   "special": false,
+   "region": "Northeast",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Ed Markey",
+    "R": "John Deaton",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 25.2,
+   "est": {
+    "prior": 26.29,
+    "structural": 37.58,
+    "expert": 15.0,
+    "poll_avg": null,
+    "poll_weight": 0.0,
+    "mean": 26.29,
+    "race_sd": 7.0,
+    "nat_sd": 3.72,
+    "total_sd": 7.93,
+    "p_model": 0.9995
+   },
+   "markets": {},
+   "market_urls": {},
+   "p_market": null,
+   "p_final": 0.9995,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Solid D",
+     "as_of": "Aug. 20, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Solid D",
+     "as_of": "Aug. 6, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Safe D",
+     "as_of": "Aug. 26, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Race to the WH",
+     "rating": "Safe D",
+     "as_of": "Aug. 30, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Safe D",
+     "as_of": "Aug. 7, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Solid D",
+     "as_of": "Aug. 27, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Safe D",
+     "as_of": "Aug. 5, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Solid D",
+     "as_of": "Aug. 18, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Safe D",
+     "as_of": "Aug. 11, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Safe D",
+     "as_of": "Aug. 28, 2026",
+     "points": 15.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Solid D",
+     "as_of": "Aug. 21, 2026",
+     "points": 15.0
+    }
+   ],
+   "aggregates": [],
+   "polls": [],
+   "n_polls": 0,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Massachusetts",
+   "p_sim": 0.9978,
+   "rating": "Seguro D"
+  }
+ ],
+ "house_districts": [],
+ "pollsters": [
+  {
+   "name": "InsiderAdvantage",
+   "tier": "538 2.0/3",
+   "quality": 0.783,
+   "aapor_roper": false,
+   "hist_bias": "-0.6",
+   "polls": 7,
+   "races": 7,
+   "house_effect": -0.39
+  },
+  {
+   "name": "Trafalgar Group",
+   "tier": "538 0.7/3",
+   "quality": 0.502,
+   "aapor_roper": false,
+   "hist_bias": "+1.6",
+   "polls": 6,
+   "races": 6,
+   "house_effect": -0.88
+  },
+  {
+   "name": "Rasmussen Reports",
+   "tier": "Manual B",
+   "quality": 0.75,
+   "aapor_roper": false,
+   "hist_bias": null,
+   "polls": 5,
+   "races": 5,
+   "house_effect": 1.25
+  },
+  {
+   "name": "co/efficient",
+   "tier": "538 1.1/3",
+   "quality": 0.588,
+   "aapor_roper": false,
+   "hist_bias": "+0.6",
+   "polls": 5,
+   "races": 5,
+   "house_effect": -2.54
+  },
+  {
+   "name": "Quantus Insights",
+   "tier": "Manual B",
+   "quality": 0.75,
+   "aapor_roper": false,
+   "hist_bias": null,
+   "polls": 4,
+   "races": 4,
+   "house_effect": -0.43
+  },
+  {
+   "name": "Emerson College",
+   "tier": "538 2.9/3",
+   "quality": 1.028,
+   "aapor_roper": true,
+   "hist_bias": "-1.3",
+   "polls": 4,
+   "races": 4,
+   "house_effect": -1.06
+  },
+  {
+   "name": "YouGov",
+   "tier": "538 3.0/3",
+   "quality": 1.0,
+   "aapor_roper": false,
+   "hist_bias": "-1.7",
+   "polls": 3,
+   "races": 3,
+   "house_effect": 1.11
+  },
+  {
+   "name": "Harper Polling",
+   "tier": "Manual B",
+   "quality": 0.75,
+   "aapor_roper": false,
+   "hist_bias": null,
+   "polls": 2,
+   "races": 1,
+   "house_effect": 2.1
+  },
+  {
+   "name": "Elon University",
+   "tier": "538 2.5/3",
+   "quality": 0.942,
+   "aapor_roper": true,
+   "hist_bias": "-0.7",
+   "polls": 2,
+   "races": 1,
+   "house_effect": 1.1
+  },
+  {
+   "name": "Fabrizio/Anzalone",
+   "tier": "Manual A",
+   "quality": 1.0,
+   "aapor_roper": false,
+   "hist_bias": null,
+   "polls": 2,
+   "races": 2,
+   "house_effect": 0.5
+  },
+  {
+   "name": "CNN/SSRS",
+   "tier": "538 2.8/3",
+   "quality": 1.007,
+   "aapor_roper": true,
+   "hist_bias": "-1.1",
+   "polls": 2,
+   "races": 2,
+   "house_effect": 0.32
+  },
+  {
+   "name": "Cygnal (ITR Foundation)",
+   "tier": "Manual B",
+   "quality": 0.75,
+   "aapor_roper": false,
+   "hist_bias": null,
+   "polls": 2,
+   "races": 2,
+   "house_effect": -0.01
+  },
+  {
+   "name": "Fabrizio Ward/Impact Research",
+   "tier": "538 1.5/3",
+   "quality": 0.675,
+   "aapor_roper": false,
+   "hist_bias": "+0.3",
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.45
+  },
+  {
+   "name": "Wick",
+   "tier": "538 1.4/3",
+   "quality": 0.653,
+   "aapor_roper": false,
+   "hist_bias": "+0.1",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.55
+  },
+  {
+   "name": "Beacon Research/Shaw & Co. Research",
+   "tier": "538 2.8/3",
+   "quality": 1.007,
+   "aapor_roper": true,
+   "hist_bias": "-1.4",
+   "polls": 1,
+   "races": 1,
+   "house_effect": 1.25
+  },
+  {
+   "name": "East Carolina University",
+   "tier": "538 2.6/3",
+   "quality": 0.963,
+   "aapor_roper": true,
+   "hist_bias": "-0.8",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.14
+  },
+  {
+   "name": "High Point University",
+   "tier": "538 2.5/3",
+   "quality": 0.942,
+   "aapor_roper": true,
+   "hist_bias": "-0.7",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.54
+  },
+  {
+   "name": "Fox News",
+   "tier": "Manual A",
+   "quality": 1.0,
+   "aapor_roper": false,
+   "hist_bias": null,
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.26
+  },
+  {
+   "name": "Change Research",
+   "tier": "538 1.4/3",
+   "quality": 0.703,
+   "aapor_roper": true,
+   "hist_bias": "-0.1",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.14
+  },
+  {
+   "name": "Public Policy Polling",
+   "tier": "538 1.4/3",
+   "quality": 0.653,
+   "aapor_roper": false,
+   "hist_bias": "-0.3",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.74
+  },
+  {
+   "name": "Siena College",
+   "tier": "538 2.7/3",
+   "quality": 0.985,
+   "aapor_roper": true,
+   "hist_bias": "-1.0",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.14
+  },
+  {
+   "name": "Texas A&M/Siena",
+   "tier": "538 2.7/3",
+   "quality": 0.985,
+   "aapor_roper": true,
+   "hist_bias": "-1.0",
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.59
+  },
+  {
+   "name": "Mason-Dixon",
+   "tier": "538 2.6/3",
+   "quality": 0.913,
+   "aapor_roper": false,
+   "hist_bias": "-1.7",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.01
+  },
+  {
+   "name": "Univision",
+   "tier": "Sin calificación",
+   "quality": 0.5,
+   "aapor_roper": false,
+   "hist_bias": null,
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.39
+  },
+  {
+   "name": "Overton Insights (TPPF)",
+   "tier": "Manual B",
+   "quality": 0.75,
+   "aapor_roper": false,
+   "hist_bias": null,
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.61
+  },
+  {
+   "name": "Washington Post",
+   "tier": "538 3.0/3",
+   "quality": 1.05,
+   "aapor_roper": true,
+   "hist_bias": "-1.3",
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.1
+  },
+  {
+   "name": "Glengariff Group",
+   "tier": "538 1.5/3",
+   "quality": 0.675,
+   "aapor_roper": false,
+   "hist_bias": "-0.1",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.9
+  },
+  {
+   "name": "Michigan State/YouGov",
+   "tier": "538 3.0/3",
+   "quality": 1.0,
+   "aapor_roper": false,
+   "hist_bias": "-1.7",
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.5
+  },
+  {
+   "name": "Bowling Green/YouGov",
+   "tier": "538 3.0/3",
+   "quality": 1.0,
+   "aapor_roper": false,
+   "hist_bias": "-1.7",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.19
+  },
+  {
+   "name": "Alaska Survey Research",
+   "tier": "538 1.9/3",
+   "quality": 0.762,
+   "aapor_roper": false,
+   "hist_bias": "-0.2",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.38
+  },
+  {
+   "name": "SurveyUSA",
+   "tier": "538 2.8/3",
+   "quality": 0.957,
+   "aapor_roper": false,
+   "hist_bias": "-1.8",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.35
+  },
+  {
+   "name": "TIPP",
+   "tier": "538 1.8/3",
+   "quality": 0.74,
+   "aapor_roper": false,
+   "hist_bias": "+0.4",
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.05
+  },
+  {
+   "name": "St. Pete Polls",
+   "tier": "538 2.4/3",
+   "quality": 0.87,
+   "aapor_roper": false,
+   "hist_bias": "-0.7",
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.0
+  },
+  {
+   "name": "Beacon Center",
+   "tier": "Sin calificación",
+   "quality": 0.5,
+   "aapor_roper": false,
+   "hist_bias": null,
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.0
+  },
+  {
+   "name": "Albuquerque Journal",
+   "tier": "Sin calificación",
+   "quality": 0.5,
+   "aapor_roper": false,
+   "hist_bias": null,
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.0
+  },
+  {
+   "name": "John Zogby Strategies",
+   "tier": "538 1.8/3",
+   "quality": 0.74,
+   "aapor_roper": false,
+   "hist_bias": "+0.3",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.54
+  },
+  {
+   "name": "New York Times/Siena",
+   "tier": "538 3.0/3",
+   "quality": 1.05,
+   "aapor_roper": true,
+   "hist_bias": "-2.0",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.08
+  },
+  {
+   "name": "Marquette University Law School",
+   "tier": "538 3.0/3",
+   "quality": 1.05,
+   "aapor_roper": true,
+   "hist_bias": "-1.1",
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.82
+  },
+  {
+   "name": "Quinnipiac University",
+   "tier": "538 2.8/3",
+   "quality": 1.007,
+   "aapor_roper": true,
+   "hist_bias": "-1.0",
+   "polls": 1,
+   "races": 1,
+   "house_effect": 0.42
+  },
+  {
+   "name": "Ipsos",
+   "tier": "538 2.8/3",
+   "quality": 1.007,
+   "aapor_roper": true,
+   "hist_bias": "-1.4",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.38
+  },
+  {
+   "name": "Morning Consult",
+   "tier": "538 1.9/3",
+   "quality": 0.762,
+   "aapor_roper": false,
+   "hist_bias": "-0.9",
+   "polls": 1,
+   "races": 1,
+   "house_effect": -0.58
+  }
+ ],
+ "ratings_source": "538",
+ "counts": {
+  "polls_total": 73,
+  "polls_verified": 4,
+  "polls_raw": 77,
+  "experts": 385
+ },
+ "source_registry": [
+  {
+   "id": "polls",
+   "title": "Encuestas individuales",
+   "why": "La materia prima. Cada encuesta enlaza a la publicación original de la encuestadora. Una encuesta que aparece en dos compilaciones independientes se marca como verificada.",
+   "items": [
+    {
+     "key": "votehub",
+     "name": "VoteHub Polling API",
+     "url": "https://votehub.com/polls/api/",
+     "mode": "auto",
+     "license": "CC BY 4.0",
+     "what": "Base abierta de encuestas de Senado, Cámara por distrito, voto genérico y aprobación presidencial.",
+     "status": {
+      "ok": false,
+      "fallback": "seed"
+     }
+    },
+    {
+     "key": "wikipedia",
+     "name": "Wikipedia · compilaciones de encuestas por carrera",
+     "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+     "mode": "auto",
+     "license": "CC BY-SA 4.0",
+     "what": "Tablas mantenidas por editores con cita a cada encuesta original. Segunda fuente independiente para verificar y completar VoteHub. Se lee por la API oficial de MediaWiki.",
+     "status": {
+      "ok": false,
+      "fallback": "seed"
+     }
+    },
+    {
+     "key": "manual",
+     "name": "Encuestas añadidas por ti",
+     "url": "",
+     "mode": "manual",
+     "license": "",
+     "what": "config/manual_polls.json",
+     "status": {
+      "ok": false,
+      "detail": "0 encuestas activas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ratings",
+   "title": "Calidad y acreditación de encuestadoras",
+   "why": "Para decidir cuánto pesa cada encuesta según la precisión histórica medida de su autor, no según opiniones.",
+   "items": [
+    {
+     "key": "538",
+     "name": "FiveThirtyEight · calificaciones de encuestadoras (archivo público)",
+     "url": "https://github.com/fivethirtyeight/data/tree/master/pollster-ratings",
+     "mode": "auto",
+     "license": "CC BY 4.0",
+     "what": "Nota numérica, error y sesgo histórico de 540 encuestadoras medidos contra resultados reales.",
+     "status": {
+      "ok": true,
+      "records": 280,
+      "detail": "copia local"
+     }
+    },
+    {
+     "key": "silver",
+     "name": "Silver Bulletin · calificaciones de encuestadoras (enero 2026)",
+     "url": "https://www.natesilver.net/p/pollster-ratings-silver-bulletin",
+     "mode": "manual",
+     "license": "Uso libre con atribución",
+     "what": "Versión actualizada tras 2024 y 2025. Descarga el XLSX 'Pollster Stats Full 2026' y guárdalo como config/external/silver_bulletin_pollster_stats.xlsx: si existe, tiene prioridad.",
+     "status": {
+      "ok": false,
+      "detail": "sin archivo (opcional)"
+     }
+    },
+    {
+     "key": "aapor",
+     "name": "AAPOR Transparency Initiative",
+     "url": "https://aapor.org/standards-and-ethics/transparency-initiative/",
+     "mode": "referencia",
+     "license": "",
+     "what": "Acreditación de transparencia metodológica. La pertenencia llega en los datos de 538; las firmas miembro reciben un pequeño plus.",
+     "status": {
+      "ok": true,
+      "records": 57
+     }
+    },
+    {
+     "key": "roper",
+     "name": "Roper Center for Public Opinion Research (Cornell)",
+     "url": "https://ropercenter.cornell.edu/",
+     "mode": "referencia",
+     "license": "",
+     "what": "Archivo que recibe los microdatos de las encuestadoras más transparentes. Se cuenta junto con AAPOR.",
+     "status": {
+      "ok": true,
+      "records": 57
+     }
+    }
+   ]
+  },
+  {
+   "id": "aggregators",
+   "title": "Promedios de otros agregadores (control cruzado)",
+   "why": "No se suman al promedio (serían las mismas encuestas contadas dos veces). Sirven para detectar si el promedio propio se aleja del consenso.",
+   "items": [
+    {
+     "key": "agg_rcp",
+     "name": "RealClearPolling",
+     "url": "https://www.realclearpolling.com/latest-polls/senate",
+     "mode": "referencia",
+     "license": "",
+     "what": "Promedio simple de encuestas recientes.",
+     "status": {
+      "ok": true,
+      "detail": "promedio leído vía Wikipedia"
+     }
+    },
+    {
+     "key": "agg_270",
+     "name": "270toWin",
+     "url": "https://www.270towin.com/2026-senate-polls/",
+     "mode": "referencia",
+     "license": "",
+     "what": "Promedio de las últimas encuestas por carrera.",
+     "status": {
+      "ok": true,
+      "detail": "promedio leído vía Wikipedia"
+     }
+    },
+    {
+     "key": "agg_ddhq",
+     "name": "Decision Desk HQ",
+     "url": "https://polls.decisiondeskhq.com/averages/generic-ballot/national/lv-rv-adults",
+     "mode": "referencia",
+     "license": "",
+     "what": "Promedio ponderado; también cuenta votos oficiales en la noche electoral.",
+     "status": {
+      "ok": true,
+      "detail": "promedio leído vía Wikipedia"
+     }
+    },
+    {
+     "key": "agg_fpo",
+     "name": "FiftyPlusOne (G. Elliott Morris)",
+     "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
+     "mode": "referencia",
+     "license": "",
+     "what": "Promedio ponderado por calidad y recencia con intervalos de confianza.",
+     "status": {
+      "ok": true,
+      "detail": "promedio leído vía Wikipedia"
+     }
+    },
+    {
+     "key": "agg_sb",
+     "name": "Silver Bulletin (Nate Silver)",
+     "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+     "mode": "referencia",
+     "license": "",
+     "what": "Promedio con ajuste por efecto casa y votante probable.",
+     "status": {
+      "ok": true,
+      "detail": "promedio leído vía Wikipedia"
+     }
+    },
+    {
+     "key": "agg_wh",
+     "name": "Race to the WH",
+     "url": "https://www.racetothewh.com/senate/26polls",
+     "mode": "referencia",
+     "license": "",
+     "what": "Promedio y modelo propio.",
+     "status": {
+      "ok": true,
+      "detail": "promedio leído vía Wikipedia"
+     }
+    }
+   ],
+   "auto_note": "Los valores de estos agregadores se leen automáticamente de las tablas 'Aggregate polls' de Wikipedia, que citan cada uno con fecha."
+  },
+  {
+   "id": "experts",
+   "title": "Calificaciones de pronosticadores",
+   "why": "Once equipos independientes califican cada carrera (Seguro, Probable, Inclinado, Empate). El consenso entra en la base estructural del modelo junto con los resultados de 2024.",
+   "items": [
+    {
+     "key": "cook",
+     "name": "Cook Political Report",
+     "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+     "mode": "referencia",
+     "license": "",
+     "what": "",
+     "status": {
+      "ok": true,
+      "detail": "calificación leída vía Wikipedia"
+     }
+    },
+    {
+     "key": "sabato",
+     "name": "Sabato's Crystal Ball (Universidad de Virginia)",
+     "url": "https://centerforpolitics.org/crystalball/2026-senate/",
+     "mode": "referencia",
+     "license": "",
+     "what": "",
+     "status": {
+      "ok": true,
+      "detail": "calificación leída vía Wikipedia"
+     }
+    },
+    {
+     "key": "ie",
+     "name": "Inside Elections",
+     "url": "https://www.insideelections.com/ratings/senate",
+     "mode": "referencia",
+     "license": "",
+     "what": "",
+     "status": {
+      "ok": true,
+      "detail": "calificación leída vía Wikipedia"
+     }
+    },
+    {
+     "key": "econ",
+     "name": "The Economist",
+     "url": "https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/",
+     "mode": "referencia",
+     "license": "",
+     "what": "",
+     "status": {
+      "ok": true,
+      "detail": "calificación leída vía Wikipedia"
+     }
+    },
+    {
+     "key": "ddhq_f",
+     "name": "Decision Desk HQ",
+     "url": "https://votes.decisiondeskhq.com/forecast/2026/senate",
+     "mode": "referencia",
+     "license": "",
+     "what": "",
+     "status": {
+      "ok": true,
+      "detail": "calificación leída vía Wikipedia"
+     }
+    },
+    {
+     "key": "fox",
+     "name": "Fox News Power Rankings",
+     "url": "https://www.foxnews.com/politics",
+     "mode": "referencia",
+     "license": "",
+     "what": "",
+     "status": {
+      "ok": true,
+      "detail": "calificación leída vía Wikipedia"
+     }
+    },
+    {
+     "key": "fpo_f",
+     "name": "FiftyPlusOne",
+     "url": "https://fiftyplusone.news/forecast/senate",
+     "mode": "referencia",
+     "license": "",
+     "what": "",
+     "status": {
+      "ok": true,
+      "detail": "calificación leída vía Wikipedia"
+     }
+    },
+    {
+     "key": "st",
+     "name": "Split Ticket",
+     "url": "https://www.theargumentmag.com/p/split-ticket-2026-midterms-model",
+     "mode": "referencia",
+     "license": "",
+     "what": "",
+     "status": {
+      "ok": true,
+      "detail": "calificación leída vía Wikipedia"
+     }
+    },
+    {
+     "key": "sb_f",
+     "name": "Silver Bulletin (FLIPR)",
+     "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+     "mode": "referencia",
+     "license": "",
+     "what": "",
+     "status": {
+      "ok": true,
+      "detail": "calificación leída vía Wikipedia"
+     }
+    },
+    {
+     "key": "rcp_f",
+     "name": "RealClearPolitics",
+     "url": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+     "mode": "referencia",
+     "license": "",
+     "what": "",
+     "status": {
+      "ok": true,
+      "detail": "calificación leída vía Wikipedia"
+     }
+    },
+    {
+     "key": "wh_f",
+     "name": "Race to the WH",
+     "url": "https://www.racetothewh.com/senate/26",
+     "mode": "referencia",
+     "license": "",
+     "what": "",
+     "status": {
+      "ok": true,
+      "detail": "calificación leída vía Wikipedia"
+     }
+    }
+   ],
+   "auto_note": "Se leen automáticamente de la tabla de predicciones de Wikipedia, que enlaza la calificación original de cada equipo con su fecha."
+  },
+  {
+   "id": "markets",
+   "title": "Mercados de predicción",
+   "why": "Dinero real apostado sobre el resultado. Se promedian los tres mercados y pesan 15 % en la probabilidad final.",
+   "items": [
+    {
+     "key": "polymarket",
+     "name": "Polymarket (Gamma API)",
+     "url": "https://docs.polymarket.com/",
+     "mode": "auto",
+     "license": "",
+     "what": "Probabilidades por carrera y por control de cámara.",
+     "status": {
+      "ok": false,
+      "fallback": "seed"
+     }
+    },
+    {
+     "key": "kalshi",
+     "name": "Kalshi (regulado por la CFTC)",
+     "url": "https://docs.kalshi.com/getting_started/quick_start_market_data",
+     "mode": "auto",
+     "license": "",
+     "what": "Endpoints públicos sin clave.",
+     "status": {
+      "ok": false,
+      "fallback": "seed"
+     }
+    },
+    {
+     "key": "predictit",
+     "name": "PredictIt (licencia académica)",
+     "url": "https://www.predictit.org/",
+     "mode": "auto",
+     "license": "",
+     "what": "Mercado académico con historial político desde 2014.",
+     "status": {
+      "ok": false,
+      "fallback": "seed"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fundamentals",
+   "title": "Resultados históricos y financiación",
+   "why": "La base estructural parte de cómo votó cada estado en 2024. El dinero de campaña se muestra como contexto.",
+   "items": [
+    {
+     "key": "results2024",
+     "name": "Resultados presidenciales 2024 certificados por los estados",
+     "url": "https://electionlab.mit.edu/data",
+     "mode": "referencia",
+     "license": "",
+     "what": "Margen por estado usado en la base estructural. Referencia de datos: MIT Election Data and Science Lab.",
+     "status": {
+      "ok": true,
+      "detail": "cargado en config/senate_races.json"
+     }
+    },
+    {
+     "key": "fec",
+     "name": "Comisión Federal Electoral · OpenFEC API",
+     "url": "https://api.open.fec.gov/developers/",
+     "mode": "auto",
+     "license": "Dominio público",
+     "what": "Recaudación y dinero en caja de cada candidato.",
+     "status": {
+      "ok": false,
+      "detail": "no consultada"
+     }
+    }
+   ]
+  },
+  {
+   "id": "media",
+   "title": "Cobertura en medios",
+   "why": "Mide el tono con que se habla de cada candidato, incluida prensa local. Es contexto, no voto: su efecto se limita a un punto.",
+   "items": [
+    {
+     "key": "gdelt",
+     "name": "GDELT Project · DOC 2.0 API",
+     "url": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+     "mode": "auto",
+     "license": "Uso libre con atribución",
+     "what": "Tono y volumen de miles de medios de EE. UU.",
+     "status": {
+      "ok": false,
+      "detail": "no consultada"
+     }
+    },
+    {
+     "key": "google_news",
+     "name": "Google News RSS",
+     "url": "https://news.google.com/",
+     "mode": "auto",
+     "license": "",
+     "what": "Titulares recientes por carrera, con enlace al medio.",
+     "status": {
+      "ok": false,
+      "detail": "no consultada"
+     }
+    }
+   ]
+  }
+ ],
+ "warnings": [],
+ "config": {
+  "blend": {
+   "_nota": "Peso de cada capa en la probabilidad final. Las encuestas mandan; mercados y noticias solo ajustan. Pon 0 para apagar una capa.",
+   "model": 0.85,
+   "markets": 0.15,
+   "sentiment_max_points": 1.0
+  },
+  "prior": {
+   "expert_weight": 0.5,
+   "_nota": "La base estructural mezcla 50 % resultados de 2024 + ambiente nacional y 50 % consenso de los pronosticadores (Cook, Sabato, Inside Elections, etc.)."
+  },
+  "house": {
+   "majority": 218,
+   "total": 435,
+   "tipping_point_generic_margin": 5.0,
+   "seats_per_point": 4.5,
+   "seat_noise_sd": 6.0
+  },
+  "senate": {
+   "d_not_up": 34,
+   "r_not_up": 31,
+   "majority": 51,
+   "tie_goes_to": "R"
+  }
+ },
+ "context": {
+  "trump_approval": 38.0,
+  "trump_disapproval": 59.6
+ }
+}

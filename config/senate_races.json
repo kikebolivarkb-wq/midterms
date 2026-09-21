@@ -1,0 +1,880 @@
+{
+ "_nota": "Los 35 escaños en juego (33 regulares + especiales de Ohio y Florida). Candidatos según Wikipedia al 21-sep-2026. 'candidates' asigna partido a cada nombre que llega en las encuestas (basta el apellido). Donde hay un independiente competitivo (Nebraska, Montana, Idaho, Dakota del Sur), el modelo usa al no republicano más fuerte en las encuestas.",
+ "races": [
+  {
+   "id": "sen-al",
+   "state": "AL",
+   "name": "Alabama",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -30.5,
+   "seat_held_by": "R",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "Everett Wess",
+    "R": "Barry Moore",
+    "I": null
+   },
+   "votehub_subject": "2026 Alabama",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Alabama",
+   "polymarket_slug": "alabama-senate-election-winner",
+   "kalshi_series": "SENATEAL",
+   "predictit_keywords": [
+    "Alabama",
+    "Senate"
+   ],
+   "news_query": "Alabama Senate race"
+  },
+  {
+   "id": "sen-ak",
+   "state": "AK",
+   "name": "Alaska",
+   "special": false,
+   "region": "West",
+   "pres_2024_margin": -13.1,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Mary Peltola",
+    "R": "Dan Sullivan",
+    "I": null
+   },
+   "votehub_subject": "2026 Alaska",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Alaska",
+   "polymarket_slug": "alaska-senate-election-winner",
+   "kalshi_series": "SENATEAK",
+   "predictit_keywords": [
+    "Alaska",
+    "Senate"
+   ],
+   "news_query": "Alaska Senate race"
+  },
+  {
+   "id": "sen-ar",
+   "state": "AR",
+   "name": "Arkansas",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -30.6,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Hallie Shoffner",
+    "R": "Tom Cotton",
+    "I": null
+   },
+   "votehub_subject": "2026 Arkansas",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Arkansas",
+   "polymarket_slug": "arkansas-senate-election-winner",
+   "kalshi_series": "SENATEAR",
+   "predictit_keywords": [
+    "Arkansas",
+    "Senate"
+   ],
+   "news_query": "Arkansas Senate race"
+  },
+  {
+   "id": "sen-co",
+   "state": "CO",
+   "name": "Colorado",
+   "special": false,
+   "region": "West",
+   "pres_2024_margin": 11.0,
+   "seat_held_by": "D",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "John Hickenlooper",
+    "R": "Mark Baisley",
+    "I": null
+   },
+   "votehub_subject": "2026 Colorado",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Colorado",
+   "polymarket_slug": "colorado-senate-election-winner",
+   "kalshi_series": "SENATECO",
+   "predictit_keywords": [
+    "Colorado",
+    "Senate"
+   ],
+   "news_query": "Colorado Senate race"
+  },
+  {
+   "id": "sen-de",
+   "state": "DE",
+   "name": "Delaware",
+   "special": false,
+   "region": "Northeast",
+   "pres_2024_margin": 14.7,
+   "seat_held_by": "D",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Chris Coons",
+    "R": "Michael Katz",
+    "I": null
+   },
+   "votehub_subject": "2026 Delaware",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Delaware",
+   "polymarket_slug": "delaware-senate-election-winner",
+   "kalshi_series": "SENATEDE",
+   "predictit_keywords": [
+    "Delaware",
+    "Senate"
+   ],
+   "news_query": "Delaware Senate race"
+  },
+  {
+   "id": "sen-fl",
+   "state": "FL",
+   "name": "Florida",
+   "special": true,
+   "region": "South",
+   "pres_2024_margin": -13.1,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Angie Nixon",
+    "R": "Ashley Moody",
+    "I": null
+   },
+   "votehub_subject": "2026 Florida",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate special election in Florida",
+   "polymarket_slug": "florida-senate-election-winner",
+   "kalshi_series": "SENATEFLS",
+   "predictit_keywords": [
+    "Florida",
+    "Senate"
+   ],
+   "news_query": "Florida Senate race"
+  },
+  {
+   "id": "sen-ga",
+   "state": "GA",
+   "name": "Georgia",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -2.2,
+   "seat_held_by": "D",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Jon Ossoff",
+    "R": "Mike Collins",
+    "I": null
+   },
+   "votehub_subject": "2026 Georgia",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Georgia",
+   "polymarket_slug": "georgia-senate-election-winner",
+   "kalshi_series": "SENATEGA",
+   "predictit_keywords": [
+    "Georgia",
+    "Senate"
+   ],
+   "news_query": "Georgia Senate race"
+  },
+  {
+   "id": "sen-id",
+   "state": "ID",
+   "name": "Idaho",
+   "special": false,
+   "region": "West",
+   "pres_2024_margin": -36.5,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": null,
+    "R": "Jim Risch",
+    "I": "Todd Achilles"
+   },
+   "votehub_subject": "2026 Idaho",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Idaho",
+   "polymarket_slug": "idaho-senate-election-winner",
+   "kalshi_series": "SENATEID",
+   "predictit_keywords": [
+    "Idaho",
+    "Senate"
+   ],
+   "news_query": "Idaho Senate race"
+  },
+  {
+   "id": "sen-il",
+   "state": "IL",
+   "name": "Illinois",
+   "special": false,
+   "region": "Midwest",
+   "pres_2024_margin": 10.9,
+   "seat_held_by": "D",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "Juliana Stratton",
+    "R": "Don Tracy",
+    "I": null
+   },
+   "votehub_subject": "2026 Illinois",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Illinois",
+   "polymarket_slug": "illinois-senate-election-winner",
+   "kalshi_series": "SENATEIL",
+   "predictit_keywords": [
+    "Illinois",
+    "Senate"
+   ],
+   "news_query": "Illinois Senate race"
+  },
+  {
+   "id": "sen-ia",
+   "state": "IA",
+   "name": "Iowa",
+   "special": false,
+   "region": "Midwest",
+   "pres_2024_margin": -13.2,
+   "seat_held_by": "R",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "Josh Turek",
+    "R": "Ashley Hinson",
+    "I": null
+   },
+   "votehub_subject": "2026 Iowa",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Iowa",
+   "polymarket_slug": "iowa-senate-election-winner",
+   "kalshi_series": "SENATEIA",
+   "predictit_keywords": [
+    "Iowa",
+    "Senate"
+   ],
+   "news_query": "Iowa Senate race"
+  },
+  {
+   "id": "sen-ks",
+   "state": "KS",
+   "name": "Kansas",
+   "special": false,
+   "region": "Midwest",
+   "pres_2024_margin": -16.1,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Adam Hamilton",
+    "R": "Roger Marshall",
+    "I": null
+   },
+   "votehub_subject": "2026 Kansas",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Kansas",
+   "polymarket_slug": "kansas-senate-election-winner",
+   "kalshi_series": "SENATEKS",
+   "predictit_keywords": [
+    "Kansas",
+    "Senate"
+   ],
+   "news_query": "Kansas Senate race"
+  },
+  {
+   "id": "sen-ky",
+   "state": "KY",
+   "name": "Kentucky",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -30.5,
+   "seat_held_by": "R",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "Charles Booker",
+    "R": "Andy Barr",
+    "I": null
+   },
+   "votehub_subject": "2026 Kentucky",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Kentucky",
+   "polymarket_slug": "kentucky-senate-election-winner",
+   "kalshi_series": "SENATEKY",
+   "predictit_keywords": [
+    "Kentucky",
+    "Senate"
+   ],
+   "news_query": "Kentucky Senate race"
+  },
+  {
+   "id": "sen-la",
+   "state": "LA",
+   "name": "Louisiana",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -22.0,
+   "seat_held_by": "R",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "Jamie Davis",
+    "R": "Julia Letlow",
+    "I": null
+   },
+   "votehub_subject": "2026 Louisiana",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Louisiana",
+   "polymarket_slug": "louisiana-senate-election-winner",
+   "kalshi_series": "SENATELA",
+   "predictit_keywords": [
+    "Louisiana",
+    "Senate"
+   ],
+   "news_query": "Louisiana Senate race"
+  },
+  {
+   "id": "sen-me",
+   "state": "ME",
+   "name": "Maine",
+   "special": false,
+   "region": "Northeast",
+   "pres_2024_margin": 6.9,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Troy Jackson",
+    "R": "Susan Collins",
+    "I": null
+   },
+   "votehub_subject": "2026 Maine",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Maine",
+   "polymarket_slug": "maine-senate-election-winner",
+   "kalshi_series": "SENATEME",
+   "predictit_keywords": [
+    "Maine",
+    "Senate"
+   ],
+   "news_query": "Maine Senate race"
+  },
+  {
+   "id": "sen-ma",
+   "state": "MA",
+   "name": "Massachusetts",
+   "special": false,
+   "region": "Northeast",
+   "pres_2024_margin": 25.2,
+   "seat_held_by": "D",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Ed Markey",
+    "R": "John Deaton",
+    "I": null
+   },
+   "votehub_subject": "2026 Massachusetts",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Massachusetts",
+   "polymarket_slug": "massachusetts-senate-election-winner",
+   "kalshi_series": "SENATEMA",
+   "predictit_keywords": [
+    "Massachusetts",
+    "Senate"
+   ],
+   "news_query": "Massachusetts Senate race"
+  },
+  {
+   "id": "sen-mi",
+   "state": "MI",
+   "name": "Michigan",
+   "special": false,
+   "region": "Midwest",
+   "pres_2024_margin": -1.4,
+   "seat_held_by": "D",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "Abdul El-Sayed",
+    "R": "Mike Rogers",
+    "I": null
+   },
+   "votehub_subject": "2026 Michigan",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Michigan",
+   "polymarket_slug": "michigan-senate-election-winner",
+   "kalshi_series": "SENATEMI",
+   "predictit_keywords": [
+    "Michigan",
+    "Senate"
+   ],
+   "news_query": "Michigan Senate race"
+  },
+  {
+   "id": "sen-mn",
+   "state": "MN",
+   "name": "Minnesota",
+   "special": false,
+   "region": "Midwest",
+   "pres_2024_margin": 4.2,
+   "seat_held_by": "D",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "Peggy Flanagan",
+    "R": "Michele Tafoya",
+    "I": null
+   },
+   "votehub_subject": "2026 Minnesota",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Minnesota",
+   "polymarket_slug": "minnesota-senate-election-winner",
+   "kalshi_series": "SENATEMN",
+   "predictit_keywords": [
+    "Minnesota",
+    "Senate"
+   ],
+   "news_query": "Minnesota Senate race"
+  },
+  {
+   "id": "sen-ms",
+   "state": "MS",
+   "name": "Mississippi",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -22.9,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Scott Colom",
+    "R": "Cindy Hyde-Smith",
+    "I": null
+   },
+   "votehub_subject": "2026 Mississippi",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Mississippi",
+   "polymarket_slug": "mississippi-senate-election-winner",
+   "kalshi_series": "SENATEMS",
+   "predictit_keywords": [
+    "Mississippi",
+    "Senate"
+   ],
+   "news_query": "Mississippi Senate race"
+  },
+  {
+   "id": "sen-mt",
+   "state": "MT",
+   "name": "Montana",
+   "special": false,
+   "region": "West",
+   "pres_2024_margin": -19.9,
+   "seat_held_by": "R",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "Alani Bankhead",
+    "R": "Kurt Alme",
+    "I": "Seth Bodnar"
+   },
+   "votehub_subject": "2026 Montana",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Montana",
+   "polymarket_slug": "montana-senate-election-winner",
+   "kalshi_series": "SENATEMT",
+   "predictit_keywords": [
+    "Montana",
+    "Senate"
+   ],
+   "news_query": "Montana Senate race"
+  },
+  {
+   "id": "sen-ne",
+   "state": "NE",
+   "name": "Nebraska",
+   "special": false,
+   "region": "Midwest",
+   "pres_2024_margin": -20.5,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": null,
+    "R": "Pete Ricketts",
+    "I": "Dan Osborn"
+   },
+   "votehub_subject": "2026 Nebraska",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Nebraska",
+   "polymarket_slug": "nebraska-senate-election-winner",
+   "kalshi_series": "SENATENE",
+   "predictit_keywords": [
+    "Nebraska",
+    "Senate"
+   ],
+   "news_query": "Nebraska Senate race"
+  },
+  {
+   "id": "sen-nh",
+   "state": "NH",
+   "name": "New Hampshire",
+   "special": false,
+   "region": "Northeast",
+   "pres_2024_margin": 2.8,
+   "seat_held_by": "D",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "Chris Pappas",
+    "R": "John E. Sununu",
+    "I": null
+   },
+   "votehub_subject": "2026 New Hampshire",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in New Hampshire",
+   "polymarket_slug": "new-hampshire-senate-election-winner",
+   "kalshi_series": "SENATENH",
+   "predictit_keywords": [
+    "New Hampshire",
+    "Senate"
+   ],
+   "news_query": "New Hampshire Senate race"
+  },
+  {
+   "id": "sen-nj",
+   "state": "NJ",
+   "name": "New Jersey",
+   "special": false,
+   "region": "Northeast",
+   "pres_2024_margin": 5.9,
+   "seat_held_by": "D",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Cory Booker",
+    "R": "Justin Murphy",
+    "I": null
+   },
+   "votehub_subject": "2026 New Jersey",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in New Jersey",
+   "polymarket_slug": "new-jersey-senate-election-winner",
+   "kalshi_series": "SENATENJ",
+   "predictit_keywords": [
+    "New Jersey",
+    "Senate"
+   ],
+   "news_query": "New Jersey Senate race"
+  },
+  {
+   "id": "sen-nm",
+   "state": "NM",
+   "name": "New Mexico",
+   "special": false,
+   "region": "West",
+   "pres_2024_margin": 6.0,
+   "seat_held_by": "D",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Ben Ray Luján",
+    "R": "Larry Marker",
+    "I": null
+   },
+   "votehub_subject": "2026 New Mexico",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in New Mexico",
+   "polymarket_slug": "new-mexico-senate-election-winner",
+   "kalshi_series": "SENATENM",
+   "predictit_keywords": [
+    "New Mexico",
+    "Senate"
+   ],
+   "news_query": "New Mexico Senate race"
+  },
+  {
+   "id": "sen-nc",
+   "state": "NC",
+   "name": "North Carolina",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -3.2,
+   "seat_held_by": "R",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "Roy Cooper",
+    "R": "Michael Whatley",
+    "I": null
+   },
+   "votehub_subject": "2026 North Carolina",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in North Carolina",
+   "polymarket_slug": "north-carolina-senate-election-winner",
+   "kalshi_series": "SENATENC",
+   "predictit_keywords": [
+    "North Carolina",
+    "Senate"
+   ],
+   "news_query": "North Carolina Senate race"
+  },
+  {
+   "id": "sen-oh",
+   "state": "OH",
+   "name": "Ohio",
+   "special": true,
+   "region": "Midwest",
+   "pres_2024_margin": -11.2,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Sherrod Brown",
+    "R": "Jon Husted",
+    "I": null
+   },
+   "votehub_subject": "2026 Ohio",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate special election in Ohio",
+   "polymarket_slug": "ohio-senate-election-winner",
+   "kalshi_series": "SENATEOHS",
+   "predictit_keywords": [
+    "Ohio",
+    "Senate"
+   ],
+   "news_query": "Ohio Senate race"
+  },
+  {
+   "id": "sen-ok",
+   "state": "OK",
+   "name": "Oklahoma",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -34.3,
+   "seat_held_by": "R",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "Jasmine Thomas",
+    "R": "Kevin Hern",
+    "I": null
+   },
+   "votehub_subject": "2026 Oklahoma",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Oklahoma",
+   "polymarket_slug": "oklahoma-senate-election-winner",
+   "kalshi_series": "SENATEOK",
+   "predictit_keywords": [
+    "Oklahoma",
+    "Senate"
+   ],
+   "news_query": "Oklahoma Senate race"
+  },
+  {
+   "id": "sen-or",
+   "state": "OR",
+   "name": "Oregon",
+   "special": false,
+   "region": "West",
+   "pres_2024_margin": 14.3,
+   "seat_held_by": "D",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Jeff Merkley",
+    "R": "David Brock Smith",
+    "I": null
+   },
+   "votehub_subject": "2026 Oregon",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Oregon",
+   "polymarket_slug": "oregon-senate-election-winner",
+   "kalshi_series": "SENATEOR",
+   "predictit_keywords": [
+    "Oregon",
+    "Senate"
+   ],
+   "news_query": "Oregon Senate race"
+  },
+  {
+   "id": "sen-ri",
+   "state": "RI",
+   "name": "Rhode Island",
+   "special": false,
+   "region": "Northeast",
+   "pres_2024_margin": 13.8,
+   "seat_held_by": "D",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Jack Reed",
+    "R": "Raymond McKay",
+    "I": null
+   },
+   "votehub_subject": "2026 Rhode Island",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Rhode Island",
+   "polymarket_slug": "rhode-island-senate-election-winner",
+   "kalshi_series": "SENATERI",
+   "predictit_keywords": [
+    "Rhode Island",
+    "Senate"
+   ],
+   "news_query": "Rhode Island Senate race"
+  },
+  {
+   "id": "sen-sc",
+   "state": "SC",
+   "name": "South Carolina",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -17.8,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Annie Andrews",
+    "R": "Darline Graham",
+    "I": null
+   },
+   "votehub_subject": "2026 South Carolina",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in South Carolina",
+   "polymarket_slug": "south-carolina-senate-election-winner",
+   "kalshi_series": "SENATESC",
+   "predictit_keywords": [
+    "South Carolina",
+    "Senate"
+   ],
+   "news_query": "South Carolina Senate race"
+  },
+  {
+   "id": "sen-sd",
+   "state": "SD",
+   "name": "South Dakota",
+   "special": false,
+   "region": "Midwest",
+   "pres_2024_margin": -29.2,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": null,
+    "R": "Mike Rounds",
+    "I": "Brian Bengs"
+   },
+   "votehub_subject": "2026 South Dakota",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in South Dakota",
+   "polymarket_slug": "south-dakota-senate-election-winner",
+   "kalshi_series": "SENATESD",
+   "predictit_keywords": [
+    "South Dakota",
+    "Senate"
+   ],
+   "news_query": "South Dakota Senate race"
+  },
+  {
+   "id": "sen-tn",
+   "state": "TN",
+   "name": "Tennessee",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -29.7,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Marquita Bradshaw",
+    "R": "Bill Hagerty",
+    "I": null
+   },
+   "votehub_subject": "2026 Tennessee",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Tennessee",
+   "polymarket_slug": "tennessee-senate-election-winner",
+   "kalshi_series": "SENATETN",
+   "predictit_keywords": [
+    "Tennessee",
+    "Senate"
+   ],
+   "news_query": "Tennessee Senate race"
+  },
+  {
+   "id": "sen-tx",
+   "state": "TX",
+   "name": "Texas",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -13.7,
+   "seat_held_by": "R",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "James Talarico",
+    "R": "Ken Paxton",
+    "I": null
+   },
+   "votehub_subject": "2026 Texas",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Texas",
+   "polymarket_slug": "texas-senate-election-winner",
+   "kalshi_series": "SENATETX",
+   "predictit_keywords": [
+    "Texas",
+    "Senate"
+   ],
+   "news_query": "Texas Senate race"
+  },
+  {
+   "id": "sen-va",
+   "state": "VA",
+   "name": "Virginia",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": 5.8,
+   "seat_held_by": "D",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Mark Warner",
+    "R": "Bert Mizusawa",
+    "I": null
+   },
+   "votehub_subject": "2026 Virginia",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Virginia",
+   "polymarket_slug": "virginia-senate-election-winner",
+   "kalshi_series": "SENATEVA",
+   "predictit_keywords": [
+    "Virginia",
+    "Senate"
+   ],
+   "news_query": "Virginia Senate race"
+  },
+  {
+   "id": "sen-wv",
+   "state": "WV",
+   "name": "West Virginia",
+   "special": false,
+   "region": "South",
+   "pres_2024_margin": -41.9,
+   "seat_held_by": "R",
+   "incumbent_running": true,
+   "candidates": {
+    "D": "Rachel Fetty Anderson",
+    "R": "Shelley Moore Capito",
+    "I": null
+   },
+   "votehub_subject": "2026 West Virginia",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in West Virginia",
+   "polymarket_slug": "west-virginia-senate-election-winner",
+   "kalshi_series": "SENATEWV",
+   "predictit_keywords": [
+    "West Virginia",
+    "Senate"
+   ],
+   "news_query": "West Virginia Senate race"
+  },
+  {
+   "id": "sen-wy",
+   "state": "WY",
+   "name": "Wyoming",
+   "special": false,
+   "region": "West",
+   "pres_2024_margin": -45.8,
+   "seat_held_by": "R",
+   "incumbent_running": false,
+   "candidates": {
+    "D": "James Byrd",
+    "R": "Harriet Hageman",
+    "I": null
+   },
+   "votehub_subject": "2026 Wyoming",
+   "votehub_poll_type": "us-senator",
+   "wikipedia_page": "2026 United States Senate election in Wyoming",
+   "polymarket_slug": "wyoming-senate-election-winner",
+   "kalshi_series": "SENATEWY",
+   "predictit_keywords": [
+    "Wyoming",
+    "Senate"
+   ],
+   "news_query": "Wyoming Senate race"
+  }
+ ]
+}

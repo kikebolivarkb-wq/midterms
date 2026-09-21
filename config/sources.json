@@ -1,0 +1,87 @@
+{
+  "_nota": "Todas las fuentes que usa la plataforma. El panel las muestra en la sección 'Fuentes' con su estado en cada actualización. 'auto' = se descarga sola; 'manual' = requiere que subas un archivo; 'referencia' = se cita y se enlaza, pero su dato llega a través de otra fuente automática.",
+  "groups": [
+    {
+      "id": "polls",
+      "title": "Encuestas individuales",
+      "why": "La materia prima. Cada encuesta enlaza a la publicación original de la encuestadora. Una encuesta que aparece en dos compilaciones independientes se marca como verificada.",
+      "items": [
+        {"key": "votehub", "name": "VoteHub Polling API", "url": "https://votehub.com/polls/api/", "mode": "auto", "license": "CC BY 4.0", "what": "Base abierta de encuestas de Senado, Cámara por distrito, voto genérico y aprobación presidencial."},
+        {"key": "wikipedia", "name": "Wikipedia · compilaciones de encuestas por carrera", "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections", "mode": "auto", "license": "CC BY-SA 4.0", "what": "Tablas mantenidas por editores con cita a cada encuesta original. Segunda fuente independiente para verificar y completar VoteHub. Se lee por la API oficial de MediaWiki."},
+        {"key": "manual", "name": "Encuestas añadidas por ti", "url": "", "mode": "manual", "license": "", "what": "config/manual_polls.json"}
+      ]
+    },
+    {
+      "id": "ratings",
+      "title": "Calidad y acreditación de encuestadoras",
+      "why": "Para decidir cuánto pesa cada encuesta según la precisión histórica medida de su autor, no según opiniones.",
+      "items": [
+        {"key": "538", "name": "FiveThirtyEight · calificaciones de encuestadoras (archivo público)", "url": "https://github.com/fivethirtyeight/data/tree/master/pollster-ratings", "mode": "auto", "license": "CC BY 4.0", "what": "Nota numérica, error y sesgo histórico de 540 encuestadoras medidos contra resultados reales."},
+        {"key": "silver", "name": "Silver Bulletin · calificaciones de encuestadoras (enero 2026)", "url": "https://www.natesilver.net/p/pollster-ratings-silver-bulletin", "mode": "manual", "license": "Uso libre con atribución", "what": "Versión actualizada tras 2024 y 2025. Descarga el XLSX 'Pollster Stats Full 2026' y guárdalo como config/external/silver_bulletin_pollster_stats.xlsx: si existe, tiene prioridad."},
+        {"key": "aapor", "name": "AAPOR Transparency Initiative", "url": "https://aapor.org/standards-and-ethics/transparency-initiative/", "mode": "referencia", "license": "", "what": "Acreditación de transparencia metodológica. La pertenencia llega en los datos de 538; las firmas miembro reciben un pequeño plus."},
+        {"key": "roper", "name": "Roper Center for Public Opinion Research (Cornell)", "url": "https://ropercenter.cornell.edu/", "mode": "referencia", "license": "", "what": "Archivo que recibe los microdatos de las encuestadoras más transparentes. Se cuenta junto con AAPOR."}
+      ]
+    },
+    {
+      "id": "aggregators",
+      "title": "Promedios de otros agregadores (control cruzado)",
+      "why": "No se suman al promedio (serían las mismas encuestas contadas dos veces). Sirven para detectar si el promedio propio se aleja del consenso.",
+      "items": [
+        {"key": "agg_rcp", "name": "RealClearPolling", "url": "https://www.realclearpolling.com/latest-polls/senate", "mode": "referencia", "license": "", "what": "Promedio simple de encuestas recientes."},
+        {"key": "agg_270", "name": "270toWin", "url": "https://www.270towin.com/2026-senate-polls/", "mode": "referencia", "license": "", "what": "Promedio de las últimas encuestas por carrera."},
+        {"key": "agg_ddhq", "name": "Decision Desk HQ", "url": "https://polls.decisiondeskhq.com/averages/generic-ballot/national/lv-rv-adults", "mode": "referencia", "license": "", "what": "Promedio ponderado; también cuenta votos oficiales en la noche electoral."},
+        {"key": "agg_fpo", "name": "FiftyPlusOne (G. Elliott Morris)", "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot", "mode": "referencia", "license": "", "what": "Promedio ponderado por calidad y recencia con intervalos de confianza."},
+        {"key": "agg_sb", "name": "Silver Bulletin (Nate Silver)", "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls", "mode": "referencia", "license": "", "what": "Promedio con ajuste por efecto casa y votante probable."},
+        {"key": "agg_wh", "name": "Race to the WH", "url": "https://www.racetothewh.com/senate/26polls", "mode": "referencia", "license": "", "what": "Promedio y modelo propio."}
+      ],
+      "auto_note": "Los valores de estos agregadores se leen automáticamente de las tablas 'Aggregate polls' de Wikipedia, que citan cada uno con fecha."
+    },
+    {
+      "id": "experts",
+      "title": "Calificaciones de pronosticadores",
+      "why": "Once equipos independientes califican cada carrera (Seguro, Probable, Inclinado, Empate). El consenso entra en la base estructural del modelo junto con los resultados de 2024.",
+      "items": [
+        {"key": "cook", "name": "Cook Political Report", "url": "https://www.cookpolitical.com/ratings/senate-race-ratings", "mode": "referencia", "license": "", "what": ""},
+        {"key": "sabato", "name": "Sabato's Crystal Ball (Universidad de Virginia)", "url": "https://centerforpolitics.org/crystalball/2026-senate/", "mode": "referencia", "license": "", "what": ""},
+        {"key": "ie", "name": "Inside Elections", "url": "https://www.insideelections.com/ratings/senate", "mode": "referencia", "license": "", "what": ""},
+        {"key": "econ", "name": "The Economist", "url": "https://www.economist.com/interactive/2026/us-midterms/prediction-model/senate/", "mode": "referencia", "license": "", "what": ""},
+        {"key": "ddhq_f", "name": "Decision Desk HQ", "url": "https://votes.decisiondeskhq.com/forecast/2026/senate", "mode": "referencia", "license": "", "what": ""},
+        {"key": "fox", "name": "Fox News Power Rankings", "url": "https://www.foxnews.com/politics", "mode": "referencia", "license": "", "what": ""},
+        {"key": "fpo_f", "name": "FiftyPlusOne", "url": "https://fiftyplusone.news/forecast/senate", "mode": "referencia", "license": "", "what": ""},
+        {"key": "st", "name": "Split Ticket", "url": "https://www.theargumentmag.com/p/split-ticket-2026-midterms-model", "mode": "referencia", "license": "", "what": ""},
+        {"key": "sb_f", "name": "Silver Bulletin (FLIPR)", "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model", "mode": "referencia", "license": "", "what": ""},
+        {"key": "rcp_f", "name": "RealClearPolitics", "url": "https://www.realclearpolling.com/maps/senate/2026/toss-up", "mode": "referencia", "license": "", "what": ""},
+        {"key": "wh_f", "name": "Race to the WH", "url": "https://www.racetothewh.com/senate/26", "mode": "referencia", "license": "", "what": ""}
+      ],
+      "auto_note": "Se leen automáticamente de la tabla de predicciones de Wikipedia, que enlaza la calificación original de cada equipo con su fecha."
+    },
+    {
+      "id": "markets",
+      "title": "Mercados de predicción",
+      "why": "Dinero real apostado sobre el resultado. Se promedian los tres mercados y pesan 15 % en la probabilidad final.",
+      "items": [
+        {"key": "polymarket", "name": "Polymarket (Gamma API)", "url": "https://docs.polymarket.com/", "mode": "auto", "license": "", "what": "Probabilidades por carrera y por control de cámara."},
+        {"key": "kalshi", "name": "Kalshi (regulado por la CFTC)", "url": "https://docs.kalshi.com/getting_started/quick_start_market_data", "mode": "auto", "license": "", "what": "Endpoints públicos sin clave."},
+        {"key": "predictit", "name": "PredictIt (licencia académica)", "url": "https://www.predictit.org/", "mode": "auto", "license": "", "what": "Mercado académico con historial político desde 2014."}
+      ]
+    },
+    {
+      "id": "fundamentals",
+      "title": "Resultados históricos y financiación",
+      "why": "La base estructural parte de cómo votó cada estado en 2024. El dinero de campaña se muestra como contexto.",
+      "items": [
+        {"key": "results2024", "name": "Resultados presidenciales 2024 certificados por los estados", "url": "https://electionlab.mit.edu/data", "mode": "referencia", "license": "", "what": "Margen por estado usado en la base estructural. Referencia de datos: MIT Election Data and Science Lab."},
+        {"key": "fec", "name": "Comisión Federal Electoral · OpenFEC API", "url": "https://api.open.fec.gov/developers/", "mode": "auto", "license": "Dominio público", "what": "Recaudación y dinero en caja de cada candidato."}
+      ]
+    },
+    {
+      "id": "media",
+      "title": "Cobertura en medios",
+      "why": "Mide el tono con que se habla de cada candidato, incluida prensa local. Es contexto, no voto: su efecto se limita a un punto.",
+      "items": [
+        {"key": "gdelt", "name": "GDELT Project · DOC 2.0 API", "url": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/", "mode": "auto", "license": "Uso libre con atribución", "what": "Tono y volumen de miles de medios de EE. UU."},
+        {"key": "google_news", "name": "Google News RSS", "url": "https://news.google.com/", "mode": "auto", "license": "", "what": "Titulares recientes por carrera, con enlace al medio."}
+      ]
+    }
+  ]
+}

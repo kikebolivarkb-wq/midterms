@@ -1,0 +1,21 @@
+{
+  "_nota": "Aquí puedes añadir encuestas que no estén en VoteHub, o tu propia encuesta. Mismo formato que VoteHub. 'race' es el id de la carrera (por ejemplo sen-ga) o 'generic' para el voto genérico. Pon 'enabled': false para ignorar una sin borrarla.",
+  "polls": [
+    {
+      "enabled": false,
+      "race": "sen-ga",
+      "pollster": "Mi encuesta propia",
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-20",
+      "sample_size": 500,
+      "population": "lv",
+      "partisan": null,
+      "internal": false,
+      "url": "",
+      "answers": [
+        {"choice": "Jon Ossoff", "pct": 48},
+        {"choice": "Mike Collins", "pct": 45}
+      ]
+    }
+  ]
+}

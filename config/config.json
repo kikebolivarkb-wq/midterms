@@ -1,0 +1,72 @@
+{
+  "election_date": "2026-11-03",
+  "national_pres_2024_margin": -1.5,
+  "senate": {
+    "d_not_up": 34,
+    "r_not_up": 31,
+    "majority": 51,
+    "tie_goes_to": "R",
+    "_nota": "D incluye a Sanders y King (independientes que votan con los demócratas). Con 50-50 decide el vicepresidente (R)."
+  },
+  "house": {
+    "majority": 218,
+    "total": 435,
+    "tipping_point_generic_margin": 5.0,
+    "seats_per_point": 4.5,
+    "seat_noise_sd": 6.0,
+    "_nota": "Tras la redistribución de 2025-26 los demócratas necesitan ganar el voto genérico por unos 5 puntos para llegar a 218 (Axios y DDHQ, junio 2026). Ajusta estos números si cambian los análisis."
+  },
+  "polls": {
+    "max_age_days": 90,
+    "half_life_days_race": 14,
+    "half_life_days_generic": 10,
+    "population_weight": {
+      "lv": 1.0,
+      "rv": 0.9,
+      "v": 0.9,
+      "a": 0.7
+    },
+    "partisan_weight": 0.5,
+    "exclude_internal": true,
+    "reference_sample": 800,
+    "max_sample": 3000,
+    "house_effect_shrink": 4,
+    "prior_strength": 0.35,
+    "incumbency_bonus": 2.0,
+    "unverified_weight": 0.9,
+    "_nota_verificacion": "Una encuesta que aparece en VoteHub y en Wikipedia se marca como verificada. Si solo está en una, pesa 90 %. Si Wikipedia no responde, no se penaliza a nadie."
+  },
+  "uncertainty": {
+    "national_sd_base": 2.0,
+    "national_sd_per_day": 0.04,
+    "race_sd_base": 3.0,
+    "race_sd_poll_scarcity": 4.0,
+    "simulations": 20000,
+    "tail_df": 5,
+    "regional_sd": 1.5,
+    "_nota": "tail_df: colas gruesas (t de Student) para sorpresas grandes como las de 2016 y 2020. regional_sd: error compartido por región (Noreste, Sur, Medio Oeste, Oeste)."
+  },
+  "blend": {
+    "_nota": "Peso de cada capa en la probabilidad final. Las encuestas mandan; mercados y noticias solo ajustan. Pon 0 para apagar una capa.",
+    "model": 0.85,
+    "markets": 0.15,
+    "sentiment_max_points": 1.0
+  },
+  "sentiment": {
+    "enabled": true,
+    "only_if_margin_under": 15,
+    "gdelt_timespan": "14d",
+    "seconds_between_calls": 6
+  },
+  "prior": {
+    "expert_weight": 0.5,
+    "_nota": "La base estructural mezcla 50 % resultados de 2024 + ambiente nacional y 50 % consenso de los pronosticadores (Cook, Sabato, Inside Elections, etc.)."
+  },
+  "qa": {
+    "aggregator_gap_warning": 4.0
+  },
+  "fec": {
+    "enabled": true,
+    "api_key_env": "FEC_API_KEY"
+  }
+}

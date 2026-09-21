@@ -1,0 +1,31 @@
+{
+  "_nota": "Calidad de cada encuestadora según trayectoria y transparencia metodológica, no según a quién favorece. El sesgo partidista de cada firma se corrige aparte, con datos, calculando su 'efecto casa'. Se compara por coincidencia parcial del nombre (sin mayúsculas).",
+  "tiers": {
+    "A": 1.0,
+    "B": 0.75,
+    "C": 0.55,
+    "desconocida": 0.5,
+    "excluida": 0.0
+  },
+  "pollsters": {
+    "A": [
+      "siena", "new york times", "selzer", "abc news", "washington post", "marquette",
+      "yougov", "emerson", "ssrs", "cnn", "marist", "quinnipiac", "beacon research",
+      "fox news", "muhlenberg", "ipsos", "ap-norc", "pew", "suffolk", "monmouth",
+      "elon", "high point", "east carolina", "michigan state", "glengariff",
+      "mason-dixon", "surveyusa", "fabrizio", "texas a&m", "gallup", "nbc", "cbs",
+      "university", "college"
+    ],
+    "B": [
+      "morning consult", "echelon", "atlasintel", "cygnal", "co/efficient",
+      "insideradvantage", "trafalgar", "rasmussen", "rmg", "tipp", "harris",
+      "change research", "public policy polling", "data for progress", "civiqs",
+      "quantus", "harper", "st. pete", "alaska survey research", "zogby",
+      "j.l. partners", "big data poll", "research co", "hart research",
+      "public opinion strategies", "impact research", "navigator", "noble predictive",
+      "remington", "victory insights", "overton"
+    ],
+    "C": [],
+    "excluida": []
+  }
+}
