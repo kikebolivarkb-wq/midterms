@@ -105,6 +105,15 @@ def market_prob(outcomes, cands, side):
 
 
 def main():
+    try:
+        sys.stdout.reconfigure(line_buffering=True)  # mensajes en vivo en GitHub Actions
+    except Exception:  # noqa: BLE001
+        pass
+    t_start = time.monotonic()
+
+    def stage(msg):
+        print(f"[{(time.monotonic() - t_start) / 60:4.1f} min] {msg}", flush=True)
+
     ap = argparse.ArgumentParser()
     ap.add_argument("--offline", action="store_true")
     ap.add_argument("--today", default=None, help="AAAA-MM-DD, para pruebas")
@@ -117,6 +126,11 @@ def main():
     seed = load("seed_data.json")
     registry = load("sources.json")
 
+    if not args.offline:
+        import sources
+        # Presupuesto: las fuentes opcionales (mercados, medios, dinero) se cortan
+        # a los N minutos pase lo que pase. Las encuestas nunca se cortan.
+        sources.DEADLINE = t_start + 60 * cfg.get("time_budget_minutes", 12)
     today = dt.date.fromisoformat(args.today) if args.today else dt.date.today()
     election = dt.date.fromisoformat(cfg["election_date"])
     days_left = max((election - today).days, 0)
@@ -130,7 +144,7 @@ def main():
     fresh_538 = None
     if not args.offline:
         import sources
-        print("FiveThirtyEight: calificaciones de encuestadoras…")
+        stage("FiveThirtyEight: calificaciones de encuestadoras")
         fresh_538 = sources.fivethirtyeight_ratings_csv()
         if fresh_538 and fresh_538.startswith("pollster,"):
             with open(os.path.join(CFG_DIR, "external", "538_pollster_ratings.csv"), "w", encoding="utf-8") as f:
@@ -151,7 +165,7 @@ def main():
     if not args.offline:
         import sources
         import wiki_parse
-        print("VoteHub…")
+        stage("VoteHub: encuestas")
         gen = sources.votehub_polls("generic-ballot", "2026", since)
         if gen is not None:
             live = True
@@ -168,7 +182,7 @@ def main():
         house_districts = sources.votehub_polls("us-representative", None, since) or []
         status["votehub"] = {"ok": live, "records": len(gen or []) + len(sen) + len(house_districts)}
 
-        print("Wikipedia: página general del Senado…")
+        stage("Wikipedia: página general del Senado")
         n_wiki = 0
         html = sources.wikipedia_html("2026 United States Senate elections")
         if html:
@@ -177,7 +191,7 @@ def main():
         html_h = sources.wikipedia_html("2026 United States House of Representatives elections")
         if html_h and not wiki["generic_aggregates"]:
             wiki["generic_aggregates"] = wiki_parse.parse_generic_aggregates(html_h)
-        print("Wikipedia: 35 páginas de carreras…")
+        stage("Wikipedia: 35 páginas de carreras")
         for r in races:
             html = sources.wikipedia_html(r["wikipedia_page"])
             time.sleep(0.5)
@@ -283,7 +297,7 @@ def main():
     senate_market = house_market = None
     if not args.offline:
         import sources
-        print("Mercados: Polymarket, Kalshi, PredictIt…")
+        stage("Mercados: Polymarket, Kalshi, PredictIt")
         ok = {"polymarket": 0, "kalshi": 0, "predictit": 0}
         for r in races:
             side = "I" if (r["candidates"].get("I") and not r["candidates"].get("D")) else "D"
@@ -337,17 +351,20 @@ def main():
     sentiment, headlines, money = {}, {}, {}
     if not args.offline:
         import sources
-        print("GDELT, Google News y FEC (tarda unos minutos por los límites de uso)…")
+        stage("Medios y dinero: GDELT, Google News, FEC")
         pause = cfg["sentiment"]["seconds_between_calls"]
-        fec_key = os.environ.get(cfg["fec"]["api_key_env"], "DEMO_KEY")
+        fec_key = os.environ.get(cfg["fec"]["api_key_env"], "")  # sin clave propia se omite
         for r in races:
             avg = averages.get(r["id"])
             base = avg["avg"] if avg else (r["pres_2024_margin"] - cfg["national_pres_2024_margin"] + generic_margin)
             if abs(base) > cfg["sentiment"]["only_if_margin_under"]:
                 continue
+            if sources.DEADLINE and time.monotonic() > sources.DEADLINE:
+                warnings.add("Se agotó el tiempo para medios/dinero; se publicó sin esa capa en algunas carreras.")
+                break
             c = r["candidates"]
             non_r = c.get("D") or c.get("I")
-            if cfg["fec"]["enabled"]:
+            if cfg["fec"]["enabled"] and fec_key:
                 money[r["id"]] = sources.fec_senate(r["state"], fec_key)[:4]
             if cfg["sentiment"]["enabled"] and non_r and c.get("R"):
                 t_nr = sources.gdelt_tone(f'"{non_r}"', cfg["sentiment"]["gdelt_timespan"])
@@ -364,7 +381,8 @@ def main():
                 headlines[r["id"]] = sources.google_news(f'{r["name"]} Senate {non_r} {c["R"]}', 5)
         status["gdelt"] = {"ok": bool(sentiment), "records": len(sentiment)}
         status["google_news"] = {"ok": any(headlines.values()), "records": sum(len(v) for v in headlines.values())}
-        status["fec"] = {"ok": any(money.values()), "records": sum(len(v) for v in money.values())}
+        status["fec"] = ({"ok": any(money.values()), "records": sum(len(v) for v in money.values())}
+                         if fec_key else {"ok": False, "detail": "opcional: requiere clave gratuita FEC_API_KEY"})
 
     # ------------------------------------------------ 5. estimación por carrera
     out_races = []
@@ -479,6 +497,7 @@ def main():
     with open(hist_path, "w", encoding="utf-8") as f:
         json.dump(history[-400:], f, ensure_ascii=False, indent=1)
 
+    stage("Listo")
     s, h = sim["senate"], sim["house"]
     print(f"\nEncuestas: {len(merged)} únicas ({n_verified} verificadas en dos fuentes)")
     print(f"Voto genérico D{generic_margin:+.1f}")

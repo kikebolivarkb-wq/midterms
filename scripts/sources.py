@@ -20,31 +20,51 @@ import requests
 import os
 _REPO = os.environ.get("GITHUB_REPOSITORY", "local")
 UA = {"User-Agent": f"RadarElectoral/2.0 (https://github.com/{_REPO}; proyecto personal no comercial)"}
-TIMEOUT = 30
+TIMEOUT = 20
+
+# Fuentes imprescindibles: nunca se cortan por tiempo.
+ESSENTIAL = ("votehub.com", "wikipedia.org", "githubusercontent.com")
+_FAILS = {}        # fallos seguidos por servidor
+_SPENT = {}        # segundos gastados por servidor
+DEADLINE = None    # hora límite (time.monotonic) para las fuentes opcionales
+HOST_BUDGET = 150  # segundos máximos por servidor opcional en toda la ejecución
 
 
-_FAILS = {}  # fallos seguidos por servidor: si uno se cae, dejamos de insistir
+def _essential(host):
+    return any(h in host for h in ESSENTIAL)
 
 
-def _get(url, params=None, retries=3, as_json=True):
+def _get(url, params=None, retries=2, as_json=True):
+    """Descarga con freno de seguridad. Nunca espera más de unos segundos:
+    - un límite de uso (429) cuenta como fallo, igual que un error;
+    - tras 2 fallos seguidos, ese servidor se salta el resto de la ejecución;
+    - las fuentes opcionales tienen un presupuesto de tiempo propio y global."""
     host = urllib.parse.urlparse(url).netloc
-    if _FAILS.get(host, 0) >= 3:
+    if _FAILS.get(host, 0) >= 2:
         return None
+    if not _essential(host):
+        if DEADLINE is not None and time.monotonic() > DEADLINE:
+            return None
+        if _SPENT.get(host, 0) > HOST_BUDGET:
+            return None
     for attempt in range(retries):
+        t0 = time.monotonic()
         try:
             r = requests.get(url, params=params, headers=UA, timeout=TIMEOUT)
+            _SPENT[host] = _SPENT.get(host, 0) + time.monotonic() - t0
             if r.status_code == 429:
-                time.sleep(10 * (attempt + 1))
-                continue
+                raise requests.HTTPError("429 límite de uso")
             r.raise_for_status()
             _FAILS[host] = 0
             return r.json() if as_json else r.text
         except Exception as e:  # noqa: BLE001
+            _SPENT[host] = _SPENT.get(host, 0) + time.monotonic() - t0
             if attempt == retries - 1:
                 _FAILS[host] = _FAILS.get(host, 0) + 1
-                print(f"  [aviso] {url} falló: {str(e)[:120]}")
+                note = " (se omite en adelante)" if _FAILS[host] >= 2 else ""
+                print(f"  [aviso] {host} falló: {str(e)[:100]}{note}", flush=True)
                 return None
-            time.sleep(3 * (attempt + 1))
+            time.sleep(2)
     return None
 
 
