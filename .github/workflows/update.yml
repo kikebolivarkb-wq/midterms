@@ -18,7 +18,7 @@ concurrency:
 jobs:
   update-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 25
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -42,7 +42,7 @@ jobs:
       - name: Autocontrol de los datos nuevos
         id: selftest
         continue-on-error: true
-        run: python scripts/selftest.py
+        run: python -u scripts/update.py
 
       - name: Si algo falló, volver a los últimos datos buenos
         if: steps.update.outcome != 'success' || steps.selftest.outcome != 'success'
