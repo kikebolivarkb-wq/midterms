@@ -1,0 +1,78 @@
+name: Update
+
+# Se ejecuta solo cada 3 horas y también con el botón "Run workflow".
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # guardar los datos nuevos en el repositorio
+  pages: write      # publicar la página
+  id-token: write   # requerido por la publicación de GitHub Pages
+
+concurrency:
+  group: radar-update
+  cancel-in-progress: false
+
+jobs:
+  update-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Descargar datos y recalcular
+        id: update
+        continue-on-error: true
+        env:
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        run: python scripts/update.py
+
+      - name: Autocontrol de los datos nuevos
+        id: selftest
+        continue-on-error: true
+        run: python scripts/selftest.py
+
+      - name: Si algo falló, volver a los últimos datos buenos
+        if: steps.update.outcome != 'success' || steps.selftest.outcome != 'success'
+        run: |
+          echo "Se restauran los datos de la última actualización correcta."
+          git checkout -- docs/data || true
+
+      - name: Guardar datos en el repositorio
+        if: steps.update.outcome == 'success' && steps.selftest.outcome == 'success'
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add docs/data config/external
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Datos $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && break
+            sleep 10
+          done
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Publicar la página
+        id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Avisar si la actualización falló
+        if: steps.update.outcome != 'success' || steps.selftest.outcome != 'success'
+        run: |
+          echo "::error::La actualización falló. La página sigue publicada con los últimos datos buenos. Revisa el registro del paso 'Descargar datos y recalcular'."
+          exit 1
