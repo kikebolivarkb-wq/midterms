@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T13:07+00:00",
+ "generated_at": "2026-10-28T20:25+00:00",
  "as_of": "2026-10-28",
  "days_left": 6,
  "live_data": true,
@@ -282,9 +282,9 @@
  },
  "control": {
   "senate": {
-   "p_d_control": 0.7949,
-   "p_r_control": 0.1935,
-   "p_depends_on_independent": 0.0116,
+   "p_d_control": 0.7966,
+   "p_r_control": 0.1921,
+   "p_depends_on_independent": 0.0112,
    "d_seats_median": 52,
    "d_seats_mean": 52.3,
    "i_seats_mean": 0.31,
@@ -311,7 +311,7 @@
     },
     {
      "seats": 44,
-     "pct": 0.14
+     "pct": 0.13
     },
     {
      "seats": 45,
@@ -319,59 +319,59 @@
     },
     {
      "seats": 46,
-     "pct": 0.78
+     "pct": 0.765
     },
     {
      "seats": 47,
-     "pct": 1.615
+     "pct": 1.63
     },
     {
      "seats": 48,
-     "pct": 3.075
+     "pct": 3.035
     },
     {
      "seats": 49,
-     "pct": 5.18
+     "pct": 5.1
     },
     {
      "seats": 50,
-     "pct": 9.13
+     "pct": 9.085
     },
     {
      "seats": 51,
-     "pct": 13.055
+     "pct": 12.955
     },
     {
      "seats": 52,
-     "pct": 16.735
+     "pct": 16.825
     },
     {
      "seats": 53,
-     "pct": 18.33
+     "pct": 18.42
     },
     {
      "seats": 54,
-     "pct": 15.81
+     "pct": 15.83
     },
     {
      "seats": 55,
-     "pct": 10.215
+     "pct": 10.26
     },
     {
      "seats": 56,
-     "pct": 3.75
+     "pct": 3.78
     },
     {
      "seats": 57,
-     "pct": 1.0
+     "pct": 0.995
     },
     {
      "seats": 58,
-     "pct": 0.44
+     "pct": 0.435
     },
     {
      "seats": 59,
-     "pct": 0.1
+     "pct": 0.11
     },
     {
      "seats": 60,
@@ -380,7 +380,7 @@
    ]
   },
   "house": {
-   "p_d_control": 0.8794,
+   "p_d_control": 0.8809,
    "p_d_control_model_only": 0.8731,
    "d_seats_median": 230,
    "d_seats_80": [
@@ -921,7 +921,7 @@
  },
  "markets": {
   "senate_d": 0.665,
-  "house_d": 0.915
+  "house_d": 0.925
  },
  "races": [
   {
@@ -942,16 +942,16 @@
     "prior": -5.27,
     "structural": -9.0,
     "expert": -1.54,
-    "poll_avg": 1.37,
+    "poll_avg": 1.38,
     "poll_weight": 0.83,
-    "mean": 0.27,
+    "mean": 0.28,
     "race_sd": 3.52,
     "nat_sd": 2.24,
     "total_sd": 4.17,
-    "p_model": 0.5262
+    "p_model": 0.527
    },
    "markets": {
-    "Polymarket": 0.395,
+    "Polymarket": 0.4221,
     "Kalshi": 0.396,
     "PredictIt": 0.0784
    },
@@ -960,21 +960,21 @@
     "Kalshi": "https://kalshi.com/markets/senateks",
     "PredictIt": "https://www.predictit.org/markets/detail/8390/Which-party-will-win-the-2026-US-Senate-election-in-Arkansas"
    },
-   "p_market": 0.2898,
-   "p_final": 0.4908,
+   "p_market": 0.2989,
+   "p_final": 0.4928,
    "sentiment": null,
    "headlines": [
-    {
-     "title": "‘Control of the Senate goes through Kansas’: Marshall and Hamilton clash at last debate - KCUR",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeGVEcjRIbExrR0ZxWGVZeWVESkQtT3FiYjkzenFwVGU3cG9rZ0tTSGdVMHZKNU51c1dpQXBGSWUyanZDUTVTcVRCZlBZSGY2c2RUdEx1eC1pRTdoNFJlVEI0OVNxVEhGbW1yS01CalV2YmlIWWJiMU5Pd01nR0VsNmZ4RWlvOFhzMGNFTEZTZWh1TDRqbDJXdGhkdlhjdGtJNmEwV2NoNUFnTU9SOHdPeW1LeFRTWXdkNDZqVHpYM3A4TzRQUnVkVWs5SHRYdS14UjFKSUd0TFBmSDVPdDI1M2NVbmQ?oc=5",
-     "source": "KCUR",
-     "date": "Thu, 22 Oct 2026 02:45:00 GMT"
-    },
     {
      "title": "Roger Marshall and Adam Hamilton face off in fiery final Kansas Senate debate - NBC News",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdmhOTktCaFMtQ3pSRm5QUXNjZkc1MzdwMC1YXzllSVpUUGlZc0tPVXhJSGwzSzZYUHJna1liNDh3c3A5Q0RHZHJGLWhvYW5yaExVcTVRS2pKSFpONkhtSW4ya2VIdGx3TW5qdEZHYzhLZE04RWpIcV92S0Ztd2FOUHFjS2h6VDdmRktPVWRtbWhzWEJxRXNKWVRjNGpBajBmVzBXdUpJQTVZWnhsV1RFUllnaTVWNUNOaVdmUUQxTkVsQQ?oc=5",
      "source": "NBC News",
      "date": "Thu, 22 Oct 2026 01:53:00 GMT"
+    },
+    {
+     "title": "‘Control of the Senate goes through Kansas’: Marshall and Hamilton clash at last debate - KCUR",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeGVEcjRIbExrR0ZxWGVZeWVESkQtT3FiYjkzenFwVGU3cG9rZ0tTSGdVMHZKNU51c1dpQXBGSWUyanZDUTVTcVRCZlBZSGY2c2RUdEx1eC1pRTdoNFJlVEI0OVNxVEhGbW1yS01CalV2YmlIWWJiMU5Pd01nR0VsNmZ4RWlvOFhzMGNFTEZTZWh1TDRqbDJXdGhkdlhjdGtJNmEwV2NoNUFnTU9SOHdPeW1LeFRTWXdkNDZqVHpYM3A4TzRQUnVkVWs5SHRYdS14UjFKSUd0TFBmSDVPdDI1M2NVbmQ?oc=5",
+     "source": "KCUR",
+     "date": "Thu, 22 Oct 2026 02:45:00 GMT"
     },
     {
      "title": "Kansas Sen. Roger Marshall in debate blames Ukraine war, not Iran war, for high diesel prices - PBS",
@@ -1197,7 +1197,7 @@
      "n": 600,
      "population": "lv",
      "margin": 5.0,
-     "adjusted": 4.1,
+     "adjusted": 4.2,
      "weight": 0.072,
      "tier": "538 1.2/3",
      "partisan": "DEM",
@@ -1344,7 +1344,7 @@
      "n": 750,
      "population": "lv",
      "margin": 2.0,
-     "adjusted": 2.7,
+     "adjusted": 2.8,
      "weight": 0.124,
      "tier": "538 2.9/3",
      "partisan": null,
@@ -1518,7 +1518,7 @@
    ],
    "n_polls": 14,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
-   "p_sim": 0.4874,
+   "p_sim": 0.4894,
    "rating": "Empate técnico"
   },
   {
@@ -1539,26 +1539,26 @@
     "prior": -2.53,
     "structural": -4.1,
     "expert": -0.96,
-    "poll_avg": 0.76,
+    "poll_avg": 0.77,
     "poll_weight": 0.94,
-    "mean": 0.55,
+    "mean": 0.56,
     "race_sd": 3.2,
     "nat_sd": 2.24,
     "total_sd": 3.9,
-    "p_model": 0.5565
+    "p_model": 0.5575
    },
    "markets": {
-    "Polymarket": 0.435,
-    "Kalshi": 0.4356,
-    "PredictIt": 0.4356
+    "Polymarket": 0.445,
+    "Kalshi": 0.4554,
+    "PredictIt": 0.4141
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/iowa-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senateia",
     "PredictIt": "https://www.predictit.org/markets/detail/8274/Which-party-will-win-the-2026-US-Senate-election-in-Iowa"
    },
-   "p_market": 0.4354,
-   "p_final": 0.5384,
+   "p_market": 0.4382,
+   "p_final": 0.5396,
    "sentiment": null,
    "headlines": [
     {
@@ -1586,10 +1586,10 @@
      "date": "Tue, 27 Oct 2026 01:40:00 GMT"
     },
     {
-     "title": "Ashley Hinson shows Republicans' midterm balancing act as Trump comes to boost Iowa turnout - AP News",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaG5uUGpMN2p0bXJwZm5OdkN6MTUyOEhrb0VoTU9SS2dXQ2FyTXNONVV3QTg0T0Y5OEVQOG1QU3VxWjFzNzVkNExoZHF6WjVEV0RpakFueGxiWGNQYmk4amQ2VWNBXzdKdFRwZnJoLVd1OHE4LVlEc083OFdlUFYtRk1WSF95Q3NqdnNELVNYOE9fdlhldDlacjhXdlRma2Y0NGt1cA?oc=5",
-     "source": "AP News",
-     "date": "Fri, 23 Oct 2026 02:18:00 GMT"
+     "title": "Trump rallying with Senate hopeful Ashley Hinson in Iowa as she pledges to push back on White House - CBS News",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVXdtbU1QTHFmZjg1Rm5lRXdFVF96MjJGZUJHVHpyMVlhUlAyR29MTkRxaEU2aGFvVV9pbWFRMzJnVGNyOFFSNnBwSWtFRmNSU25naG9OT3ExWTJvLTQ3Tl9tbDlhRWkzemx6MUVJQThYUGhnSDlfZE82eFNNXzhsenVfNWs?oc=5",
+     "source": "CBS News",
+     "date": "Thu, 22 Oct 2026 10:00:13 GMT"
     }
    ],
    "money": [],
@@ -2068,7 +2068,7 @@
      "n": 650,
      "population": "lv",
      "margin": -1.6,
-     "adjusted": -0.9,
+     "adjusted": -0.8,
      "weight": 0.18,
      "tier": "538 2.9/3",
      "partisan": null,
@@ -2156,7 +2156,7 @@
      "n": 500,
      "population": "lv",
      "margin": 4.0,
-     "adjusted": 3.9,
+     "adjusted": 4.0,
      "weight": 0.158,
      "tier": "538 2.9/3",
      "partisan": null,
@@ -2297,7 +2297,7 @@
    ],
    "n_polls": 35,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
-   "p_sim": 0.5476,
+   "p_sim": 0.5489,
    "rating": "Empate técnico"
   },
   {
@@ -2318,39 +2318,45 @@
     "prior": -7.35,
     "structural": -10.7,
     "expert": -4.0,
-    "poll_avg": -0.02,
+    "poll_avg": -0.01,
     "poll_weight": 0.89,
-    "mean": -0.86,
+    "mean": -0.85,
     "race_sd": 3.62,
     "nat_sd": 2.24,
     "total_sd": 4.26,
-    "p_model": 0.4197
+    "p_model": 0.4205
    },
    "markets": {
-    "Polymarket": 0.2587,
-    "Kalshi": 0.2647,
-    "PredictIt": 0.3182
+    "Polymarket": 0.2764,
+    "Kalshi": 0.2772,
+    "PredictIt": 0.2451
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/south-carolina-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senatesc",
     "PredictIt": "https://www.predictit.org/markets/detail/8375/Which-party-will-win-the-2026-US-Senate-election-in-South-Carolina"
    },
-   "p_market": 0.2805,
-   "p_final": 0.3989,
+   "p_market": 0.2662,
+   "p_final": 0.3974,
    "sentiment": null,
    "headlines": [
     {
      "title": "The Senate Race in Heavily Republican South Carolina is a Tossup, Poll Finds - The New York Times",
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTkc5RE1yWGYyOHR2SlE0dC1kS2pIb2FjOGtCRFZXT1QxYndhTTEzRzAzdmFRYzVwNUYySldpdVo0MTFSRk5LNFJWdHlRMWxtTzhwNjZkaHRxYkpkNjQ0dnFUV1psSlpGei1CZDlrRXhzVVVSRWNNTTZwaFFkejNYRDBLaThCdU0?oc=5",
      "source": "The New York Times",
-     "date": "Wed, 28 Oct 2026 12:56:05 GMT"
+     "date": "Wed, 28 Oct 2026 15:35:13 GMT"
     },
     {
      "title": "South Carolina poll shows Andrews and Sen. Graham in dead heat ahead of Election Day - WCIV",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSEhmX3ZUdEVybnJaaVJPWFNrWnlGVjFybDF2QUgzUTlFZHF5ako4TV9XWmZlcV9ocG8xX1E0VU5HaGQzSW11Y1J3dFVxdFo2dVdlV19KTUhyME5wcGIzV0FwWEh5YUt5OVNJU3dwdlhJXzRoZXRNMEtzTDZCMFlUY2FSdlRrTzBuamN1OGdHdGlrNnZUcDE0bjF4ZkFrTU9EZmdDbzJnTU0weWx4SVdYVnZFa3Iydw?oc=5",
      "source": "WCIV",
-     "date": "Tue, 27 Oct 2026 19:57:14 GMT"
+     "date": "Wed, 28 Oct 2026 01:52:04 GMT"
+    },
+    {
+     "title": "South Carolina Senate race deadlocked as Annie Andrews and Darline Graham tie in new poll - WJCL",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMkFZYm5OZG9MRlJGZ1ktX0txTEpIU21rWUJ5ckdTc3NXdGZBY3h2Q3IzZmFIMmwyN21tWmFHZHNRdkRWblJPNk1va1FCWTVkZ1VJaXM5NlVxN3hWX1VxWHlYWm90eDJlanZXS3hxdEJGMDczVkxVM24yR2JkRVNBdENxWXZ5OUtf?oc=5",
+     "source": "WJCL",
+     "date": "Wed, 28 Oct 2026 17:01:00 GMT"
     },
     {
      "title": "Where the SC Senate race between Andrews and Graham stands with one week to go - The State",
@@ -2363,12 +2369,6 @@
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmFqTU41aE5IRmJ6TXNMUi1EbGg2R2VNcDljdWxjS1l3dC10UTRQVmU3VzJib0tDdVZxQ0pJMGxKVENmanhrbXJYeFo5Z29lTWdRWHJhcUlvNE94RE05RmM3RmJaQ2c4WWFucXZKMlpjSFhNQ3ctNGx5OTNvdFVIeXcwNGJDaE1XNHdTQjJ0SmxmRGNrQjVqM2IySFFuam01VDRpdFFCWDMwYjRyeldobg?oc=5",
      "source": "Al Jazeera",
      "date": "Wed, 21 Oct 2026 21:17:52 GMT"
-    },
-    {
-     "title": "Fact-checking South Carolina U.S. Senate race ads as Graham, Andrews trade attacks - WPDE",
-     "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNWXdiUkVNRVZod19LaHlXVERZYng4bnBNNDE2MGpKUF9zNmtpd0otSVhyYmE5SWIzVnAzTEMxTWxZZFpEeGk1SHgtWW1yN3FwVmpfUmRaRWszeUxBOG56ck1paFdHbzNuTnZqVnZDNE9ya1k3TllqdjBUOUlPN1RJb28yVGJDTGtEci1ucGdQSFprazlZMjNqZE5nMEZXYjhPWllQTkJ6eVhMRGVQZmwzTE40Z1BLM0xtVHl1YUxoTEs2MFh1M01pOEpmUlozSWJJUnJIc0RDOGZUZzFqVmlfVEdRaTltZnF0aGlZM2M3OHVieVUtN3Mzc0ZGbGZGMUNCQlJ3czl5NHktTDNJMjU1NmVVQlVTWXdTTDBjLXI0U0hkcFFTa2pycE50YUVkMFBkVExNWXVNVUNiOExmMC02YUU1SENrTGRNOEk2T3o2c1BWYmFwbGRZY2VDeHRWQlVOb2Q0RDY4SFhMeUN6SVJpWUQxOFV6QQ?oc=5",
-     "source": "WPDE",
-     "date": "Mon, 26 Oct 2026 15:25:11 GMT"
     }
    ],
    "money": [],
@@ -2449,28 +2449,28 @@
    "aggregates": [
     {
      "source": "270toWin",
-     "margin": -1.6,
-     "updated": "October 27, 2026"
+     "margin": -1.8,
+     "updated": "October 28, 2026"
     },
     {
      "source": "Decision Desk HQ",
-     "margin": -1.3,
-     "updated": "October 27, 2026"
+     "margin": -1.4,
+     "updated": "October 28, 2026"
     },
     {
      "source": "FiftyPlusOne",
      "margin": -0.8,
-     "updated": "October 27, 2026"
+     "updated": "October 28, 2026"
     },
     {
      "source": "RealClearPolitics",
-     "margin": -2.7,
-     "updated": "October 19, 2026"
+     "margin": -2.4,
+     "updated": "October 28, 2026"
     },
     {
      "source": "Silver Bulletin",
      "margin": -1.5,
-     "updated": "October 26, 2026"
+     "updated": "October 28, 2026"
     }
    ],
    "polls": [
@@ -2925,7 +2925,7 @@
    ],
    "n_polls": 15,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina",
-   "p_sim": 0.3871,
+   "p_sim": 0.386,
    "rating": "Empate técnico"
   },
   {
@@ -2946,28 +2946,40 @@
     "prior": -2.29,
     "structural": -6.0,
     "expert": 1.43,
-    "poll_avg": 2.45,
+    "poll_avg": 2.46,
     "poll_weight": 0.71,
     "mean": 1.09,
     "race_sd": 3.92,
     "nat_sd": 2.24,
     "total_sd": 4.51,
-    "p_model": 0.5952
+    "p_model": 0.5958
    },
    "markets": {
-    "Polymarket": 0.745,
-    "Kalshi": 0.73,
-    "PredictIt": 0.7327
+    "Polymarket": 0.725,
+    "Kalshi": 0.7172,
+    "PredictIt": 0.7071
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/alaska-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senateak",
     "PredictIt": "https://www.predictit.org/markets/detail/8271/Which-party-will-win-the-2026-US-Senate-election-in-Alaska"
    },
-   "p_market": 0.7359,
-   "p_final": 0.6163,
+   "p_market": 0.7164,
+   "p_final": 0.6139,
    "sentiment": null,
    "headlines": [
+    {
+     "title": "Inside Democrats’ Secret Effort to Stack Alaska’s Ballot - The New York Times",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXZoZnd5TWlac1BNQkoyZGw1UHR6RkphN3J4S3E2bkZXbFN4SFhKcWdGQkhyNXJfblNQWTJkbXBxeHZZSTBoa0RLc18xSnpxX3dJR1FiYm5hdTdER0FWVEJRRGg3T0Nwek41ZmJFX3ZFdUtjeV83T0YzUDVvN3BhZEU3d2hocWx5ZUZQdGx0SEx4Y1hu?oc=5",
+     "source": "The New York Times",
+     "date": "Wed, 28 Oct 2026 14:37:47 GMT"
+    },
+    {
+     "title": "Democrat Mary Peltola’s campaign reportedly recruited second Dan Sullivan in Alaska Senate race - The Guardian",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM0xJc185UFB1UUUzeGEwcHd1R0NMUFlsaVo2RnZlaDl1YTRuSFoxV0dOckRaXzFXSUduNzRYenFiRnRKRWRweUF4Y2lla2FSZ2xUMVNVS1FvM185ZkR0WUJSbEkwdDlVc2t1VjRIenhjSFBNMzlaeHd3c1lIbWh2c3FhRF8wLVhsY1A5eWVXamU?oc=5",
+     "source": "The Guardian",
+     "date": "Wed, 28 Oct 2026 19:26:00 GMT"
+    },
     {
      "title": "Trump administration sues to block Alaska’s US Senate election result if Peltola wins - Alaska Beacon",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdk9GRExLZ2ZYOXAtcUxsekd5eWU4MS1BVG01Y2FNTEQxSXdMRGZGODRScFJSV25EeFNWMUNRS2dqNjhJaldSNVZQbG5mNjdNOTZwTF9YdWw2eGFXeEp3QVNyeThDTFBSU2xJZFFGVjE1SzlybnZ2Q3B4Qk12VmRFZ2hTRmlaQ0duajBkUl9GQXJxU1JpNXRmaDdLRFc0dGpQUzNZcFhObVBvSGdBOGc2NXNlYWMwV1FwSXJhUzBn?oc=5",
@@ -2981,22 +2993,10 @@
      "date": "Sat, 24 Oct 2026 16:36:58 GMT"
     },
     {
-     "title": "Trump's administration sues to block a possible Democratic win in the Alaska U.S. Senate race - Alaska Public Media",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRm1XQ2JvQ3BmdmNrMFFvckdyNlRIdGs4NGFnR2pJdW5oeFplV2RtdmhuMFFnLWZCbzY3eGJ5UjVEem1OZEdkNzlkenppcmpFeGRnYTcyQTlwZ0xzdnVPNFFXeXlhYmtoZnRoODYyelMtNDA1bFpsRThyX0JXM3JZWW92MkNDaGxGZHZXLUhNX2NSc0tieWtXTjRqNE9TT0NWWGt4RkkyYXBDckd4eEFvSEtZOFNPQmdSNUZOMVQtVmZHc3NzOWx0SVpTN2FrZm1TdGFTZWNxOHBsdXNWRUVRV0RHZVBDdw?oc=5",
-     "source": "Alaska Public Media",
-     "date": "Fri, 23 Oct 2026 17:44:00 GMT"
-    },
-    {
-     "title": "Democrats ask judge to dismiss Trump administration’s challenge to Alaska Senate race - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcFRtY2d0ODhsOVMxck1mTTNfQVZYQWpRWUw4cDlGOHdfOERLSXdscmdVYlVRaERsM1RXWGNUeUFsMjlYRlY3a1RDNEF6cDRBeUZUWm1TcjRFYTk4cXY2UWd3T0hxM3VGdTZvZllEUDNFSF8yU3psdUhPWDBWOFdCTDlZX3NNcWNnc1EwMFhHZmFsc2hyeFlxYUtDcHR1LTZkZGkzb0R5MXpGZGNLYko0eTVPM2l2aVNrcV9vREhHelFsRHI0bW00?oc=5",
-     "source": "NBC News",
-     "date": "Sun, 25 Oct 2026 03:45:00 GMT"
-    },
-    {
-     "title": "Judge fast-tracks DOJ's Alaska Senate lawsuit as Peltola seeks dismissal before Election Day - CNBC",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYW9GMHBKdVMzVnIwMFJjLVY4TEtKdnI5Z0RjcFdndXc2T0o2Tjc4TWRvNEk5OENpOE9zSzIwNVdoUTFvVG92amRuR3hLMm16Q0pjbUNxNUtJWGFxTzZlYlZMVURTeG1NNXZ6a05vakJHaTF4aE8wZFdzd24zT3lpMHlRQk5keWJ1Snh4dlFZdldGUdIBlwFBVV95cUxNTU45U2d0ZUFyc2dTSFdDOU92N3hEUDJvbDZ3ckJfZGlfUkx3ZGVGbDUxcDI3VjgzNVlTbWc0TXg0bDFjVFM4LWc0MXJpZHVWMjY1U1QwWTdsMGpDLUNkR3k3ZTd2V2hERVFKajNyNUNVdUFOS2ZxWldZWVBLTlZxTXV6c3dXcS1QY0N3NlZncEx3RmVCQURB?oc=5",
+     "title": "Peltola campaign aides, DSCC officials helped recruit second Dan Sullivan in Alaska race: NYT - CNBC",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNczdnZHF0TFlObEpKcThKUzB5WEFucnJ2RlFaS1FTdjlManRyVEdFblE0MVJwMnYycTRXNG5EQ0lvaUhjc0FqVkdtN3pSRFpuRWNETDg1UEpqQktrX1liSmhkcHVFTFNpY18tdHM2aktDYlNFU1R3UEtmN3B3OFdDUm45QzNKQUcxTTc1YnV5VFFZa3VfYlg1WFYxTUxYQdIBowFBVV95cUxPN29BMWpjTXhibmcxSl9NaUlVRVBGV0QwbWNsMlJzUS1nUzhxMFNhbDRBLS1qa3pVNWZuS25ZX1lOMF9va0RoMGtTM3NJVzRGckFKT1Y2MFZxTHFfZmRuazg1MVllemVVZUpQUnl1OVVwUTNWVnktRS1VaHFQc0xQRHRIeEZDVTVnWG9WbjhiZWtockZ1bVlCaHpKc0w2MHIzc1pZ?oc=5",
      "source": "CNBC",
-     "date": "Mon, 26 Oct 2026 14:19:30 GMT"
+     "date": "Wed, 28 Oct 2026 17:38:12 GMT"
     }
    ],
    "money": [],
@@ -3301,7 +3301,7 @@
    ],
    "n_polls": 7,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
-   "p_sim": 0.6365,
+   "p_sim": 0.6341,
    "rating": "Empate técnico"
   },
   {
@@ -3319,29 +3319,29 @@
    "side": "I",
    "pres_2024_margin": -20.5,
    "est": {
-    "prior": -10.87,
+    "prior": -11.03,
     "structural": -16.4,
-    "expert": -5.33,
-    "poll_avg": -0.55,
+    "expert": -5.67,
+    "poll_avg": -0.54,
     "poll_weight": 0.84,
-    "mean": -2.19,
+    "mean": -2.21,
     "race_sd": 3.56,
     "nat_sd": 2.24,
     "total_sd": 4.21,
-    "p_model": 0.3013
+    "p_model": 0.2998
    },
    "markets": {
-    "Polymarket": 0.2814,
+    "Polymarket": 0.2843,
     "Kalshi": 0.297,
-    "PredictIt": 0.3048
+    "PredictIt": 0.2727
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/nebraska-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senatene",
     "PredictIt": "https://www.predictit.org/markets/detail/8172/Which-party-will-win-the-2026-US-Senate-election-in-Nebraska"
    },
-   "p_market": 0.2944,
-   "p_final": 0.3002,
+   "p_market": 0.2847,
+   "p_final": 0.2975,
    "sentiment": null,
    "headlines": [
     {
@@ -3363,10 +3363,10 @@
      "date": "Thu, 22 Oct 2026 09:08:06 GMT"
     },
     {
-     "title": "Who is Dan Osborn? Meet the Nebraska independent who could decide which party controls the Senate - Yahoo",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcWR0QXRBMHg4R2F5WFFVdlhxU3ctWXVrNDhETXE3bTEzaHNyRkpwOXpNVlZQYzVFNGN2b2I2YVU0X21LM1lacDdmdDQ5X0VQNkl5WEJKMDEtbGZqb3huSDVuNnpBVWkxM0c2ZFp0ei1hRWR5Tzg5aGRQSVRaY05LTG96OW9oM3V5Mk5Qclh4aW5mNE5kWmxVaXREM3Z4a1owbXAzQnU0VUs3QlB4RHdTOV9YeU5UR3VfTVZXUjBuOTlONXRmTGNTa1ZJNW9HaDA3bWJJbUkxMGhFWXBVRnVLYllPZmlsT0tkbTcw?oc=5",
-     "source": "Yahoo",
-     "date": "Wed, 21 Oct 2026 18:02:11 GMT"
+     "title": "Independent Dan Osborn outlines priorities in Nebraska U.S. Senate race - Lincoln Journal Star",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUGh0NEs1R0N5azQ3ZGhiaDU4bzlYT1dfSmJZVUl3ZEhqTE05VFlnM2FnU2cwMEh6NVJGMElPRFh4aHJqQzZQOXdjSmtLMlJwUGpqSGpHNWV1b2J3NGpHaERCczhyUTI5Y19MNGo2UzBnWjRxaE5LN1M2aW5OcXZtSTVmQ1RseWhkVzVDS3dvX3A4djNIVDZOS0wtSzlkOHlIZEh5dzBJcGlEWDhBV293LUFKNTY4UmpmZ29UcXFMRGI?oc=5",
+     "source": "Lincoln Journal Star",
+     "date": "Wed, 28 Oct 2026 12:25:00 GMT"
     },
     {
      "title": "Groups use lesser-known names to boost Ricketts, Osborn in Nebraska Senate race - Omaha World-Herald",
@@ -3391,9 +3391,9 @@
     },
     {
      "source": "The Economist",
-     "rating": "Lean R",
-     "as_of": "October 21, 2026",
-     "points": -4.0
+     "rating": "Likely R",
+     "as_of": "October 28, 2026",
+     "points": -8.0
     },
     {
      "source": "FiftyPlusOne",
@@ -3515,7 +3515,7 @@
      "n": 800,
      "population": "lv",
      "margin": 1.0,
-     "adjusted": 0.1,
+     "adjusted": 0.2,
      "weight": 0.204,
      "tier": "538 1.2/3",
      "partisan": "DEM",
@@ -3799,7 +3799,7 @@
    ],
    "n_polls": 11,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska",
-   "p_sim": 0.2763,
+   "p_sim": 0.2737,
    "rating": "Inclinado R"
   },
   {
@@ -3820,28 +3820,34 @@
     "prior": -2.01,
     "structural": -4.6,
     "expert": 0.57,
-    "poll_avg": 2.89,
+    "poll_avg": 3.04,
     "poll_weight": 0.97,
-    "mean": 2.73,
+    "mean": 2.88,
     "race_sd": 3.12,
     "nat_sd": 2.24,
     "total_sd": 3.84,
-    "p_model": 0.761
+    "p_model": 0.7731
    },
    "markets": {
-    "Polymarket": 0.675,
-    "Kalshi": 0.6535,
-    "PredictIt": 0.66
+    "Polymarket": 0.685,
+    "Kalshi": 0.67,
+    "PredictIt": 0.6327
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/texas-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senatetx",
     "PredictIt": "https://www.predictit.org/markets/detail/8173/Which-party-will-win-the-2026-US-Senate-election-in-Texas"
    },
-   "p_market": 0.6628,
-   "p_final": 0.7463,
+   "p_market": 0.6626,
+   "p_final": 0.7565,
    "sentiment": null,
    "headlines": [
+    {
+     "title": "Fox News Poll: Texas Senate race galloping toward a photo finish - Fox News",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTTBuV1lycmk2czl4d1haYVdvc3lFTkNsZnFiTXBXUThJUUhKU2ZrNmdaN29xaU9lYWFsVkhKc2tSU19pSXF1dmk2cHNEaExBSzlMQldFLVlSMnR5eUZ0WFRLY015Zko3Q25BZC1wQ1p5bzItcHlkSEp2YXpjM2RWSlRPSUVTVW9aeEFTLXNTaVBWOW9YYkFLa2RR0gGfAUFVX3lxTFBuSFV4c3V3S3FLVkprT3VyUHlMU2JscUpNaTN5VmZJLW5PU0sxMzJmX0lYWnZ5UE5mVXc4ZTF4elItc2xjYmFoYTRyb3JsdFEyblRfVlNNZTFNaklsdnVEUTVlUU94QzQzNDFLVVlGd00tbTRWRVZnbHJtS2luLVl0N3JRUzhhS0NKbkFXLUNWNWUtQkc3aXJya0xXLUlSbw?oc=5",
+     "source": "Fox News",
+     "date": "Wed, 21 Oct 2026 22:00:03 GMT"
+    },
     {
      "title": "Talarico presses anticorruption agenda, targeting both Paxton and Elon Musk - Houston Public Media",
      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSHZ6ZlpySHV3OG1QYngtUVdWbklvdjRBVG5uM0NFbEVvS1A0Nmk2UnhrMWFYd3JMRWtITjdQY0c4RlI0RUhZemhqdUxtbDNCUXRCbDZ6Z0hOcGtQbXZaZG5rQVVUMDgxTFd0RUVUTWVtSVRQckVTTV83ZExBbUpveE5fV1loajFtN2VmQXRoY3lZRHA0OXdPM1dRNnY2cDN0T1lOTDZ2Um5iUUlYa3hYbkVRRkR0X3NUMklnNktBWHFzenZSMHhnVkFEU05oWXVTWXN2Nl9EY2ZZWTBweHlqZ2k2Wi10dkpvcFhndEZKaWxlMmE2N3B2edIBgAJBVV95cUxQRThaNFdzVTd3Y1VsbXhJMnh1Yi1PNnNVVF9fdXIxYndPaDlzUGtTZUR1aE9qdFA2U0NhVkdHUV96dEdta3BlWENpS3k4MENYaV9jZUcwdmZVQnc5alBYVUlESjBTRnRwN0VhWmw0V0pHd2JSYUhkQ29mblh3ZWh3M0VhN202dGFhYWdOOWY5S1lNay1jVU9qbUFDUmxGNjhCQ3QtT3FHcFpMdV9ISmM2WElkQW5aQXBwOTlHc0xuTEhEV09EQVpZUklhZ2tqM2dVb2tyN2JiMC1XeHN5MGRfZ3hLanMwTGNzTV9FeGJwb2lmc0E0Q0REYTU3VGxQamtf?oc=5",
@@ -3861,16 +3867,10 @@
      "date": "Mon, 26 Oct 2026 16:00:00 GMT"
     },
     {
-     "title": "Talarico zeroes in on Elon Musk amid high-stakes Senate contest in Texas - Spectrum News",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON2dURzdETVN2WHJ1UFVFdVJwZWpfdVNKUTExR0NjNkF0WUN0NndRU0dKbV9sZ1lpWkpBcjAyN2FsMURycGxHRWVzZXZCOUZLTTV0MEtBb1dtalRacnNoazJmMDJ0UTZiQWF6cmNtVE93U0RoUG5lUUlmMURvLXI5Y2tDMlo4WDNJWkZhUWtSQm5CRUZWdE0talgwTWppVDR3eVFhbnVCbWF2U1hBX2VRQmcySnctaXVMRTZfRXpqaw?oc=5",
-     "source": "Spectrum News",
-     "date": "Fri, 23 Oct 2026 16:30:00 GMT"
-    },
-    {
-     "title": "Talarico walks back comments on religion and gender after Paxton's win - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTlBjOGxUYUZyTnFyci04a1NVcWZMb1QwMmlXOGdxaThhd0dyRkM3cENLOGhxbUxQWDZadmtWR2ZVNDNMQVJfNG1QR2cyS2JkOHczdHR1SV9KMy1SaUJrZGdPXzAzUW92a1B1N2E1TkxoVWJHbzNqVmhBLW04NkQ1ei1xTy15R1pydjhnV1EwcEtWTlFDUlJvU2hmaU1BM01lWVBGWGhGY1Jpd9IBrwFBVV95cUxNR3ZxR0lCd3piTnlxTDFOQzZHQktKYldfSWV1dmNVcHloUlNfY28ycHR1Y054dnQxSXVDaTVUYU5pWXNadTFuak5OLTRMNWY5QXBYVW5HWmFvTGFPclU4dG9lR0tRTDgyZXRDTGVfRjNRRkdGbjhSeTRVTjZ2Vm1QbHVpUUpqam9MeUlfMXdvbFluOURGWmdidU5OcXA2X3hWQjE5dDhZb0VkcnFvUWFr?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos",
-     "date": "Tue, 27 Oct 2026 06:09:38 GMT"
+     "title": "Talarico leads Paxton in new poll as early voting continues in Texas - FOX 7 Austin",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWFN1X1NKZUpSTW51cHg5Tk1SV2ZFOURNWFpjcVpWYUpjc2RQb1JhX2ZOT3ZPanEtNE9CNkotdzdEeXhDa3pldTRqaE5Ucm9qRDR0N3BILTFBcjZvZlliWHdQaUtpOTlUUjJwaFRoZTNSQVFJZVA5MjFDTEFCUENRNEFMY28ybVROVDRQYXIxeG9zZ1NxLUE?oc=5",
+     "source": "FOX 7 Austin",
+     "date": "Fri, 23 Oct 2026 16:18:49 GMT"
     }
    ],
    "money": [],
@@ -3993,6 +3993,35 @@
     }
    ],
    "polls": [
+    {
+     "pollster": "YouGov Blue",
+     "end_date": "2026-10-26",
+     "n": 1000,
+     "population": "rv",
+     "margin": 8.0,
+     "adjusted": 7.2,
+     "weight": 0.29,
+     "tier": "Manual A",
+     "partisan": "DEM",
+     "url": "",
+     "answers": [
+      {
+       "choice": "James Talarico",
+       "pct": 51.0,
+       "party": "D"
+      },
+      {
+       "choice": "Ken Paxton",
+       "pct": 43.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
     {
      "pollster": "ActiVote",
      "end_date": "2026-10-21",
@@ -4143,7 +4172,7 @@
      "n": 509,
      "population": "lv",
      "margin": 3.0,
-     "adjusted": 2.9,
+     "adjusted": 3.0,
      "weight": 0.139,
      "tier": "Sin calificación",
      "partisan": null,
@@ -4172,7 +4201,7 @@
      "n": 509,
      "population": "lv",
      "margin": 5.0,
-     "adjusted": 4.9,
+     "adjusted": 5.0,
      "weight": 0.139,
      "tier": "Sin calificación",
      "partisan": null,
@@ -4201,7 +4230,7 @@
      "n": 517,
      "population": "rv",
      "margin": 1.0,
-     "adjusted": 0.9,
+     "adjusted": 1.0,
      "weight": 0.126,
      "tier": "Sin calificación",
      "partisan": null,
@@ -4258,7 +4287,7 @@
      "n": 1000,
      "population": "lv",
      "margin": 2.0,
-     "adjusted": 2.7,
+     "adjusted": 2.8,
      "weight": 0.425,
      "tier": "538 2.9/3",
      "partisan": null,
@@ -4351,7 +4380,7 @@
      "n": 969,
      "population": "lv",
      "margin": 4.0,
-     "adjusted": 3.2,
+     "adjusted": 3.3,
      "weight": 0.228,
      "tier": "538 1.4/3",
      "partisan": null,
@@ -4545,40 +4574,11 @@
      ],
      "verified": false,
      "side": "D"
-    },
-    {
-     "pollster": "GS Strategy Group/ New River Strategies",
-     "end_date": "2026-10-13",
-     "n": 934,
-     "population": "lv",
-     "margin": 5.0,
-     "adjusted": 4.2,
-     "weight": 0.292,
-     "tier": "538 1.3/3",
-     "partisan": null,
-     "url": "",
-     "answers": [
-      {
-       "choice": "James Talarico",
-       "pct": 49.0,
-       "party": "D"
-      },
-      {
-       "choice": "Ken Paxton",
-       "pct": 44.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
     }
    ],
-   "n_polls": 62,
+   "n_polls": 63,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
-   "p_sim": 0.766,
+   "p_sim": 0.7761,
    "rating": "Inclinado D"
   },
   {
@@ -4599,16 +4599,16 @@
     "prior": 7.71,
     "structural": 14.0,
     "expert": 1.43,
-    "poll_avg": 2.68,
+    "poll_avg": 2.71,
     "poll_weight": 0.95,
-    "mean": 2.95,
+    "mean": 2.98,
     "race_sd": 3.23,
     "nat_sd": 2.24,
     "total_sd": 3.93,
-    "p_model": 0.7739
+    "p_model": 0.7761
    },
    "markets": {
-    "Polymarket": 0.6281,
+    "Polymarket": 0.625,
     "Kalshi": 0.604,
     "PredictIt": 0.5941
    },
@@ -4617,21 +4617,21 @@
     "Kalshi": "https://kalshi.com/markets/senateme",
     "PredictIt": "https://www.predictit.org/markets/detail/8159/Which-party-will-win-the-2026-US-Senate-election-in-Maine"
    },
-   "p_market": 0.6087,
-   "p_final": 0.7492,
+   "p_market": 0.6077,
+   "p_final": 0.7508,
    "sentiment": null,
    "headlines": [
-    {
-     "title": "How Maine voters feel about the high-stakes Senate election - PBS",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbTNEYjVRLUJNVzRkaTNFSWNCczFpcXI1TG90VlpJX2plTXFXcmlsWmd2ZmlLTHFmSDhjbFowa09RNTVybUU3akwxeElIOUo0dGYwWXRWWnJPUm9fYklEM0ZkbzZEU24zT1Fuc0JUMEZYbUVSWFRNRWxMR3lDVUcwd1dsOEtPa2tmTlhSMkdRa0VIT1FsVlg5YUFkaFpzUdIBowFBVV95cUxNU3Zrb3NTdVRNSE5JUm5ZSUNyc0Fvd0tfemlWQ0lybzNCWENpRkNOSTJETFBNWXo0Qk5BVDJWRmZOcGtZMk4tRFAtd29vRGZHMi1nN0ozU2R5dnNKZmpUd1pUUENheG43ZGdETWZELVZLSlpCVXdHNXpyTnNnV3lSdzhCSWFqOWdEeVJvcUZOWGduZHgzZzJ2b0gxQ3JsZXh0a2x3?oc=5",
-     "source": "PBS",
-     "date": "Thu, 22 Oct 2026 12:26:24 GMT"
-    },
     {
      "title": "The Midterm Elections in Maine, October 2026 - Marist Poll",
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS1NBQVgweUcyVmlveFVqOThpUFQ4S2YzS1BxZDllRkMtVTFibnF4VzBnNlhPM3RROE5LQ2RGcHEzWjZmWnpPUVg1X3BxbVNpM3V0SGZ6LS01bTB2NEU5Z255TVVTQTJKVEJIakwwOThUU0J3X0ZOWEE2ak5XajkxRXF1QzBSX2s?oc=5",
      "source": "Marist Poll",
      "date": "Tue, 27 Oct 2026 04:11:19 GMT"
+    },
+    {
+     "title": "How Maine voters feel about the high-stakes Senate election - PBS",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbTNEYjVRLUJNVzRkaTNFSWNCczFpcXI1TG90VlpJX2plTXFXcmlsWmd2ZmlLTHFmSDhjbFowa09RNTVybUU3akwxeElIOUo0dGYwWXRWWnJPUm9fYklEM0ZkbzZEU24zT1Fuc0JUMEZYbUVSWFRNRWxMR3lDVUcwd1dsOEtPa2tmTlhSMkdRa0VIT1FsVlg5YUFkaFpzUdIBowFBVV95cUxNU3Zrb3NTdVRNSE5JUm5ZSUNyc0Fvd0tfemlWQ0lybzNCWENpRkNOSTJETFBNWXo0Qk5BVDJWRmZOcGtZMk4tRFAtd29vRGZHMi1nN0ozU2R5dnNKZmpUd1pUUENheG43ZGdETWZELVZLSlpCVXdHNXpyTnNnV3lSdzhCSWFqOWdEeVJvcUZOWGduZHgzZzJ2b0gxQ3JsZXh0a2x3?oc=5",
+     "source": "PBS",
+     "date": "Thu, 22 Oct 2026 12:26:24 GMT"
     },
     {
      "title": "'We Can’t Eat Road Salt': A Toss-Up Senate Race Comes Down to Collins' Record - Time Magazine",
@@ -4646,10 +4646,10 @@
      "date": "Mon, 26 Oct 2026 04:06:26 GMT"
     },
     {
-     "title": "Troy Jackson lacks charisma. But in Maine’s Senate race, it may not matter. - The Washington Post",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR2k1NXZWSG5NWUxRb0hYeWtHSzBLUjB1Y1pRbUhWb1lCRkRXYVItVlVzWFQ3cm5LdzFUMFJmakpqOHV4RTJxYlRGOU0wdUlRNVlfaVZyZUpOUFl2ZUVMQ1dMVmVJam5PRnNvOHdzQVRzdF9yUjE5QVdlNnc0OE5pQzF3UHg1cHNkVUdpTXRSOXhXTXdBdHp5ODZYM3puMDNuTkVsLUd4SGFJdw?oc=5",
-     "source": "The Washington Post",
-     "date": "Wed, 21 Oct 2026 16:00:00 GMT"
+     "title": "Republican attack ads mocking Troy Jackson’s relationship roil Maine Senate race against Susan Collins - CNN",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUFpLQmxYMzJIcUEwODRPakZGbEw1N3JjeVh3RjRCaThicTdkM0dVYjBienhLWjl5QU96TlZZamdTODUtMlp2R1V5c2NjTDVUQ0RLODh4VjdEQXBkT3JRRXBldGRSMkI4dG91cVRjMzhwRUVJeDMzdHo2eHZHMDBlblBDZ2M2S1FtMjEybEZ5SzNpR1hNOVFIdg?oc=5",
+     "source": "CNN",
+     "date": "Tue, 27 Oct 2026 15:41:33 GMT"
     }
    ],
    "money": [],
@@ -4742,18 +4742,18 @@
    "aggregates": [
     {
      "source": "270toWin",
-     "margin": 1.2,
+     "margin": 2.2,
      "updated": "October 27, 2026"
     },
     {
      "source": "Decision Desk HQ",
-     "margin": 2.3,
+     "margin": 3.3,
      "updated": "October 27, 2026"
     },
     {
      "source": "FiftyPlusOne",
      "margin": 3.0,
-     "updated": "October 27, 2026"
+     "updated": "October 28, 2026"
     },
     {
      "source": "RealClearPolitics",
@@ -4762,7 +4762,7 @@
     },
     {
      "source": "Silver Bulletin",
-     "margin": 1.9,
+     "margin": 2.4,
      "updated": "October 27, 2026"
     }
    ],
@@ -4972,7 +4972,7 @@
      "n": 500,
      "population": "lv",
      "margin": 2.0,
-     "adjusted": 1.9,
+     "adjusted": 2.0,
      "weight": 0.315,
      "tier": "538 2.9/3",
      "partisan": null,
@@ -5338,7 +5338,7 @@
    ],
    "n_polls": 31,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
-   "p_sim": 0.7702,
+   "p_sim": 0.7719,
    "rating": "Inclinado D"
   },
   {
@@ -5359,28 +5359,34 @@
     "prior": 5.19,
     "structural": 7.7,
     "expert": 2.68,
-    "poll_avg": 3.35,
+    "poll_avg": 3.37,
     "poll_weight": 0.94,
-    "mean": 3.45,
+    "mean": 3.47,
     "race_sd": 3.19,
     "nat_sd": 2.24,
     "total_sd": 3.9,
-    "p_model": 0.8121
+    "p_model": 0.8134
    },
    "markets": {
     "Polymarket": 0.695,
     "Kalshi": 0.6832,
-    "PredictIt": 0.6832
+    "PredictIt": 0.71
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/michigan-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senatemi",
     "PredictIt": "https://www.predictit.org/markets/detail/8158/Which-party-will-win-the-2026-US-Senate-election-in-Michigan"
    },
-   "p_market": 0.6871,
-   "p_final": 0.7934,
+   "p_market": 0.6961,
+   "p_final": 0.7958,
    "sentiment": null,
    "headlines": [
+    {
+     "title": "Examining the Muslim Brotherhood claims in Michigan’s Senate race - The Washington Post",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYzlmclBHbllzRzNxVEh1WDJETThRSWx3RXRqd0FmX09NRnpodFNld3pUM3d6Wi04SFZiTEtCMS13Z19HakJtOXdyOWpzN1F6bEU4dnRPSHpXbFhUekM1MzFaaHVscm52clI3dUs1aFZoM2FoYkstOUZ0MGVvUlJ3Vmw0dlFsZFhmVUs1bk11V0FXR3lDZkdGajM5dFVkVzYtWUktTUMxcGZ3VVB4Z2c?oc=5",
+     "source": "The Washington Post",
+     "date": "Fri, 23 Oct 2026 17:00:00 GMT"
+    },
     {
      "title": "Abdul El-Sayed vs. Mike Rogers: These voting groups may decide the Michigan race - Bridge Michigan",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONWpyVzZickp4cWJqVXBqT3Fwelo4T1pWbTl6ZmFXMzdMaC1oOXIyQWhJc1h0MXdjcEZucFBmYW0wUkk4Z1JtN3VkdVE1d0gzUDQxVldhcEFrREJFbzZxaTYtV3NXSk45TnUtSEl0TlFVT2dpR01MMHowTk1IZGZPV3lVRXBkUFh1NVIxNWFuREJDYThhLTJjdUtnTG4zbWY1N3EtTHVkZ29DRURxMWg2WUdHZ1VOdjcybGxPRw?oc=5",
@@ -5394,22 +5400,16 @@
      "date": "Thu, 22 Oct 2026 02:23:00 GMT"
     },
     {
-     "title": "A closer look at Michigan's Senate race - LiveNOW from FOX",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdFBKblc2ZFhxSml0TjU1OGJuMXBkZ1FnMVAtLTBOZlFSRTFhVHZ0QWVJTUNXTDNiUkVoVmhVbkJUanFBUllCSXZGb20xM3hyRGdFcGthOUMyRmtGVmQ0MFA1cVFzVEtPSHQ1OXVIenJoVHRzdEprZEx2MG5kUUtkRE1wRVJQXzlLLVNmZ2xVSzFQbjBrZ0xXaDNNX21lUXlyQ1dHbUxMb9IBrAFBVV95cUxNYWIzOHFWZ3Q2RnNiNm0ydndNUWs1M21hOVRNay1FVHAtNWcxZUlXUU8zR25oaXhpd3B3WHh1cW42MF9OQkxDY0hlaWlCeHBUcVBDNDV2VDY4SXkyeTI2WVVXSVppTFcyeWtyRXJRQWFHeVdhVVQxZ1BNUGlOLXY1SjNvdFlzTE9fOUItQndNZW5vV0Q5bkEyYnRJUzdWckhqYVp4Skw0U3JMZ2Rf?oc=5",
-     "source": "LiveNOW from FOX",
-     "date": "Wed, 21 Oct 2026 15:47:20 GMT"
-    },
-    {
      "title": "In final Michigan Senate debate, El-Sayed ties Rogers to Trump, while Rogers says El-Sayed is untrustworthy - CBS News",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYmN6S2JoaGI2c0tXZndNZG1ZTFBvdkpBSEM3bzlVcXNrUTVkTmlPR2Z5LVFUVG1VbGNPUDlRWXhDSENvdGpiYVdHUUM2Qnh0VWRDR29yRWF2ZzNFVFFZWkRhU0c2LWs1T05QTDlZNG56R1gxMFZtbkdqX25WdXlYTG9DeUl4Zk9BRG1HdWp3?oc=5",
      "source": "CBS News",
      "date": "Thu, 22 Oct 2026 01:21:00 GMT"
     },
     {
-     "title": "Final Michigan Senate Debate Gets Especially Heated - WSJ",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLXhKaS1ZTUVVN3A1bTE4dW5GTW5aM19KcTRsUVFybXBUOWliQnN3M2JTSjVNWXhJMW1KZ3pnU2lWa0tJd3FKMHJTdlJraGtXNFlXUWU1S2pqaWhQTldoRUZtc29CMEhjYnZ5ek1xbE1KbUhVQ28yRWZEcVRCbkVla3lSMEp6NS03Ul8xX2V2Vmg4bTdHaWFLNFBrRUdRZTNGUFZOQ1hEbDZhYjkzdWlsQUhKbE9sUUNI?oc=5",
-     "source": "WSJ",
-     "date": "Thu, 22 Oct 2026 01:51:00 GMT"
+     "title": "Michigan Senate debate: Key takeaways from El-Sayed, Rogers clash - Al Jazeera",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZmR5eWxGMU50XzlFZWtXdTUzUzNYX3BLQjd4clR6ZFNFQjRXdlhzcGo3UFg0REMxWVhFR2VURDdRTDFJXy1nZWo4VkdEdW1SYWNLdzg3dkdnSlc3MHZCRzk4WVlSay0yYTlsc1c4dGJaNFlfMjd5T3lhSDFkenI4Ul82b0hxZDBvQ0ZGZHJONjFTQlhBSElreXBYdmhfWElWUElNYU82V2rSAa4BQVVfeXFMT2ZlRDFaSUczakI2anFJbnl0VTN2LV80bU1ZdnhqbTJhR3lObzRxZk00WE82NVdFN0llejVqMWtWZUxmWU5HalRDY1ZwYU5iU0x0YVctR19WTlBQT2hOS3JNRko2NzJ3TjZ3RnJiUjBST0RpSkMxSlp0bFVfM1NEVHRxQ2x6aXhyaW5Lc0E3ci1hWmtUcTFzY3h4Q1pqUm5nNkduVDZ3SlNRT0tfZTdn?oc=5",
+     "source": "Al Jazeera",
+     "date": "Thu, 22 Oct 2026 10:21:32 GMT"
     }
    ],
    "money": [],
@@ -5502,28 +5502,28 @@
    "aggregates": [
     {
      "source": "270toWin",
-     "margin": 3.5,
-     "updated": "October 21, 2026"
+     "margin": 3.6,
+     "updated": "October 28, 2026"
     },
     {
      "source": "Decision Desk HQ",
-     "margin": 2.2,
-     "updated": "October 21, 2026"
+     "margin": 3.1,
+     "updated": "October 28, 2026"
     },
     {
      "source": "FiftyPlusOne",
      "margin": 3.2,
-     "updated": "October 21, 2026"
+     "updated": "October 28, 2026"
     },
     {
      "source": "RealClearPolitics",
-     "margin": 2.0,
-     "updated": "October 21, 2026"
+     "margin": 2.5,
+     "updated": "October 28, 2026"
     },
     {
      "source": "Silver Bulletin",
-     "margin": 3.0,
-     "updated": "October 21, 2026"
+     "margin": 3.3,
+     "updated": "October 28, 2026"
     }
    ],
    "polls": [
@@ -6151,7 +6151,7 @@
    ],
    "n_polls": 45,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
-   "p_sim": 0.8119,
+   "p_sim": 0.8142,
    "rating": "Inclinado D"
   },
   {
@@ -6169,43 +6169,31 @@
    "side": "D",
    "pres_2024_margin": -11.2,
    "est": {
-    "prior": -1.34,
+    "prior": -1.48,
     "structural": -4.1,
-    "expert": 1.43,
-    "poll_avg": 4.0,
-    "poll_weight": 0.95,
-    "mean": 3.75,
+    "expert": 1.14,
+    "poll_avg": 3.96,
+    "poll_weight": 0.96,
+    "mean": 3.72,
     "race_sd": 3.18,
     "nat_sd": 2.24,
     "total_sd": 3.89,
-    "p_model": 0.8323
+    "p_model": 0.8306
    },
    "markets": {
-    "Polymarket": 0.6884,
+    "Polymarket": 0.675,
     "Kalshi": 0.6667,
-    "PredictIt": 0.6931
+    "PredictIt": 0.6699
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/ohio-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senateohs",
     "PredictIt": "https://www.predictit.org/markets/detail/8175/Which-party-will-win-the-2026-US-Senate-special-election-in-Ohio"
    },
-   "p_market": 0.6827,
-   "p_final": 0.8099,
+   "p_market": 0.6705,
+   "p_final": 0.8066,
    "sentiment": null,
    "headlines": [
-    {
-     "title": "Commentary: Ohio incumbent US Sen. Jon Husted's campaign is trying to portray Sherrod Brown as the incumbent - Ohio Capital Journal",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVTRBZTQyUmd0STlwM3p1Ymdxd0ZabGI1YWZHT052MnJ4TlVKU045TDJrN05jUEV4NnhBOWZRME1ndkU4b0lVRld2ZWMtcV9wc29wRTk0ZFlJLVpsUEVXTHdadzlBdlBuM2dMVlJEZFppNHVHYU9KUEpPdnp5ZUF5ZFp2SVkzLU1ON1hCSzBPY2ZtUGdHRkNyVzduWHpJU1NyYkFfRDZyM01ZTmFTZ3RXOVFXbkUzUGdsQTlYSF8tUUtxN3NnbkZZNEUtVDU3cEZYYUJN?oc=5",
-     "source": "Ohio Capital Journal",
-     "date": "Mon, 26 Oct 2026 07:40:51 GMT"
-    },
-    {
-     "title": "Senator Jon Husted on Battleground - LiveNOW from FOX",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XTlV3THpCTl84NWpWSXpJUm5JODg1SFYxeXRtTlFEbkxwNUk0VVdaYjVyWFB2RHYtN08tcVlJam9ORDdMNEJFblR4VlFYZzlQcER0WkxVTlJsRktEM0ZPb0NR0gFnQVVfeXFMTXUtU2J2ZXNic1dPVkFldjdsX3R1VkhpSVJGZFR0RzRaX21WSUs5S0hqTm00aERhVkwwZXhyYTZ1Zlc5UTRDMzg3QzZyMzJDV3ktYXpXbzlCd09yVEp2YnFsaV9fZ1ZQaw?oc=5",
-     "source": "LiveNOW from FOX",
-     "date": "Wed, 21 Oct 2026 16:07:28 GMT"
-    },
     {
      "title": "Fox News Poll: Gender gap and pocketbook pain shape Ohio Senate race - Fox News",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb3hlbEJ2YmN0bW1kWmFrYTEzZ1JfNk9QOTNkbDIzLWdNbUJCMlNQX2I5NGxuczh5bHRWbmVYWWJ6Zl96NVdDOGxTU1JWdzZ2Q2dHbkZlMkFzY094ZHhzcWFRVzZZX0hwWWtmaUZSc24yY0g4d2xudWkwMDNhR3hrMF9sZnhmS1Q4aXJSb3VpZzdYMXFGdDBwRzMxZ07SAaIBQVVfeXFMT1BIZ3RTdC1MTVlHeWc0NGJCUjNJbDYxdXFMcEw0VVNudGtBZmZTZ3hmdUhWcUVFRllvcU1UX21LSnpLNHhFOWJRa1ZXQXdYZ191NXJjMXA3MGVaTVBGeUNBclpkcHQ3QnItdW1kUGdkN3ZKNUdQVGtkT29oMENuX2V0NjFUVVhwbHhJTlJlSlc0TFhsQVREN0ZVZC1SbGZmQVB3?oc=5",
@@ -6213,16 +6201,28 @@
      "date": "Wed, 21 Oct 2026 22:00:05 GMT"
     },
     {
+     "title": "Commentary: Ohio incumbent US Sen. Jon Husted's campaign is trying to portray Sherrod Brown as the incumbent - Ohio Capital Journal",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVTRBZTQyUmd0STlwM3p1Ymdxd0ZabGI1YWZHT052MnJ4TlVKU045TDJrN05jUEV4NnhBOWZRME1ndkU4b0lVRld2ZWMtcV9wc29wRTk0ZFlJLVpsUEVXTHdadzlBdlBuM2dMVlJEZFppNHVHYU9KUEpPdnp5ZUF5ZFp2SVkzLU1ON1hCSzBPY2ZtUGdHRkNyVzduWHpJU1NyYkFfRDZyM01ZTmFTZ3RXOVFXbkUzUGdsQTlYSF8tUUtxN3NnbkZZNEUtVDU3cEZYYUJN?oc=5",
+     "source": "Ohio Capital Journal",
+     "date": "Mon, 26 Oct 2026 07:40:51 GMT"
+    },
+    {
      "title": "Brown, Husted deadlocked in final days of Ohio Senate race, poll shows - The Columbus Dispatch",
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcUNHc0lUcW9mNFp2SGNYYmI1bmZwMzdta3lvZ3U5b0NwTlA5YUpuMVRRSmE0QmpmbzVhbUptZEdESVQ1M1k1ZVFvZG5JZFlCSnFwb29ocEN1aXRyZnFoNXNsQnlNOVBfOF9kWksxLXRwdG8zY0hfNDdsOWVMU0xBdVdyWlpWM3FLZnJCX0t5S19hSGlLSWd2TjFCLWpZdE5MaVdBRWRjcS1wcm43bUFianJDLU5wcWpqOXc0S3FVSUJLdXVvSDVPY1E0Y1VJckpfdDlFdjVJalpQeDB6?oc=5",
      "source": "The Columbus Dispatch",
-     "date": "Wed, 28 Oct 2026 05:39:00 GMT"
+     "date": "Wed, 28 Oct 2026 16:03:00 GMT"
     },
     {
-     "title": "Ohio’s US Senate race is one of the most competitive — and expensive — in the nation - FOX19 | Cincinnati",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWmE2bHp2QnZVVFNQU2tRMk9Qd2l5cmRIRExzT0s2Yl9HQVRPV29zOWRXVlpSbkREQUt0UTh3Q2JhRlhkNzF5NDc5Nlo1VExZTmhDZWtDS2FNcG5wSDExemF6YnZmdXJMcGJ5eDhidmN3cmllRDZFSDRRNHR3QnlrS1Boa01abVJ6TnpxOHotSU5XTS1rczJjZXQ0dw?oc=5",
-     "source": "FOX19 | Cincinnati",
-     "date": "Thu, 22 Oct 2026 23:06:00 GMT"
+     "title": "Sherrod Brown and Jon Husted battle for US Senate seat - Cleveland 19 News",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVElOc1RWLVpLckRsQnA5RHk3d0RqaDYtUnk5VmFCRU1XWjVYSHBwWlc2Zlp4Z3BoRFRWVVFwSDc2anRCVnFkSEdNaUNlOGYzbC04UVpkdWJLeDByMW5vcVU3RVRLTU5XY1QtNlIwRUxmbmdCaS1vMVU0Q3paTmwwNElpT3lmOVlOY0dvS0podw?oc=5",
+     "source": "Cleveland 19 News",
+     "date": "Wed, 28 Oct 2026 19:00:00 GMT"
+    },
+    {
+     "title": "Ohio could decide control of the Senate. Its rural voters might decide the winner - NPR",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEJtcTl3amNqd1lreVhOZWNHSUNuV3dmQmhtcFNhZmVxUGxEZ2hNTTJQc1p0SjNiajJBcVJiSTNRN1RKcHZITlY5Q2Y2R3lKM2hoVUJUeUF5ZzMtZFdnaHdjeXdGeFZBdjQ1VmdyU3VUcndjb2dMMk0xSXREWURXdGNGd09KSFZuSmswREdERm8?oc=5",
+     "source": "NPR",
+     "date": "Fri, 23 Oct 2026 18:30:00 GMT"
     }
    ],
    "money": [],
@@ -6259,9 +6259,9 @@
     },
     {
      "source": "FiftyPlusOne",
-     "rating": "Lean D (flip)",
-     "as_of": "October 22, 2026",
-     "points": 4.0
+     "rating": "Tossup",
+     "as_of": "October 28, 2026",
+     "points": 0.0
     },
     {
      "source": "Fox News",
@@ -6315,13 +6315,13 @@
    "aggregates": [
     {
      "source": "270toWin",
-     "margin": 3.7,
-     "updated": "October 27, 2026"
+     "margin": 3.5,
+     "updated": "October 28, 2026"
     },
     {
      "source": "Decision Desk HQ",
-     "margin": 3.5,
-     "updated": "October 27, 2026"
+     "margin": 3.4,
+     "updated": "October 28, 2026"
     },
     {
      "source": "FiftyPlusOne",
@@ -6331,7 +6331,7 @@
     {
      "source": "RealClearPolitics",
      "margin": 3.3,
-     "updated": "October 25, 2026"
+     "updated": "October 28, 2026"
     },
     {
      "source": "Silver Bulletin",
@@ -6340,6 +6340,35 @@
     }
    ],
    "polls": [
+    {
+     "pollster": "Suffolk University",
+     "end_date": "2026-10-26",
+     "n": 500,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 3.0,
+     "weight": 0.469,
+     "tier": "538 2.9/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Sherrod Brown",
+       "pct": 47.0,
+       "party": "D"
+      },
+      {
+       "choice": "Jon Husted",
+       "pct": 44.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
     {
      "pollster": "Echelon Insights",
      "end_date": "2026-10-23",
@@ -6474,7 +6503,7 @@
      "n": 531,
      "population": "lv",
      "margin": 4.0,
-     "adjusted": 3.9,
+     "adjusted": 4.0,
      "weight": 0.247,
      "tier": "Sin calificación",
      "partisan": null,
@@ -6910,47 +6939,11 @@
      ],
      "verified": false,
      "side": "D"
-    },
-    {
-     "pollster": "InsiderAdvantage",
-     "end_date": "2026-09-29",
-     "n": 1200,
-     "population": "lv",
-     "margin": 1.0,
-     "adjusted": 2.6,
-     "weight": 0.132,
-     "tier": "538 2.0/3",
-     "partisan": null,
-     "url": "https://insideradvantage.com/insideradvantage-ohio-senate-race-narrows-to-brown-up-by-one",
-     "answers": [
-      {
-       "choice": "Sherrod Brown",
-       "pct": 44.0
-      },
-      {
-       "choice": "Jon Husted",
-       "pct": 43.0
-      },
-      {
-       "choice": "Bill Redpath",
-       "pct": 4.0
-      },
-      {
-       "choice": "Greg Levy",
-       "pct": 2.0
-      }
-     ],
-     "sources": [
-      "votehub",
-      "wikipedia"
-     ],
-     "verified": true,
-     "side": "D"
     }
    ],
-   "n_polls": 34,
+   "n_polls": 35,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
-   "p_sim": 0.8293,
+   "p_sim": 0.8258,
    "rating": "Inclinado D"
   },
   {
@@ -6980,19 +6973,25 @@
     "p_model": 0.079
    },
    "markets": {
-    "Polymarket": 0.09,
-    "Kalshi": 0.1089,
-    "PredictIt": 0.1485
+    "Polymarket": 0.0896,
+    "Kalshi": 0.1,
+    "PredictIt": 0.13
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/florida-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senatefls",
     "PredictIt": "https://www.predictit.org/markets/detail/8228/Which-party-will-win-the-2026-US-Senate-election-in-Florida"
    },
-   "p_market": 0.1158,
-   "p_final": 0.0845,
+   "p_market": 0.1065,
+   "p_final": 0.0831,
    "sentiment": null,
    "headlines": [
+    {
+     "title": "The Senate Race in Heavily Republican South Carolina is a Tossup, Poll Finds - The New York Times",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTkc5RE1yWGYyOHR2SlE0dC1kS2pIb2FjOGtCRFZXT1QxYndhTTEzRzAzdmFRYzVwNUYySldpdVo0MTFSRk5LNFJWdHlRMWxtTzhwNjZkaHRxYkpkNjQ0dnFUV1psSlpGei1CZDlrRXhzVVVSRWNNTTZwaFFkejNYRDBLaThCdU0?oc=5",
+     "source": "The New York Times",
+     "date": "Wed, 28 Oct 2026 15:35:13 GMT"
+    },
     {
      "title": "Angie Nixon keeps hammering on Hope Florida. What happened? What was Ashley Moody’s involvement? - WLRN",
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbWduTnNRN0c0Rlh4VE9VUGlXbk5JNTBmQ0d2UWFJNXBZSzBUSTA4aEJVVlhPenU4c0VhbjVKV05EYnBUcUxzSHN5cjJBbTZXRXFTODByR0RVQkszUkpXMUdiWUtBQ2M1ZURnVXlnZmw1VU5wY1Q1OUJ4X244a3RodWF2cWVsdE1ERkJiZndjZ0dFV0RhZkg2aTgwdlJsYWFpZHpjdW5LSU0tMDdQTGgxMGYwejY5Q2RFRVNnMHgyWkt1TVRveGh5NV90UXU4NmYwZVZEaXEtSTZpVk15?oc=5",
@@ -7003,19 +7002,13 @@
      "title": "Moody Holds Lead Over Nixon in Florida Senate Race - ActiVote",
      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNeDlEcmlURWljUkoyLXpyRFE3Y3hCenVnRHFjeFU0cGtGMTMzZG5RMnN1Tmo0MkNibURMcXVQM041OElvejl4STdnQ2dhaDJMQTZKeTJUQWUyNHF0YUpz?oc=5",
      "source": "ActiVote",
-     "date": "Wed, 28 Oct 2026 04:34:02 GMT"
+     "date": "Tue, 27 Oct 2026 07:00:00 GMT"
     },
     {
      "title": "Can Angie Nixon turn out enough young voters to win a U.S. Senate seat? - Orlando Sentinel",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLTUyU2RaUHRmUDMwNTdqTGlteEZMeWhhdGxYbVhma21Ca2VwVThlOWhhUi05SkF2SVJoblc4WFEtanZub1lDSVJVaUthNDJtUlpxMkxFQ3ZjLW5fSzRRaFJLZ3doV1RYakdVWUdfRDUzVjFUYjRtQlZyXzN1b3Nrc19CMjlSdHpOb21lYm5iXzY4b192V2NIUW5tWkFPbXRhTzYxZnpYWjhJY2NiR0pfVWtlaw?oc=5",
      "source": "Orlando Sentinel",
      "date": "Sun, 25 Oct 2026 11:02:02 GMT"
-    },
-    {
-     "title": "Moody vs. Nixon | Guide to Florida's U.S. Senate special election - firstcoastnews.com",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcUcxakVIWEJycFpfMXI0cURDUVgtSkUyajJLbmJZeFd1OG0ySl9yOV9wWk9ueGpUaS1PYmFMU0RxMnFaN3QwZzVQaVlLOUlpajUwZVRPMlV2cWc2cmoyWTVuRmtBQ3M0TDJJR21qRllJQ0prWEtqWnBTQlhZOFp2emVETUhlQW1Tby1zRjI2OWNKOWpyYmZOYW1obm54cUFwZ3FVZjFlSjduckxMaDdidFNvenkxMzZObzB5T3FwaXhVeGFLdkttZjhrM1RBRHR6eHdjNUIxbE9zNDhFeW4wNXdRbS1wN3VBTXc?oc=5",
-     "source": "firstcoastnews.com",
-     "date": "Wed, 21 Oct 2026 18:16:00 GMT"
     },
     {
      "title": "Angie Nixon gets bipartisan pushback for answer about Cuba dictatorship - NBC 6 South Florida",
@@ -7036,19 +7029,19 @@
      "source": "Decision Desk HQ",
      "rating": "Likely R",
      "points": -8.0,
-     "as_of": "Oct 26, 2026"
+     "as_of": "Oct 28, 2026"
     },
     {
      "source": "The Economist",
      "rating": "Likely R",
      "points": -8.0,
-     "as_of": "Oct 27, 2026"
+     "as_of": "Oct 28, 2026"
     },
     {
      "source": "FiftyPlusOne",
      "rating": "Likely R",
      "points": -8.0,
-     "as_of": "Oct 26, 2026"
+     "as_of": "Oct 28, 2026"
     },
     {
      "source": "Fox News",
@@ -7066,13 +7059,13 @@
      "source": "NBC",
      "rating": "Likely R",
      "points": -8.0,
-     "as_of": "Oct 26, 2026"
+     "as_of": "Oct 28, 2026"
     },
     {
      "source": "RealClearPolitics",
      "rating": "Lean R",
      "points": -4.0,
-     "as_of": "Oct 26, 2026"
+     "as_of": "Oct 28, 2026"
     },
     {
      "source": "Sabato's Crystal Ball",
@@ -7084,7 +7077,7 @@
      "source": "Silver Bulletin",
      "rating": "Likely R",
      "points": -8.0,
-     "as_of": "Oct 25, 2026"
+     "as_of": "Oct 28, 2026"
     },
     {
      "source": "Split Ticket",
@@ -7488,7 +7481,7 @@
    ],
    "n_polls": 14,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
-   "p_sim": 0.0779,
+   "p_sim": 0.0768,
    "rating": "Probable R"
   },
   {
@@ -7509,26 +7502,26 @@
     "prior": -13.17,
     "structural": -15.8,
     "expert": -10.55,
-    "poll_avg": -2.63,
+    "poll_avg": -2.62,
     "poll_weight": 0.55,
-    "mean": -7.34,
+    "mean": -7.33,
     "race_sd": 4.3,
     "nat_sd": 2.24,
     "total_sd": 4.85,
-    "p_model": 0.0651
+    "p_model": 0.0652
    },
    "markets": {
-    "Polymarket": 0.135,
-    "Kalshi": 0.12,
-    "PredictIt": 0.15
+    "Polymarket": 0.1263,
+    "Kalshi": 0.11,
+    "PredictIt": 0.1584
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/mississippi-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senatems",
     "PredictIt": "https://www.predictit.org/markets/detail/8388/Which-party-will-win-the-2026-US-Senate-election-in-Mississippi"
    },
-   "p_market": 0.135,
-   "p_final": 0.0756,
+   "p_market": 0.1316,
+   "p_final": 0.0752,
    "sentiment": null,
    "headlines": [
     {
@@ -7544,16 +7537,16 @@
      "date": "Tue, 27 Oct 2026 09:00:00 GMT"
     },
     {
-     "title": "Could Mississippi Really Send a Democrat to the Senate? - The Nation",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVzREWFBzTDFzUUl1bjV6dGp1Z0pLTkY2Mm1qeEVQR3hydDJNYnE4S0phc2w1aFZUcHdFckJWSlMxZDhTQnB4NG1Wck9LaHRQbTVaOTRwSk5zSjdtR2Q5d3ZHUmlSaWM2MmlBaS1YVVUxMDkwUTJDSWZscjR1TGZqWkZncWVZU2hoNlBUcTBfMkdkUGvSAZsBQVVfeXFMUGdHOG1pZHoyT3ZqNEQzUUtaNkpJWVhQUDVIZGZoYjRqYXhfNTQ3dnR0bkI2TU1uaWJoVEZqcDd0cm5qanJZUVBUanhwWGR0bTRkVXBmRnFONkdJZ25qMzdDUnUtU1hnRnF0c01sYkFObU9QV2FlUmwzNThCRV9rN0JJNEdkUlpQNE1ZbUZuOXN0ZXZJOHJaUUZTVlE?oc=5",
-     "source": "The Nation",
-     "date": "Thu, 22 Oct 2026 09:52:34 GMT"
-    },
-    {
      "title": "Scott Colom, a Black Democrat, has a chance to win in Mississippi’s Senate race - The Washington Post",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTGJZbW10R0VZLU9CT3NUR2J2bTlQZTdZaW5BTmJCLTI0d0M4QUs5aENRYjVrTEhKRjRseWhLVklkbG9DdFlla3JESGVmanFrSGRQYjA0V2NqcTJ5OFVNM1oyTFpQUUY3T19PVThxSGJ2bmxlcDFnRHF1MkYxekR3Q0NTZXNCZHdOSXNYT2Z1M3lnaUhoWTh4UHJMdUtOY0RIalRoZVljQjJJZHBSQzdTREhXZkplSXBxWVE?oc=5",
      "source": "The Washington Post",
      "date": "Sun, 25 Oct 2026 16:00:00 GMT"
+    },
+    {
+     "title": "Could Mississippi Really Send a Democrat to the Senate? - The Nation",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVzREWFBzTDFzUUl1bjV6dGp1Z0pLTkY2Mm1qeEVQR3hydDJNYnE4S0phc2w1aFZUcHdFckJWSlMxZDhTQnB4NG1Wck9LaHRQbTVaOTRwSk5zSjdtR2Q5d3ZHUmlSaWM2MmlBaS1YVVUxMDkwUTJDSWZscjR1TGZqWkZncWVZU2hoNlBUcTBfMkdkUGvSAZsBQVVfeXFMUGdHOG1pZHoyT3ZqNEQzUUtaNkpJWVhQUDVIZGZoYjRqYXhfNTQ3dnR0bkI2TU1uaWJoVEZqcDd0cm5qanJZUVBUanhwWGR0bTRkVXBmRnFONkdJZ25qMzdDUnUtU1hnRnF0c01sYkFObU9QV2FlUmwzNThCRV9rN0JJNEdkUlpQNE1ZbUZuOXN0ZXZJOHJaUUZTVlE?oc=5",
+     "source": "The Nation",
+     "date": "Thu, 22 Oct 2026 09:52:34 GMT"
     },
     {
      "title": "The Case For Scott Colom: Why Mississippi’s Senate Race Is Drawing National Attention - Forbes",
@@ -7720,735 +7713,8 @@
    ],
    "n_polls": 3,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
-   "p_sim": 0.0623,
+   "p_sim": 0.0621,
    "rating": "Probable R"
-  },
-  {
-   "id": "sen-mn",
-   "state": "MN",
-   "name": "Minnesota",
-   "special": false,
-   "region": "Midwest",
-   "seat_held_by": "D",
-   "candidates": {
-    "D": "Peggy Flanagan",
-    "R": "Michele Tafoya",
-    "I": null
-   },
-   "side": "D",
-   "pres_2024_margin": 4.2,
-   "est": {
-    "prior": 9.48,
-    "structural": 13.3,
-    "expert": 5.67,
-    "poll_avg": 7.13,
-    "poll_weight": 0.89,
-    "mean": 7.38,
-    "race_sd": 3.45,
-    "nat_sd": 2.24,
-    "total_sd": 4.11,
-    "p_model": 0.9637
-   },
-   "markets": {
-    "Polymarket": 0.9095,
-    "Kalshi": 0.9002,
-    "PredictIt": 0.88
-   },
-   "market_urls": {
-    "Polymarket": "https://polymarket.com/event/minnesota-senate-election-winner",
-    "Kalshi": "https://kalshi.com/markets/senatemn",
-    "PredictIt": "https://www.predictit.org/markets/detail/8162/Which-party-will-win-the-2026-US-Senate-election-in-Minnesota"
-   },
-   "p_market": 0.8966,
-   "p_final": 0.9536,
-   "sentiment": null,
-   "headlines": [],
-   "money": [],
-   "experts": [
-    {
-     "source": "Cook Political Report",
-     "rating": "Lean D",
-     "as_of": "October 20, 2026",
-     "points": 4.0
-    },
-    {
-     "source": "Decision Desk HQ",
-     "rating": "Likely D",
-     "as_of": "October 22, 2026",
-     "points": 8.0
-    },
-    {
-     "source": "The Economist",
-     "rating": "Lean D",
-     "as_of": "October 21, 2026",
-     "points": 4.0
-    },
-    {
-     "source": "FiftyPlusOne",
-     "rating": "Likely D",
-     "as_of": "October 22, 2026",
-     "points": 8.0
-    },
-    {
-     "source": "Fox News",
-     "rating": "Likely D",
-     "as_of": "October 20, 2026",
-     "points": 8.0
-    },
-    {
-     "source": "Inside Elections",
-     "rating": "Lean D",
-     "as_of": "October 15, 2026",
-     "points": 4.0
-    },
-    {
-     "source": "MS NOW",
-     "rating": "Lean D",
-     "as_of": "October 12, 2026",
-     "points": 4.0
-    },
-    {
-     "source": "NBC News",
-     "rating": "Likely D",
-     "as_of": "October 22, 2026",
-     "points": 8.0
-    },
-    {
-     "source": "RealClearPolitics",
-     "rating": "Tossup",
-     "as_of": "October 12, 2026",
-     "points": 0.0
-    },
-    {
-     "source": "Sabato's Crystal Ball",
-     "rating": "Lean D",
-     "as_of": "October 14, 2026",
-     "points": 4.0
-    },
-    {
-     "source": "Silver Bulletin",
-     "rating": "Likely D",
-     "as_of": "October 22, 2026",
-     "points": 8.0
-    },
-    {
-     "source": "Split Ticket",
-     "rating": "Likely D",
-     "as_of": "October 22, 2026",
-     "points": 8.0
-    }
-   ],
-   "aggregates": [
-    {
-     "source": "270toWin",
-     "margin": 1.5,
-     "updated": "September 30, 2026"
-    },
-    {
-     "source": "Decision Desk HQ",
-     "margin": 3.7,
-     "updated": "October 19, 2026"
-    },
-    {
-     "source": "FiftyPlusOne",
-     "margin": 3.8,
-     "updated": "October 19, 2026"
-    },
-    {
-     "source": "RealClearPolitics",
-     "margin": 2.8,
-     "updated": "October 19, 2026"
-    },
-    {
-     "source": "Silver Bulletin",
-     "margin": 4.6,
-     "updated": "October 19, 2026"
-    }
-   ],
-   "polls": [
-    {
-     "pollster": "New York Times/Siena University",
-     "end_date": "2026-10-26",
-     "n": 752,
-     "population": "lv",
-     "margin": 14.0,
-     "adjusted": 14.0,
-     "weight": 0.83,
-     "tier": "538 3.0/3",
-     "partisan": null,
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 54.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 40.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "Rasmussen Reports",
-     "end_date": "2026-10-21",
-     "n": 1182,
-     "population": "lv",
-     "margin": 3.0,
-     "adjusted": 4.2,
-     "weight": 0.205,
-     "tier": "Manual B",
-     "partisan": "REP",
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 48.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 45.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "Trafalgar Group",
-     "end_date": "2026-10-15",
-     "n": 1079,
-     "population": "lv",
-     "margin": 3.0,
-     "adjusted": 4.8,
-     "weight": 0.138,
-     "tier": "538 0.7/3",
-     "partisan": "REP",
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 48.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 45.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "SurveyUSA",
-     "end_date": "2026-10-12",
-     "n": 718,
-     "population": "lv",
-     "margin": 3.0,
-     "adjusted": 3.5,
-     "weight": 0.213,
-     "tier": "538 2.8/3",
-     "partisan": null,
-     "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 45.0
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 42.0
-      },
-      {
-       "choice": "Marisa Simonetti",
-       "pct": 2.0
-      },
-      {
-       "choice": "Rebecca Whiting",
-       "pct": 2.0
-      }
-     ],
-     "sources": [
-      "votehub"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "KSTP/SurveyUSA",
-     "end_date": "2026-10-12",
-     "n": 718,
-     "population": "lv",
-     "margin": 3.0,
-     "adjusted": 4.9,
-     "weight": 0.261,
-     "tier": "538 2.8/3",
-     "partisan": null,
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 45.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 42.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "Mason-Dixon Polling & Strategy",
-     "end_date": "2026-10-07",
-     "n": 800,
-     "population": "lv",
-     "margin": 4.0,
-     "adjusted": 4.6,
-     "weight": 0.291,
-     "tier": "538 2.6/3",
-     "partisan": null,
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 47.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 43.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "Rasmussen Reports",
-     "end_date": "2026-10-07",
-     "n": 856,
-     "population": "lv",
-     "margin": 3.0,
-     "adjusted": 4.2,
-     "weight": 0.087,
-     "tier": "Manual B",
-     "partisan": "REP",
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 48.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 45.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "Morning Consult",
-     "end_date": "2026-10-07",
-     "n": 1000,
-     "population": "rv",
-     "margin": 4.0,
-     "adjusted": 5.1,
-     "weight": 0.244,
-     "tier": "538 1.9/3",
-     "partisan": null,
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 45.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 41.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "GQR",
-     "end_date": "2026-10-04",
-     "n": 800,
-     "population": "lv",
-     "margin": 8.0,
-     "adjusted": 7.8,
-     "weight": 0.127,
-     "tier": "538 2.0/3",
-     "partisan": "DEM",
-     "url": "https://x.com/DrewSav/status/2108502733045334207",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 50.0
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 42.0
-      },
-      {
-       "choice": "Marisa Simonetti",
-       "pct": 4.0
-      },
-      {
-       "choice": "Rebecca Whiting",
-       "pct": 2.0
-      }
-     ],
-     "sources": [
-      "votehub",
-      "wikipedia"
-     ],
-     "verified": true,
-     "side": "D"
-    },
-    {
-     "pollster": "Big Data Poll",
-     "end_date": "2026-09-30",
-     "n": 622,
-     "population": "lv",
-     "margin": 2.0,
-     "adjusted": 2.0,
-     "weight": 0.13,
-     "tier": "538 1.1/3",
-     "partisan": null,
-     "url": "https://www.bigdatapoll.com/blog/lone-star-state-poll-peggy-flanagan-holds-slight-lead-over-michele-tafoya-for-us-senate-in-minnesota/",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 46.0
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 44.0
-      },
-      {
-       "choice": "Rebecca Whiting",
-       "pct": 5.0
-      }
-     ],
-     "sources": [
-      "votehub",
-      "wikipedia"
-     ],
-     "verified": true,
-     "side": "D"
-    },
-    {
-     "pollster": "InsiderAdvantage",
-     "end_date": "2026-09-29",
-     "n": 1200,
-     "population": "lv",
-     "margin": 1.0,
-     "adjusted": 2.6,
-     "weight": 0.103,
-     "tier": "538 2.0/3",
-     "partisan": "REP",
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 46.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 45.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "co/efficient",
-     "end_date": "2026-09-15",
-     "n": 833,
-     "population": "lv",
-     "margin": 1.0,
-     "adjusted": 4.5,
-     "weight": 0.032,
-     "tier": "538 1.1/3",
-     "partisan": "REP",
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 43.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 42.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "SurveyUSA",
-     "end_date": "2026-09-14",
-     "n": 654,
-     "population": "lv",
-     "margin": 0.0,
-     "adjusted": 0.5,
-     "weight": 0.051,
-     "tier": "538 2.8/3",
-     "partisan": null,
-     "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-governor-senate-races-tightening-days-before-early-voting-starts-in-minnesota/",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 42.0
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 42.0
-      },
-      {
-       "choice": "Marisa Simonetti",
-       "pct": 2.0
-      },
-      {
-       "choice": "Rebecca Whiting",
-       "pct": 2.0
-      }
-     ],
-     "sources": [
-      "votehub"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "KSTP/SurveyUSA",
-     "end_date": "2026-09-14",
-     "n": 654,
-     "population": "lv",
-     "margin": 0.0,
-     "adjusted": 1.9,
-     "weight": 0.062,
-     "tier": "538 2.8/3",
-     "partisan": null,
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 42.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 42.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "Quantus Insights",
-     "end_date": "2026-09-10",
-     "n": 720,
-     "population": "lv",
-     "margin": 3.8,
-     "adjusted": 7.4,
-     "weight": 0.066,
-     "tier": "Manual B",
-     "partisan": null,
-     "url": "https://quantusinsights.org/f/new-quantus-polls-moody-leads-in-florida-flanagan-in-minnesota",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 48.2
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 44.4
-      }
-     ],
-     "sources": [
-      "votehub",
-      "wikipedia"
-     ],
-     "verified": true,
-     "side": "D"
-    },
-    {
-     "pollster": "TIPP Insights",
-     "end_date": "2026-09-02",
-     "n": 1494,
-     "population": "rv",
-     "margin": 2.0,
-     "adjusted": 2.9,
-     "weight": 0.026,
-     "tier": "538 1.8/3",
-     "partisan": "REP",
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 40.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 38.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "Deep Root Analytics",
-     "end_date": "2026-08-18",
-     "n": 597,
-     "population": "rv",
-     "margin": 5.0,
-     "adjusted": 5.4,
-     "weight": 0.005,
-     "tier": "Sin calificación",
-     "partisan": "REP",
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 50.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 45.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "SurveyUSA",
-     "end_date": "2026-08-17",
-     "n": 661,
-     "population": "lv",
-     "margin": 5.0,
-     "adjusted": 5.5,
-     "weight": 0.013,
-     "tier": "538 2.8/3",
-     "partisan": null,
-     "url": "KSTP-TV (St. Paul, Minn.), KAAL-TV (Austin, Minn.), WDIO-DT (Duluth, Minn.)",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 46.0
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 41.0
-      },
-      {
-       "choice": "Marisa Simonetti",
-       "pct": 1.0
-      },
-      {
-       "choice": "Rebecca Whiting",
-       "pct": 1.0
-      }
-     ],
-     "sources": [
-      "votehub"
-     ],
-     "verified": false,
-     "side": "D"
-    },
-    {
-     "pollster": "KTSP/SurveyUSA",
-     "end_date": "2026-08-17",
-     "n": 661,
-     "population": "lv",
-     "margin": 5.0,
-     "adjusted": 5.4,
-     "weight": 0.022,
-     "tier": "538 2.8/3",
-     "partisan": null,
-     "url": "",
-     "answers": [
-      {
-       "choice": "Peggy Flanagan",
-       "pct": 46.0,
-       "party": "D"
-      },
-      {
-       "choice": "Michele Tafoya",
-       "pct": 41.0,
-       "party": "R"
-      }
-     ],
-     "sources": [
-      "wikipedia"
-     ],
-     "verified": false,
-     "side": "D"
-    }
-   ],
-   "n_polls": 19,
-   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
-   "p_sim": 0.9595,
-   "rating": "Probable D"
   },
   {
    "id": "sen-nh",
@@ -8468,26 +7734,26 @@
     "prior": 8.78,
     "structural": 11.9,
     "expert": 5.65,
-    "poll_avg": 7.19,
+    "poll_avg": 7.2,
     "poll_weight": 0.88,
-    "mean": 7.38,
+    "mean": 7.39,
     "race_sd": 3.55,
     "nat_sd": 2.24,
     "total_sd": 4.2,
-    "p_model": 0.9607
+    "p_model": 0.9608
    },
    "markets": {
-    "Polymarket": 0.895,
-    "Kalshi": 0.8713,
-    "PredictIt": 0.9082
+    "Polymarket": 0.9,
+    "Kalshi": 0.8812,
+    "PredictIt": 0.901
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/new-hampshire-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senatenh",
     "PredictIt": "https://www.predictit.org/markets/detail/8161/Which-party-will-win-the-2026-US-Senate-election-in-New-Hampshire"
    },
-   "p_market": 0.8915,
-   "p_final": 0.9503,
+   "p_market": 0.8941,
+   "p_final": 0.9508,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -9092,7 +8358,734 @@
    ],
    "n_polls": 17,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
-   "p_sim": 0.9558,
+   "p_sim": 0.9565,
+   "rating": "Probable D"
+  },
+  {
+   "id": "sen-mn",
+   "state": "MN",
+   "name": "Minnesota",
+   "special": false,
+   "region": "Midwest",
+   "seat_held_by": "D",
+   "candidates": {
+    "D": "Peggy Flanagan",
+    "R": "Michele Tafoya",
+    "I": null
+   },
+   "side": "D",
+   "pres_2024_margin": 4.2,
+   "est": {
+    "prior": 9.65,
+    "structural": 13.3,
+    "expert": 6.0,
+    "poll_avg": 7.14,
+    "poll_weight": 0.89,
+    "mean": 7.41,
+    "race_sd": 3.45,
+    "nat_sd": 2.24,
+    "total_sd": 4.11,
+    "p_model": 0.9642
+   },
+   "markets": {
+    "Polymarket": 0.9055,
+    "Kalshi": 0.8912,
+    "PredictIt": 0.8824
+   },
+   "market_urls": {
+    "Polymarket": "https://polymarket.com/event/minnesota-senate-election-winner",
+    "Kalshi": "https://kalshi.com/markets/senatemn",
+    "PredictIt": "https://www.predictit.org/markets/detail/8162/Which-party-will-win-the-2026-US-Senate-election-in-Minnesota"
+   },
+   "p_market": 0.893,
+   "p_final": 0.9535,
+   "sentiment": null,
+   "headlines": [],
+   "money": [],
+   "experts": [
+    {
+     "source": "Cook Political Report",
+     "rating": "Lean D",
+     "as_of": "October 20, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Decision Desk HQ",
+     "rating": "Likely D",
+     "as_of": "October 22, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "The Economist",
+     "rating": "Lean D",
+     "as_of": "October 21, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "FiftyPlusOne",
+     "rating": "Likely D",
+     "as_of": "October 22, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Fox News",
+     "rating": "Likely D",
+     "as_of": "October 20, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Inside Elections",
+     "rating": "Lean D",
+     "as_of": "October 15, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "MS NOW",
+     "rating": "Lean D",
+     "as_of": "October 12, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "NBC News",
+     "rating": "Likely D",
+     "as_of": "October 22, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "RealClearPolitics",
+     "rating": "Lean D",
+     "as_of": "October 27, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Sabato's Crystal Ball",
+     "rating": "Lean D",
+     "as_of": "October 14, 2026",
+     "points": 4.0
+    },
+    {
+     "source": "Silver Bulletin",
+     "rating": "Likely D",
+     "as_of": "October 22, 2026",
+     "points": 8.0
+    },
+    {
+     "source": "Split Ticket",
+     "rating": "Likely D",
+     "as_of": "October 22, 2026",
+     "points": 8.0
+    }
+   ],
+   "aggregates": [
+    {
+     "source": "270toWin",
+     "margin": 6.0,
+     "updated": "October 28, 2026"
+    },
+    {
+     "source": "Decision Desk HQ",
+     "margin": 6.8,
+     "updated": "October 28, 2026"
+    },
+    {
+     "source": "FiftyPlusOne",
+     "margin": 7.8,
+     "updated": "October 28, 2026"
+    },
+    {
+     "source": "RealClearPolitics",
+     "margin": 5.1,
+     "updated": "October 28, 2026"
+    },
+    {
+     "source": "Silver Bulletin",
+     "margin": 6.4,
+     "updated": "October 28, 2026"
+    }
+   ],
+   "polls": [
+    {
+     "pollster": "New York Times/Siena University",
+     "end_date": "2026-10-26",
+     "n": 752,
+     "population": "lv",
+     "margin": 14.0,
+     "adjusted": 14.0,
+     "weight": 0.83,
+     "tier": "538 3.0/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 54.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 40.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Rasmussen Reports",
+     "end_date": "2026-10-21",
+     "n": 1182,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 4.2,
+     "weight": 0.205,
+     "tier": "Manual B",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 48.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 45.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Trafalgar Group",
+     "end_date": "2026-10-15",
+     "n": 1079,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 4.8,
+     "weight": 0.138,
+     "tier": "538 0.7/3",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 48.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 45.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "SurveyUSA",
+     "end_date": "2026-10-12",
+     "n": 718,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 3.5,
+     "weight": 0.213,
+     "tier": "538 2.8/3",
+     "partisan": null,
+     "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 45.0
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 42.0
+      },
+      {
+       "choice": "Marisa Simonetti",
+       "pct": 2.0
+      },
+      {
+       "choice": "Rebecca Whiting",
+       "pct": 2.0
+      }
+     ],
+     "sources": [
+      "votehub"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "KSTP/SurveyUSA",
+     "end_date": "2026-10-12",
+     "n": 718,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 4.9,
+     "weight": 0.261,
+     "tier": "538 2.8/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 45.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 42.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Mason-Dixon Polling & Strategy",
+     "end_date": "2026-10-07",
+     "n": 800,
+     "population": "lv",
+     "margin": 4.0,
+     "adjusted": 4.6,
+     "weight": 0.291,
+     "tier": "538 2.6/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 47.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 43.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Rasmussen Reports",
+     "end_date": "2026-10-07",
+     "n": 856,
+     "population": "lv",
+     "margin": 3.0,
+     "adjusted": 4.2,
+     "weight": 0.087,
+     "tier": "Manual B",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 48.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 45.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Morning Consult",
+     "end_date": "2026-10-07",
+     "n": 1000,
+     "population": "rv",
+     "margin": 4.0,
+     "adjusted": 5.1,
+     "weight": 0.244,
+     "tier": "538 1.9/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 45.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 41.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "GQR",
+     "end_date": "2026-10-04",
+     "n": 800,
+     "population": "lv",
+     "margin": 8.0,
+     "adjusted": 7.8,
+     "weight": 0.127,
+     "tier": "538 2.0/3",
+     "partisan": "DEM",
+     "url": "https://x.com/DrewSav/status/2108502733045334207",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 50.0
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 42.0
+      },
+      {
+       "choice": "Marisa Simonetti",
+       "pct": 4.0
+      },
+      {
+       "choice": "Rebecca Whiting",
+       "pct": 2.0
+      }
+     ],
+     "sources": [
+      "votehub",
+      "wikipedia"
+     ],
+     "verified": true,
+     "side": "D"
+    },
+    {
+     "pollster": "Big Data Poll",
+     "end_date": "2026-09-30",
+     "n": 622,
+     "population": "lv",
+     "margin": 2.0,
+     "adjusted": 2.0,
+     "weight": 0.13,
+     "tier": "538 1.1/3",
+     "partisan": null,
+     "url": "https://www.bigdatapoll.com/blog/lone-star-state-poll-peggy-flanagan-holds-slight-lead-over-michele-tafoya-for-us-senate-in-minnesota/",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 46.0
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 44.0
+      },
+      {
+       "choice": "Rebecca Whiting",
+       "pct": 5.0
+      }
+     ],
+     "sources": [
+      "votehub",
+      "wikipedia"
+     ],
+     "verified": true,
+     "side": "D"
+    },
+    {
+     "pollster": "InsiderAdvantage",
+     "end_date": "2026-09-29",
+     "n": 1200,
+     "population": "lv",
+     "margin": 1.0,
+     "adjusted": 2.6,
+     "weight": 0.103,
+     "tier": "538 2.0/3",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 46.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 45.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "co/efficient",
+     "end_date": "2026-09-15",
+     "n": 833,
+     "population": "lv",
+     "margin": 1.0,
+     "adjusted": 4.5,
+     "weight": 0.032,
+     "tier": "538 1.1/3",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 43.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 42.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "SurveyUSA",
+     "end_date": "2026-09-14",
+     "n": 654,
+     "population": "lv",
+     "margin": 0.0,
+     "adjusted": 0.5,
+     "weight": 0.051,
+     "tier": "538 2.8/3",
+     "partisan": null,
+     "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-governor-senate-races-tightening-days-before-early-voting-starts-in-minnesota/",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 42.0
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 42.0
+      },
+      {
+       "choice": "Marisa Simonetti",
+       "pct": 2.0
+      },
+      {
+       "choice": "Rebecca Whiting",
+       "pct": 2.0
+      }
+     ],
+     "sources": [
+      "votehub"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "KSTP/SurveyUSA",
+     "end_date": "2026-09-14",
+     "n": 654,
+     "population": "lv",
+     "margin": 0.0,
+     "adjusted": 1.9,
+     "weight": 0.062,
+     "tier": "538 2.8/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 42.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 42.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Quantus Insights",
+     "end_date": "2026-09-10",
+     "n": 720,
+     "population": "lv",
+     "margin": 3.8,
+     "adjusted": 7.4,
+     "weight": 0.066,
+     "tier": "Manual B",
+     "partisan": null,
+     "url": "https://quantusinsights.org/f/new-quantus-polls-moody-leads-in-florida-flanagan-in-minnesota",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 48.2
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 44.4
+      }
+     ],
+     "sources": [
+      "votehub",
+      "wikipedia"
+     ],
+     "verified": true,
+     "side": "D"
+    },
+    {
+     "pollster": "TIPP Insights",
+     "end_date": "2026-09-02",
+     "n": 1494,
+     "population": "rv",
+     "margin": 2.0,
+     "adjusted": 2.9,
+     "weight": 0.026,
+     "tier": "538 1.8/3",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 40.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 38.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "Deep Root Analytics",
+     "end_date": "2026-08-18",
+     "n": 597,
+     "population": "rv",
+     "margin": 5.0,
+     "adjusted": 5.4,
+     "weight": 0.005,
+     "tier": "Sin calificación",
+     "partisan": "REP",
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 50.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 45.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "SurveyUSA",
+     "end_date": "2026-08-17",
+     "n": 661,
+     "population": "lv",
+     "margin": 5.0,
+     "adjusted": 5.5,
+     "weight": 0.013,
+     "tier": "538 2.8/3",
+     "partisan": null,
+     "url": "KSTP-TV (St. Paul, Minn.), KAAL-TV (Austin, Minn.), WDIO-DT (Duluth, Minn.)",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 46.0
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 41.0
+      },
+      {
+       "choice": "Marisa Simonetti",
+       "pct": 1.0
+      },
+      {
+       "choice": "Rebecca Whiting",
+       "pct": 1.0
+      }
+     ],
+     "sources": [
+      "votehub"
+     ],
+     "verified": false,
+     "side": "D"
+    },
+    {
+     "pollster": "KTSP/SurveyUSA",
+     "end_date": "2026-08-17",
+     "n": 661,
+     "population": "lv",
+     "margin": 5.0,
+     "adjusted": 5.4,
+     "weight": 0.022,
+     "tier": "538 2.8/3",
+     "partisan": null,
+     "url": "",
+     "answers": [
+      {
+       "choice": "Peggy Flanagan",
+       "pct": 46.0,
+       "party": "D"
+      },
+      {
+       "choice": "Michele Tafoya",
+       "pct": 41.0,
+       "party": "R"
+      }
+     ],
+     "sources": [
+      "wikipedia"
+     ],
+     "verified": false,
+     "side": "D"
+    }
+   ],
+   "n_polls": 19,
+   "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+   "p_sim": 0.9594,
    "rating": "Probable D"
   },
   {
@@ -9113,17 +9106,17 @@
     "prior": 8.8,
     "structural": 8.9,
     "expert": 8.69,
-    "poll_avg": 10.51,
+    "poll_avg": 10.53,
     "poll_weight": 0.88,
-    "mean": 10.3,
+    "mean": 10.32,
     "race_sd": 3.46,
     "nat_sd": 2.24,
     "total_sd": 4.12,
     "p_model": 0.9938
    },
    "markets": {
-    "Polymarket": 0.96,
-    "Kalshi": 0.9491,
+    "Polymarket": 0.963,
+    "Kalshi": 0.9503,
     "PredictIt": 0.95
    },
    "market_urls": {
@@ -9131,8 +9124,8 @@
     "Kalshi": "https://kalshi.com/markets/senatega",
     "PredictIt": "https://www.predictit.org/markets/detail/8156/Which-party-will-win-the-2026-US-Senate-election-in-Georgia"
    },
-   "p_market": 0.953,
-   "p_final": 0.9877,
+   "p_market": 0.9544,
+   "p_final": 0.9879,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -9677,7 +9670,7 @@
    ],
    "n_polls": 15,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
-   "p_sim": 0.9859,
+   "p_sim": 0.986,
    "rating": "Seguro D"
   },
   {
@@ -9698,17 +9691,17 @@
     "prior": 7.03,
     "structural": 5.9,
     "expert": 8.15,
-    "poll_avg": 11.38,
+    "poll_avg": 11.39,
     "poll_weight": 0.9,
-    "mean": 10.94,
+    "mean": 10.95,
     "race_sd": 3.25,
     "nat_sd": 2.24,
     "total_sd": 3.95,
     "p_model": 0.9972
    },
    "markets": {
-    "Polymarket": 0.971,
-    "Kalshi": 0.962,
+    "Polymarket": 0.972,
+    "Kalshi": 0.9612,
     "PredictIt": 0.9604
    },
    "market_urls": {
@@ -10496,15 +10489,15 @@
    },
    "markets": {
     "Polymarket": 0.0011,
-    "Kalshi": 0.0032,
-    "PredictIt": 0.0112
+    "Kalshi": 0.0034,
+    "PredictIt": 0.0114
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/montana-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senatemt",
     "PredictIt": "https://www.predictit.org/markets/detail/8377/Which-party-will-win-the-2026-US-Senate-election-in-Montana"
    },
-   "p_market": 0.0052,
+   "p_market": 0.0053,
    "p_final": 0.0041,
    "sentiment": null,
    "headlines": [],
@@ -10974,14 +10967,14 @@
    },
    "markets": {
     "Polymarket": 0.115,
-    "PredictIt": 0.101
+    "PredictIt": 0.1275
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/louisiana-senate-election-winner",
     "PredictIt": "https://www.predictit.org/markets/detail/8389/Which-party-will-win-the-2026-US-Senate-election-in-Louisiana"
    },
-   "p_market": 0.108,
-   "p_final": 0.028,
+   "p_market": 0.1212,
+   "p_final": 0.03,
    "sentiment": null,
    "headlines": [
     {
@@ -11118,7 +11111,7 @@
    ],
    "n_polls": 1,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana",
-   "p_sim": 0.0306,
+   "p_sim": 0.0316,
    "rating": "Seguro R"
   },
   {
@@ -11139,9 +11132,9 @@
     "prior": -19.73,
     "structural": -25.1,
     "expert": -14.36,
-    "poll_avg": -12.27,
+    "poll_avg": -12.25,
     "poll_weight": 0.84,
-    "mean": -13.49,
+    "mean": -13.48,
     "race_sd": 3.76,
     "nat_sd": 2.24,
     "total_sd": 4.38,
@@ -11149,16 +11142,16 @@
    },
    "markets": {
     "Polymarket": 0.0432,
-    "Kalshi": 0.0404,
-    "PredictIt": 0.0816
+    "Kalshi": 0.05,
+    "PredictIt": 0.0408
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/south-dakota-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senatesd",
     "PredictIt": "https://www.predictit.org/markets/detail/8376/Which-party-will-win-the-2026-US-Senate-election-in-South-Dakota"
    },
-   "p_market": 0.0551,
-   "p_final": 0.0091,
+   "p_market": 0.0447,
+   "p_final": 0.0076,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -11244,7 +11237,7 @@
      "n": 803,
      "population": "lv",
      "margin": -8.0,
-     "adjusted": -7.3,
+     "adjusted": -7.2,
      "weight": 0.693,
      "tier": "538 2.9/3",
      "partisan": null,
@@ -11528,7 +11521,7 @@
    ],
    "n_polls": 10,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Dakota",
-   "p_sim": 0.0127,
+   "p_sim": 0.0118,
    "rating": "Seguro R"
   },
   {
@@ -11558,15 +11551,15 @@
     "p_model": 0.003
    },
    "markets": {
-    "Polymarket": 0.0402,
-    "Kalshi": 0.05
+    "Polymarket": 0.041,
+    "Kalshi": 0.0594
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/idaho-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senateid"
    },
-   "p_market": 0.0451,
-   "p_final": 0.0093,
+   "p_market": 0.0502,
+   "p_final": 0.0101,
    "sentiment": null,
    "headlines": [
     {
@@ -11582,6 +11575,12 @@
      "date": "Fri, 23 Oct 2026 10:00:00 GMT"
     },
     {
+     "title": "In Idaho, independent political polls are rare ahead of elections. Here’s why. - Idaho Capital Sun",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR2xIekV4Um1xdFpIbXlBaEYwYXkweldWRkVVOVdQN0o3YjM0dUliTkVpY3dTUWpBc0dzVjZJYmRpdGlCbnV1QXV0YjZuZXc1c2JfLVZkUTAtR3AxM0NmZzM0bE11VXBITUNZVFVubkdNNmp2dERrVXFPWU80T2xGVjlneXVRQ3RuaFF5VjlPekNXTDY5WFRJTzBTWUJoSy1SOEtETlMycjJ1VTU5UnVtMGdiTkY?oc=5",
+     "source": "Idaho Capital Sun",
+     "date": "Wed, 28 Oct 2026 10:21:32 GMT"
+    },
+    {
      "title": "Campaigns emphasize affordability in key Senate race - Idaho Press",
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUUxyN3NGYTZ2OE1EVlJrN1gzVDFDVGg0U3RFeXJPamwtUmFlUHdYQXpzcUFlUkNZQWRCSDZwbmh5OVdHY1JQLU1VLV96c2NIbkJQbzY1Z1Btd250TEExMUZCOUFYMWFtckR4VWZkeWRKbkRDMVF2QVQ1NHQ0R1NHUkUzbVQ4RkJiUWhRU3pZOEpVb1g0RUtzNXhXUU4xYmw2YnczRG95WDBWdl9PVEdzckVyU3FDYmJ3SU5JMmZqT2Rhb2VCNzFJdDJQdTAtc1pBYXVHN1RGSG5FRmNQ?oc=5",
      "source": "Idaho Press",
@@ -11592,12 +11591,6 @@
      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNLVVYcGVhSEc3dHdRb0puMG5WRXFLT2FiaVVWeWRlT0tyTUtkZWVpWFg1ZlBCYU9GdEFVaHhlbHpqR3hYeV9OM3pmZ0NtbFpWVGFXM2FxZVlwTFhYNnRPdnctS0wyTDZ0enhWTXBjOXRPZFpYSTd6VWptUzBXU0dORXctNVFzVXhPdEl5WXN0V2dSaGF0eVRYeDNoSVRsT0dya0ZZbXNTdmlVbHpEYWtHSlpfcUJOMkNFR1hKb0ZqSkw5cnNoNXV6OWpQZU9BWVFEZzg4UTNjXzdYMmJCeElzd1RxZzBGQ3VZMlNIQ2tOY0VuOVQyOElLWXlHSk16aDVvVER6c3YwcE1hVkE?oc=5",
      "source": "KTVB",
      "date": "Thu, 22 Oct 2026 23:40:00 GMT"
-    },
-    {
-     "title": "Idaho U.S. Senate Election 2026: Latest Polls - The New York Times",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSUVGSVZRYVd0Z2xBLU4ybzFwMllVaV9IbnZ2VWN6N0U0T3ozZER6Z2ZqaTM5bXZnc0VQUkEwMHRwWjVKRFRyaEVCYTRfTkI5ZWp3ZFlOaWF3OXVoTVkweV83Q3VXdWFzQldQa3N2dmc2YU43ODBlcE45a0l5ZjBlY2ZhbXVBWl9XaEE?oc=5",
-     "source": "The New York Times",
-     "date": "Mon, 26 Oct 2026 14:39:53 GMT"
     }
    ],
    "money": [],
@@ -11915,7 +11908,7 @@
    ],
    "n_polls": 8,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
-   "p_sim": 0.0133,
+   "p_sim": 0.0141,
    "rating": "Seguro R"
   },
   {
@@ -11945,8 +11938,8 @@
     "p_model": 0.0007
    },
    "markets": {
-    "Polymarket": 0.0493,
-    "Kalshi": 0.0559,
+    "Polymarket": 0.047,
+    "Kalshi": 0.0546,
     "PredictIt": 0.0784
    },
    "market_urls": {
@@ -11954,8 +11947,8 @@
     "Kalshi": "https://kalshi.com/markets/senatear",
     "PredictIt": "https://www.predictit.org/markets/detail/8390/Which-party-will-win-the-2026-US-Senate-election-in-Arkansas"
    },
-   "p_market": 0.0612,
-   "p_final": 0.0098,
+   "p_market": 0.06,
+   "p_final": 0.0096,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -12168,7 +12161,7 @@
    ],
    "n_polls": 4,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
-   "p_sim": 0.0127,
+   "p_sim": 0.0126,
    "rating": "Seguro R"
   },
   {
@@ -12314,8 +12307,8 @@
     "p_model": 0.9853
    },
    "markets": {
-    "Polymarket": 0.983,
-    "Kalshi": 0.9633,
+    "Polymarket": 0.9829,
+    "Kalshi": 0.9672,
     "PredictIt": 0.9706
    },
    "market_urls": {
@@ -12323,8 +12316,8 @@
     "Kalshi": "https://kalshi.com/markets/senatenj",
     "PredictIt": "https://www.predictit.org/markets/detail/8383/Which-party-will-win-the-2026-US-Senate-election-in-New-Jersey"
    },
-   "p_market": 0.9723,
-   "p_final": 0.9833,
+   "p_market": 0.9736,
+   "p_final": 0.9835,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -12430,7 +12423,7 @@
     "p_model": 0.9997
    },
    "markets": {
-    "Polymarket": 0.978,
+    "Polymarket": 0.9762,
     "Kalshi": 0.9682,
     "PredictIt": 0.9604
    },
@@ -12439,8 +12432,8 @@
     "Kalshi": "https://kalshi.com/markets/senatenm",
     "PredictIt": "https://www.predictit.org/markets/detail/8397/Which-party-will-win-the-2026-US-Senate-election-in-New-Mexico"
    },
-   "p_market": 0.9689,
-   "p_final": 0.9951,
+   "p_market": 0.9683,
+   "p_final": 0.995,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -12613,7 +12606,7 @@
    ],
    "n_polls": 3,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Mexico",
-   "p_sim": 0.9915,
+   "p_sim": 0.9914,
    "rating": "Seguro D"
   },
   {
@@ -12634,9 +12627,9 @@
     "prior": 17.5,
     "structural": 20.0,
     "expert": 15.0,
-    "poll_avg": 16.2,
+    "poll_avg": 16.22,
     "poll_weight": 0.47,
-    "mean": 16.89,
+    "mean": 16.9,
     "race_sd": 4.56,
     "nat_sd": 2.24,
     "total_sd": 5.08,
@@ -12816,14 +12809,14 @@
     "p_model": 0.0001
    },
    "markets": {
-    "Kalshi": 0.0212,
+    "Kalshi": 0.0209,
     "PredictIt": 0.0769
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senateal",
     "PredictIt": "https://www.predictit.org/markets/detail/8384/Which-party-will-win-the-2026-US-Senate-election-in-Alabama"
    },
-   "p_market": 0.049,
+   "p_market": 0.0489,
    "p_final": 0.0074,
    "sentiment": null,
    "headlines": [],
@@ -13006,7 +12999,7 @@
     "prior": -18.2,
     "structural": -21.4,
     "expert": -15.0,
-    "poll_avg": -9.79,
+    "poll_avg": -9.78,
     "poll_weight": 0.04,
     "mean": -17.9,
     "race_sd": 5.0,
@@ -13015,15 +13008,15 @@
     "p_model": 0.0005
    },
    "markets": {
-    "Polymarket": 0.026,
+    "Polymarket": 0.0279,
     "PredictIt": 0.05
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/kentucky-senate-election-winner",
     "PredictIt": "https://www.predictit.org/markets/detail/8386/Which-party-will-win-the-2026-US-Senate-election-in-Kentucky"
    },
-   "p_market": 0.038,
-   "p_final": 0.0062,
+   "p_market": 0.039,
+   "p_final": 0.0063,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -13129,7 +13122,7 @@
    ],
    "n_polls": 1,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kentucky",
-   "p_sim": 0.0115,
+   "p_sim": 0.0116,
    "rating": "Seguro R"
   },
   {
@@ -13159,15 +13152,15 @@
     "p_model": 0.9942
    },
    "markets": {
-    "Polymarket": 0.985,
-    "Kalshi": 0.9732
+    "Polymarket": 0.988,
+    "Kalshi": 0.972
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/colorado-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senateco"
    },
-   "p_market": 0.9791,
-   "p_final": 0.9919,
+   "p_market": 0.98,
+   "p_final": 0.9921,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -13274,16 +13267,16 @@
    },
    "markets": {
     "Polymarket": 0.0351,
-    "Kalshi": 0.038,
-    "PredictIt": 0.0202
+    "Kalshi": 0.037,
+    "PredictIt": 0.03
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/tennessee-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senatetn",
     "PredictIt": "https://www.predictit.org/markets/detail/8385/Which-party-will-win-the-2026-US-Senate-election-in-Tennessee"
    },
-   "p_market": 0.0311,
-   "p_final": 0.0049,
+   "p_market": 0.034,
+   "p_final": 0.0054,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -13388,7 +13381,7 @@
    ],
    "n_polls": 1,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
-   "p_sim": 0.0092,
+   "p_sim": 0.0097,
    "rating": "Seguro R"
   },
   {
@@ -13418,8 +13411,8 @@
     "p_model": 0.0001
    },
    "markets": {
-    "Polymarket": 0.0201,
-    "Kalshi": 0.027,
+    "Polymarket": 0.0191,
+    "Kalshi": 0.0278,
     "PredictIt": 0.02
    },
    "market_urls": {
@@ -13427,8 +13420,8 @@
     "Kalshi": "https://kalshi.com/markets/senateok",
     "PredictIt": "https://www.predictit.org/markets/detail/8391/Which-party-will-win-the-2026-US-Senate-election-in-Oklahoma"
    },
-   "p_market": 0.0224,
-   "p_final": 0.0035,
+   "p_market": 0.0223,
+   "p_final": 0.0034,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -13564,8 +13557,8 @@
     "p_model": 0.997
    },
    "markets": {
-    "Polymarket": 0.989,
-    "Kalshi": 0.9871,
+    "Polymarket": 0.987,
+    "Kalshi": 0.9781,
     "PredictIt": 0.9703
    },
    "market_urls": {
@@ -13573,8 +13566,8 @@
     "Kalshi": "https://kalshi.com/markets/senateor",
     "PredictIt": "https://www.predictit.org/markets/detail/8395/Which-party-will-win-the-2026-US-Senate-election-in-Oregon"
    },
-   "p_market": 0.9821,
-   "p_final": 0.9948,
+   "p_market": 0.9785,
+   "p_final": 0.9942,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -13650,7 +13643,7 @@
    "polls": [],
    "n_polls": 0,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oregon",
-   "p_sim": 0.9908,
+   "p_sim": 0.9907,
    "rating": "Seguro D"
   },
   {
@@ -13681,7 +13674,7 @@
    },
    "markets": {
     "Polymarket": 0.972,
-    "Kalshi": 0.978,
+    "Kalshi": 0.9802,
     "PredictIt": 0.99
    },
    "market_urls": {
@@ -13689,8 +13682,8 @@
     "Kalshi": "https://kalshi.com/markets/senatede",
     "PredictIt": "https://www.predictit.org/markets/detail/8407/Which-party-will-win-the-2026-US-Senate-election-in-Delaware"
    },
-   "p_market": 0.98,
-   "p_final": 0.9947,
+   "p_market": 0.9807,
+   "p_final": 0.9948,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -13766,7 +13759,7 @@
    "polls": [],
    "n_polls": 0,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware",
-   "p_sim": 0.9901,
+   "p_sim": 0.9902,
    "rating": "Seguro D"
   },
   {
@@ -13797,7 +13790,7 @@
    },
    "markets": {
     "Polymarket": 0.017,
-    "Kalshi": 0.0258,
+    "Kalshi": 0.0239,
     "PredictIt": 0.0202
    },
    "market_urls": {
@@ -13805,8 +13798,8 @@
     "Kalshi": "https://kalshi.com/markets/senatewv",
     "PredictIt": "https://www.predictit.org/markets/detail/8387/Which-party-will-win-the-2026-US-Senate-election-in-West-Virginia"
    },
-   "p_market": 0.021,
-   "p_final": 0.0035,
+   "p_market": 0.0204,
+   "p_final": 0.0034,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -13913,7 +13906,7 @@
    },
    "markets": {
     "Polymarket": 0.012,
-    "Kalshi": 0.019,
+    "Kalshi": 0.0187,
     "PredictIt": 0.0388
    },
    "market_urls": {
@@ -13921,7 +13914,7 @@
     "Kalshi": "https://kalshi.com/markets/senatewy",
     "PredictIt": "https://www.predictit.org/markets/detail/8399/Which-party-will-win-the-2026-US-Senate-election-in-Wyoming"
    },
-   "p_market": 0.0233,
+   "p_market": 0.0232,
    "p_final": 0.0037,
    "sentiment": null,
    "headlines": [],
@@ -14019,16 +14012,16 @@
     "prior": 19.95,
     "structural": 24.9,
     "expert": 15.0,
-    "poll_avg": 30.1,
+    "poll_avg": 30.12,
     "poll_weight": 0.67,
-    "mean": 26.74,
+    "mean": 26.75,
     "race_sd": 4.16,
     "nat_sd": 2.24,
     "total_sd": 4.72,
     "p_model": 1.0
    },
    "markets": {
-    "Polymarket": 0.983,
+    "Polymarket": 0.984,
     "Kalshi": 0.9841,
     "PredictIt": 0.9612
    },
@@ -14037,8 +14030,8 @@
     "Kalshi": "https://kalshi.com/markets/senateri",
     "PredictIt": "https://www.predictit.org/markets/detail/8382/Which-party-will-win-the-2026-US-Senate-election-in-Rhode-Island"
    },
-   "p_market": 0.9761,
-   "p_final": 0.9964,
+   "p_market": 0.9764,
+   "p_final": 0.9965,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -14118,7 +14111,7 @@
      "n": 800,
      "population": "lv",
      "margin": 34.0,
-     "adjusted": 34.7,
+     "adjusted": 34.8,
      "weight": 0.399,
      "tier": "538 2.9/3",
      "partisan": null,
@@ -14261,9 +14254,9 @@
     "prior": 25.65,
     "structural": 36.3,
     "expert": 15.0,
-    "poll_avg": 27.48,
+    "poll_avg": 27.52,
     "poll_weight": 0.78,
-    "mean": 27.08,
+    "mean": 27.12,
     "race_sd": 3.76,
     "nat_sd": 2.24,
     "total_sd": 4.38,
@@ -14271,7 +14264,7 @@
    },
    "markets": {
     "Polymarket": 0.983,
-    "Kalshi": 0.98,
+    "Kalshi": 0.9801,
     "PredictIt": 0.9706
    },
    "market_urls": {
@@ -14376,7 +14369,7 @@
      "n": 500,
      "population": "lv",
      "margin": 28.0,
-     "adjusted": 27.9,
+     "adjusted": 28.0,
      "weight": 0.472,
      "tier": "538 2.9/3",
      "partisan": null,
@@ -14412,7 +14405,7 @@
      "n": 800,
      "population": "rv",
      "margin": 27.0,
-     "adjusted": 28.1,
+     "adjusted": 28.2,
      "weight": 0.226,
      "tier": "538 2.4/3",
      "partisan": null,
@@ -14447,7 +14440,7 @@
      "n": 800,
      "population": "rv",
      "margin": 27.0,
-     "adjusted": 28.1,
+     "adjusted": 28.2,
      "weight": 0.259,
      "tier": "538 3.0/3",
      "partisan": null,
@@ -14576,7 +14569,7 @@
      "n": 800,
      "population": "rv",
      "margin": 21.0,
-     "adjusted": 22.1,
+     "adjusted": 22.2,
      "weight": 0.011,
      "tier": "538 2.4/3",
      "partisan": null,
@@ -14603,7 +14596,7 @@
      "n": 800,
      "population": "rv",
      "margin": 21.0,
-     "adjusted": 22.1,
+     "adjusted": 22.2,
      "weight": 0.013,
      "tier": "538 3.0/3",
      "partisan": null,
@@ -15356,7 +15349,7 @@
    "hist_bias": "-0.6",
    "polls": 22,
    "races": 12,
-   "house_effect": -1.61
+   "house_effect": -1.62
   },
   {
    "name": "YouGov",
@@ -15366,7 +15359,7 @@
    "hist_bias": "-1.7",
    "polls": 19,
    "races": 11,
-   "house_effect": 0.61
+   "house_effect": 0.59
   },
   {
    "name": "Trafalgar Group",
@@ -15376,7 +15369,7 @@
    "hist_bias": "+1.6",
    "polls": 17,
    "races": 11,
-   "house_effect": -1.77
+   "house_effect": -1.79
   },
   {
    "name": "Rasmussen Reports",
@@ -15386,7 +15379,7 @@
    "hist_bias": null,
    "polls": 17,
    "races": 9,
-   "house_effect": -1.22
+   "house_effect": -1.24
   },
   {
    "name": "Quantus Insights",
@@ -15396,7 +15389,7 @@
    "hist_bias": null,
    "polls": 17,
    "races": 12,
-   "house_effect": -3.59
+   "house_effect": -3.6
   },
   {
    "name": "Beacon Research/Shaw & Co. Research",
@@ -15406,7 +15399,7 @@
    "hist_bias": "-1.4",
    "polls": 15,
    "races": 5,
-   "house_effect": 0.12
+   "house_effect": 0.09
   },
   {
    "name": "Marist University",
@@ -15416,7 +15409,7 @@
    "hist_bias": "-1.1",
    "polls": 15,
    "races": 5,
-   "house_effect": 2.18
+   "house_effect": 2.16
   },
   {
    "name": "co/efficient",
@@ -15436,7 +15429,7 @@
    "hist_bias": "-1.3",
    "polls": 10,
    "races": 6,
-   "house_effect": -0.73
+   "house_effect": -0.77
   },
   {
    "name": "Abacus Data",
@@ -15456,7 +15449,7 @@
    "hist_bias": "-2.0",
    "polls": 9,
    "races": 9,
-   "house_effect": -0.0
+   "house_effect": -0.02
   },
   {
    "name": "Big Data Poll",
@@ -15466,7 +15459,17 @@
    "hist_bias": "+0.4",
    "polls": 8,
    "races": 6,
-   "house_effect": -0.03
+   "house_effect": -0.05
+  },
+  {
+   "name": "Suffolk University",
+   "tier": "538 2.9/3",
+   "quality": 1.028,
+   "aapor_roper": true,
+   "hist_bias": "-1.5",
+   "polls": 7,
+   "races": 5,
+   "house_effect": -0.04
   },
   {
    "name": "ActiVote",
@@ -15476,7 +15479,7 @@
    "hist_bias": null,
    "polls": 7,
    "races": 6,
-   "house_effect": -0.42
+   "house_effect": -0.45
   },
   {
    "name": "Change Research",
@@ -15486,7 +15489,7 @@
    "hist_bias": "-0.1",
    "polls": 7,
    "races": 4,
-   "house_effect": -1.5
+   "house_effect": -1.51
   },
   {
    "name": "University of New Hampshire",
@@ -15496,17 +15499,7 @@
    "hist_bias": "-0.7",
    "polls": 7,
    "races": 4,
-   "house_effect": -3.63
-  },
-  {
-   "name": "Suffolk University",
-   "tier": "538 2.9/3",
-   "quality": 1.028,
-   "aapor_roper": true,
-   "hist_bias": "-1.5",
-   "polls": 6,
-   "races": 5,
-   "house_effect": 0.06
+   "house_effect": -3.64
   },
   {
    "name": "Wedgewood Polls",
@@ -15516,7 +15509,7 @@
    "hist_bias": null,
    "polls": 6,
    "races": 6,
-   "house_effect": -0.06
+   "house_effect": -0.07
   },
   {
    "name": "Echelon Insights",
@@ -15526,7 +15519,7 @@
    "hist_bias": "-0.7",
    "polls": 6,
    "races": 6,
-   "house_effect": 0.35
+   "house_effect": 0.34
   },
   {
    "name": "SurveyUSA",
@@ -15546,7 +15539,7 @@
    "hist_bias": "-1.7",
    "polls": 6,
    "races": 1,
-   "house_effect": 1.02
+   "house_effect": 1.01
   },
   {
    "name": "Impact Research",
@@ -15566,7 +15559,7 @@
    "hist_bias": null,
    "polls": 5,
    "races": 3,
-   "house_effect": -1.2
+   "house_effect": -1.21
   },
   {
    "name": "Global Strategy Group",
@@ -15576,7 +15569,7 @@
    "hist_bias": "-0.1",
    "polls": 5,
    "races": 3,
-   "house_effect": 0.79
+   "house_effect": 0.78
   },
   {
    "name": "Fabrizio, Lee & Associates/Impact Research",
@@ -15586,7 +15579,7 @@
    "hist_bias": "-0.2",
    "polls": 4,
    "races": 4,
-   "house_effect": -0.81
+   "house_effect": -0.82
   },
   {
    "name": "SSRS",
@@ -15606,7 +15599,7 @@
    "hist_bias": null,
    "polls": 4,
    "races": 2,
-   "house_effect": 0.05
+   "house_effect": 0.0
   },
   {
    "name": "Public Policy Polling",
@@ -15616,7 +15609,7 @@
    "hist_bias": "-0.3",
    "polls": 4,
    "races": 4,
-   "house_effect": 0.81
+   "house_effect": 0.8
   },
   {
    "name": "Targoz Market Research",
@@ -15656,7 +15649,7 @@
    "hist_bias": "-1.2",
    "polls": 3,
    "races": 3,
-   "house_effect": 0.53
+   "house_effect": 0.52
   },
   {
    "name": "RedBox Research",
@@ -15686,7 +15679,7 @@
    "hist_bias": "+0.5",
    "polls": 3,
    "races": 3,
-   "house_effect": 0.78
+   "house_effect": 0.76
   },
   {
    "name": "GS Strategy Group/New River Strategies",
@@ -15696,7 +15689,7 @@
    "hist_bias": "+0.5",
    "polls": 3,
    "races": 3,
-   "house_effect": 0.78
+   "house_effect": 0.76
   },
   {
    "name": "ReconMR/Siena University",
@@ -15706,7 +15699,7 @@
    "hist_bias": "-1.0",
    "polls": 3,
    "races": 1,
-   "house_effect": 0.77
+   "house_effect": 0.71
   },
   {
    "name": "Slingshot Strategies",
@@ -15716,7 +15709,7 @@
    "hist_bias": "+0.0",
    "polls": 3,
    "races": 1,
-   "house_effect": 0.77
+   "house_effect": 0.71
   },
   {
    "name": "Texas Public Opinion Research",
@@ -15726,7 +15719,7 @@
    "hist_bias": "+0.0",
    "polls": 3,
    "races": 1,
-   "house_effect": 0.92
+   "house_effect": 0.85
   },
   {
    "name": "Hart Research Associates",
@@ -15786,7 +15779,7 @@
    "hist_bias": "+0.1",
    "polls": 2,
    "races": 1,
-   "house_effect": -1.27
+   "house_effect": -1.28
   },
   {
    "name": "EPIC-MRA",
@@ -15796,7 +15789,7 @@
    "hist_bias": "-0.5",
    "polls": 2,
    "races": 1,
-   "house_effect": -0.94
+   "house_effect": -0.95
   },
   {
    "name": "GBAO Strategies",
@@ -15836,7 +15829,7 @@
    "hist_bias": "-0.8",
    "polls": 2,
    "races": 2,
-   "house_effect": 0.34
+   "house_effect": 0.33
   },
   {
    "name": "Guidant Polling and Strategy",
@@ -15846,7 +15839,7 @@
    "hist_bias": null,
    "polls": 2,
    "races": 2,
-   "house_effect": 0.2
+   "house_effect": 0.18
   },
   {
    "name": "Glengariff Group, Inc.",
@@ -15856,7 +15849,7 @@
    "hist_bias": "-0.1",
    "polls": 2,
    "races": 1,
-   "house_effect": -0.39
+   "house_effect": -0.4
   },
   {
    "name": "SoCal Strategies",
@@ -15866,7 +15859,7 @@
    "hist_bias": null,
    "polls": 2,
    "races": 2,
-   "house_effect": -0.36
+   "house_effect": -0.39
   },
   {
    "name": "Bowling Green State University/YouGov",
@@ -15876,7 +15869,7 @@
    "hist_bias": "-1.7",
    "polls": 2,
    "races": 1,
-   "house_effect": 0.18
+   "house_effect": 0.19
   },
   {
    "name": "CNN/SSRS",
@@ -15896,7 +15889,7 @@
    "hist_bias": null,
    "polls": 2,
    "races": 2,
-   "house_effect": -0.09
+   "house_effect": -0.11
   },
   {
    "name": "Alaska Survey Research",
@@ -15966,7 +15959,17 @@
    "hist_bias": null,
    "polls": 2,
    "races": 1,
-   "house_effect": -0.45
+   "house_effect": -0.5
+  },
+  {
+   "name": "YouGov Blue",
+   "tier": "Manual A",
+   "quality": 1.0,
+   "aapor_roper": false,
+   "hist_bias": null,
+   "polls": 2,
+   "races": 1,
+   "house_effect": 0.83
   },
   {
    "name": "Fabrizio Ward/Impact Research",
@@ -15976,7 +15979,7 @@
    "hist_bias": "+0.3",
    "polls": 2,
    "races": 2,
-   "house_effect": 0.14
+   "house_effect": 0.11
   },
   {
    "name": "University of Massachusetts Lowell Center for Public Opinion/YouGov",
@@ -15986,7 +15989,7 @@
    "hist_bias": "-1.1",
    "polls": 2,
    "races": 2,
-   "house_effect": -0.09
+   "house_effect": -0.11
   },
   {
    "name": "Univision/YouGov",
@@ -15996,7 +15999,7 @@
    "hist_bias": "-1.7",
    "polls": 2,
    "races": 1,
-   "house_effect": 0.71
+   "house_effect": 0.66
   },
   {
    "name": "CBS News/YouGov",
@@ -16006,7 +16009,7 @@
    "hist_bias": "-1.7",
    "polls": 2,
    "races": 2,
-   "house_effect": -0.59
+   "house_effect": -0.61
   },
   {
    "name": "University of Texas/Texas Politics Project",
@@ -16016,7 +16019,7 @@
    "hist_bias": null,
    "polls": 2,
    "races": 1,
-   "house_effect": 0.05
+   "house_effect": -0.0
   },
   {
    "name": "Mason-Dixon",
@@ -16026,7 +16029,7 @@
    "hist_bias": "-1.7",
    "polls": 2,
    "races": 2,
-   "house_effect": -1.09
+   "house_effect": -1.12
   },
   {
    "name": "East Carolina University",
@@ -16076,7 +16079,7 @@
    "hist_bias": "-0.5",
    "polls": 2,
    "races": 1,
-   "house_effect": -1.14
+   "house_effect": -1.16
   },
   {
    "name": "UMass Amherst/YouGov",
@@ -16086,7 +16089,7 @@
    "hist_bias": "-1.7",
    "polls": 2,
    "races": 1,
-   "house_effect": -1.14
+   "house_effect": -1.16
   },
   {
    "name": "Research & Polling Inc.",
@@ -16176,7 +16179,7 @@
    "hist_bias": "-0.4",
    "polls": 1,
    "races": 1,
-   "house_effect": 0.74
+   "house_effect": 0.73
   },
   {
    "name": "Mitchell Research & Communications",
@@ -16186,7 +16189,7 @@
    "hist_bias": "-1.2",
    "polls": 1,
    "races": 1,
-   "house_effect": 0.34
+   "house_effect": 0.33
   },
   {
    "name": "Z to A Research",
@@ -16196,7 +16199,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": 0.74
+   "house_effect": 0.73
   },
   {
    "name": "Michigan State University/YouGov",
@@ -16206,7 +16209,7 @@
    "hist_bias": "-1.7",
    "polls": 1,
    "races": 1,
-   "house_effect": 0.14
+   "house_effect": 0.13
   },
   {
    "name": "Torchlight Strategies",
@@ -16216,7 +16219,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": -0.86
+   "house_effect": -0.87
   },
   {
    "name": "Tulchin Research",
@@ -16319,16 +16322,6 @@
    "house_effect": 0.05
   },
   {
-   "name": "YouGov Blue",
-   "tier": "Manual A",
-   "quality": 1.0,
-   "aapor_roper": false,
-   "hist_bias": null,
-   "polls": 1,
-   "races": 1,
-   "house_effect": 0.03
-  },
-  {
    "name": "The Texas Politics Project at the University of Texas at Austin/YouGov",
    "tier": "538 3.0/3",
    "quality": 1.0,
@@ -16336,7 +16329,7 @@
    "hist_bias": "-1.7",
    "polls": 1,
    "races": 1,
-   "house_effect": 0.03
+   "house_effect": -0.0
   },
   {
    "name": "Pollfinity",
@@ -16346,7 +16339,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": 0.43
+   "house_effect": 0.4
   },
   {
    "name": "University of Houston",
@@ -16356,7 +16349,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": -0.17
+   "house_effect": -0.2
   },
   {
    "name": "UMass Lowell/YouGov",
@@ -16366,7 +16359,7 @@
    "hist_bias": "-1.7",
    "polls": 1,
    "races": 1,
-   "house_effect": -0.57
+   "house_effect": -0.6
   },
   {
    "name": "Pulse Decision Science",
@@ -16376,7 +16369,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": -1.17
+   "house_effect": -1.2
   },
   {
    "name": "Stratus Intelligence",
@@ -16386,7 +16379,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": -0.57
+   "house_effect": -0.6
   },
   {
    "name": "Overton Insights",
@@ -16396,7 +16389,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": -0.57
+   "house_effect": -0.6
   },
   {
    "name": "Texas A&M University/ReconMR/Siena University",
@@ -16406,7 +16399,7 @@
    "hist_bias": "-1.0",
    "polls": 1,
    "races": 1,
-   "house_effect": 0.23
+   "house_effect": 0.2
   },
   {
    "name": "Maine People's Resource Center",
@@ -16456,7 +16449,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": -1.53
+   "house_effect": -1.54
   },
   {
    "name": "Aspect Strategic",
@@ -16466,7 +16459,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": -0.13
+   "house_effect": -0.14
   },
   {
    "name": "Rutgers-Eagleton",
@@ -16476,7 +16469,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": 0.67
+   "house_effect": 0.66
   },
   {
    "name": "Hart Research",
@@ -16486,7 +16479,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": 2.27
+   "house_effect": 2.26
   },
   {
    "name": "VoteNexus Research",
@@ -16506,7 +16499,7 @@
    "hist_bias": "-0.6",
    "polls": 1,
    "races": 1,
-   "house_effect": -0.29
+   "house_effect": -0.3
   },
   {
    "name": "University of Georgia School of Public and International Affairs",
@@ -16586,7 +16579,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": -0.93
+   "house_effect": -0.94
   },
   {
    "name": "Zenith Research",
@@ -16596,7 +16589,7 @@
    "hist_bias": null,
    "polls": 1,
    "races": 1,
-   "house_effect": 1.27
+   "house_effect": 1.26
   },
   {
    "name": "Lake Research Partners",
@@ -16606,7 +16599,7 @@
    "hist_bias": "+0.4",
    "polls": 1,
    "races": 1,
-   "house_effect": 3.87
+   "house_effect": 3.86
   },
   {
    "name": "CHS & Associates",
@@ -16621,9 +16614,9 @@
  ],
  "ratings_source": "538",
  "counts": {
-  "polls_total": 419,
+  "polls_total": 421,
   "polls_verified": 153,
-  "polls_raw": 634,
+  "polls_raw": 636,
   "experts": 415
  },
  "source_registry": [
@@ -16653,7 +16646,7 @@
      "what": "Tablas mantenidas por editores con cita a cada encuesta original. Segunda fuente independiente para verificar y completar VoteHub. Se lee por la API oficial de MediaWiki.",
      "status": {
       "ok": true,
-      "records": 417
+      "records": 419
      }
     },
     {
