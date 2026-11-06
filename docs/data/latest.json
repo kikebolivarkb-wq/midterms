@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T06:59+00:00",
+ "generated_at": "2026-11-06T16:56+00:00",
  "as_of": "2026-11-06",
  "days_left": 0,
  "live_data": true,
@@ -309,8 +309,8 @@
  },
  "control": {
   "senate": {
-   "p_d_control": 0.9008,
-   "p_r_control": 0.0958,
+   "p_d_control": 0.9032,
+   "p_r_control": 0.0934,
    "p_depends_on_independent": 0.0034,
    "d_seats_median": 53,
    "d_seats_mean": 53.1,
@@ -330,71 +330,71 @@
     },
     {
      "seats": 42,
-     "pct": 0.035
+     "pct": 0.03
     },
     {
      "seats": 43,
-     "pct": 0.085
+     "pct": 0.09
     },
     {
      "seats": 44,
-     "pct": 0.14
+     "pct": 0.13
     },
     {
      "seats": 45,
-     "pct": 0.215
+     "pct": 0.205
     },
     {
      "seats": 46,
-     "pct": 0.31
+     "pct": 0.315
     },
     {
      "seats": 47,
-     "pct": 0.61
+     "pct": 0.595
     },
     {
      "seats": 48,
-     "pct": 1.26
+     "pct": 1.22
     },
     {
      "seats": 49,
-     "pct": 2.455
+     "pct": 2.405
     },
     {
      "seats": 50,
-     "pct": 4.73
+     "pct": 4.605
     },
     {
      "seats": 51,
-     "pct": 9.28
+     "pct": 9.23
     },
     {
      "seats": 52,
-     "pct": 15.005
+     "pct": 14.76
     },
     {
      "seats": 53,
-     "pct": 21.015
+     "pct": 21.125
     },
     {
      "seats": 54,
-     "pct": 22.13
+     "pct": 22.25
     },
     {
      "seats": 55,
-     "pct": 13.575
+     "pct": 13.68
     },
     {
      "seats": 56,
-     "pct": 6.045
+     "pct": 6.19
     },
     {
      "seats": 57,
-     "pct": 2.115
+     "pct": 2.14
     },
     {
      "seats": 58,
-     "pct": 0.695
+     "pct": 0.73
     },
     {
      "seats": 59,
@@ -971,26 +971,39 @@
     "expert": 0.86,
     "poll_avg": 2.35,
     "poll_weight": 0.76,
-    "mean": 1.25,
+    "mean": 1.27,
     "race_sd": 4.0,
     "nat_sd": 2.0,
     "total_sd": 4.47,
-    "p_model": 0.6105
+    "p_model": 0.6122
    },
    "markets": {
-    "Polymarket": 0.975,
-    "Kalshi": 0.9652,
-    "PredictIt": 0.9697
+    "Polymarket": 0.9819,
+    "Kalshi": 0.972,
+    "PredictIt": 0.96
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/alaska-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senateak",
     "PredictIt": "https://www.predictit.org/markets/detail/8271/Which-party-will-win-the-2026-US-Senate-election-in-Alaska"
    },
-   "p_market": 0.97,
-   "p_final": 0.6644,
-   "sentiment": null,
+   "p_market": 0.9713,
+   "p_final": 0.6661,
+   "sentiment": {
+    "tone_non_r": -1.82,
+    "tone_r": -1.92,
+    "articles_non_r": null,
+    "articles_r": null,
+    "tone_diff": 0.1,
+    "points": 0.02
+   },
    "headlines": [
+    {
+     "title": "Alaska U.S. Senate Election Live Results 2026 - AP News",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGX0liOGNkRTQzMDBlYmZKUTIzLV9fVDlrLWZFZ3FvUThwQkRPdHVrY1ctczFGVXlrU1BNMDgtbXVJekZkQnNrVDZuOU8zSkpsR2xNd3lLWk9pQndSZGNfclJ2QW54X2Fpdk0teUNHMno5RmpqWDYw?oc=5",
+     "source": "AP News",
+     "date": "Thu, 05 Nov 2026 08:00:00 GMT"
+    },
     {
      "title": "Alaska’s US Senate race a tossup, with many absentee and early votes to be counted - Alaska Beacon",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdTZIeW9QYlpvc0xmSEhkMWc3Vm1QakhRczRlWTVsOU9mMGEzNi11Y2FKUW01bnJXcmM3TnE2WUdWUnBMRGIxa2YxVkRmOEJEZWlzVDRUOWxKZWN6d3FHOUlaa1JRdzVzaWhnbzJjUGU1TFp4MGhUSGRaNFc2OGRrWmtEZlMxYTNXZk03UEVfWkU1YTUwX29oVVRrVnh5ZkRFRDM2LTBxNTIzdEszUzAxbWhiT2hDNHpwZlNQNkhOVlMxR090Znkw?oc=5",
@@ -998,10 +1011,10 @@
      "date": "Wed, 04 Nov 2026 10:55:23 GMT"
     },
     {
-     "title": "Alaska prosecutor investigates alleged Democratic plot to confuse voters with second Dan Sullivan - The Guardian",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdGwxc3k5WEVISk81ODZwcDNjcThHWTA4UmxEZ0pZeWM2X0NkLTBUZDA5Q1duakhrTlBtV2pLY19HaFVRd0x4WkJkZlIyVnYwRkZoMVNTeWVhS0dOU1lDNG1TZnNiSlAwR3dRWkVGNWJMTGI1RUI0a0s1YTlXd20ycFJoTTFid3R3aDJ2WU42LXQ5MGFMcE1CMmswZlA?oc=5",
-     "source": "The Guardian",
-     "date": "Fri, 30 Oct 2026 15:00:00 GMT"
+     "title": "In Alaska, Ranked-Choice Ballots Are Unlikely to Be Enough for Dan Sullivan - The New York Times",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcVRLN1RycFpYTXVqY1JiWlRCenpNSklRMDBBbTRvNVdvcktfLXEwb2lRYVY1dm5vd2FETVNibmNfNF9qaXM4U3A5RmtkbTVBUC0yR0dyeDJVeDJETThfUE9nOURlTU1XNFJpcGlRQnQtd0xpbWw2cE1TQXdLcEdMU0FaYXNSM25YWVh1dk5B?oc=5",
+     "source": "The New York Times",
+     "date": "Thu, 05 Nov 2026 21:31:33 GMT"
     },
     {
      "title": "Sullivan and Peltola locked in tight U.S. Senate race as more results come in - Alaska Public Media",
@@ -1010,16 +1023,10 @@
      "date": "Wed, 04 Nov 2026 05:46:00 GMT"
     },
     {
-     "title": "Alaska Sen. Sullivan says he'll accept election results, slams Peltola campaign’s reported recruitment of 2nd Sullivan - CNBC",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUHNNSFRNTm5qU052YlVzaTlWWTEwMGx1aGFLc21xQVhGZy1fdVdSRXlPYUhxNWowSWVVOUlqb2VnLTd3N29OVl85ejNOcXRMUlE4ejhfMzQwZXpGXzdtVHZTTTRaaFBzSV96T3hVYVMxOUh5VUd2ZF9jNTlLNXlfT1RzbllKYkHSAYwBQVVfeXFMUDlNRmxIV0gydUx2NFdZYmp6ZzROTWltOVk3Z3A0U0ZUMVM1dFl0dTFYaks2YkJ3bmljc0Q0U3hzWEVVZUhkOFNpYzFwNmhJQVJVMDdad3VPR291WG1HTjd0NWJrb3R3eVZ3dVlLQ2cyQTdWSHNQaDJnSXY4SmFmek1IeVU4UVZVeFJLVzE?oc=5",
-     "source": "CNBC",
-     "date": "Sun, 01 Nov 2026 17:03:35 GMT"
-    },
-    {
-     "title": "Live Results: Alaska Senate midterm election - PBS",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZDhwbld6a0x3Z05qcVFTNkNtSzNFckVSSHUxemRlWUpLVEFWQmNZYVMwOHZJNDJLZTdwcWxnaFgyQlA3Q05QcklRTnVLNEFHcFpONUJYRDkyX3VZbFA4aXlpNVdYZW1PWkZKa2JaRXpRU1V6SkRVUlhiWENZZzFyRVo2MFJ6bEFZ0gGOAUFVX3lxTE9LUHFzREx2bm9LTk1qdVZMZ1JzSHNiSWU1ajlYZHN6cVhMVGg0MnV3c0Vzczl4a0tzZW9vSFV4cEVTdEVlaTUtMkRiZWNMUG1Wc2Yyb1E4d3NhdldRdlpkN2RDWlptbkVEc0Z2UndsVEhIaGFZZ3R1MGo3MHlBZzN6X1ZEUHJJRk14UTJqUHc?oc=5",
-     "source": "PBS",
-     "date": "Tue, 03 Nov 2026 10:00:17 GMT"
+     "title": "Peltola and Sullivan campaigns project wins while a quarter of ballots are outstanding - Alaska's News Source",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNjRrd1l4OVZ0MmJmVTVHTEZCRkZpdlZDWUYxWnlkV0J2LWI4eHNoMGtpSGxmUnhfY1hCMkVqbjA2WVh1MDdtNjc3WlFNd21iV2xCQzJuMUpMY1dubi11Y3NkMG1qOW9mYkNBOHIxeGJwb1hsdmx3bEtVZ1JyTFVPcU0xclBUNG8zNDB6VWlmQ2lpZnB0RjdDOEdHNG1qT0lBY0l0a0ZzTGY3TE9FVVJUZWNuNU9VVTRrNmZHNmhqdEHSAdQBQVVfeXFMT0xpSGw0d29VQXh2aW9TWXNSWnFnek5CbDNlSzViNk93S3QxRldEelV5U3ZjT0NmOHU0WmtaX1BRazNiM1d6c2pWQ19iU2F2ZlN0QmlEaHVCZUNucGlNd3ViZkZoYTBEbFJuZWVmYXpING9qRldHdEdHRG9vV25pSTZUX2t1ekRTRjJZcHF3SEFNb3J1STlNMy1fYXpuclpCRU1DVU45bWxTdkxSOFNESVNJZk1UQk5KZmdweUhpNGFnOUdaNnVGUE9oSnJka25DS0xGalQ?oc=5",
+     "source": "Alaska's News Source",
+     "date": "Fri, 06 Nov 2026 05:52:00 GMT"
     }
    ],
    "money": [],
@@ -1329,7 +1336,7 @@
    ],
    "n_polls": 7,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
-   "p_sim": 0.6887,
+   "p_sim": 0.6908,
    "rating": "Empate técnico"
   },
   {
@@ -1359,20 +1366,26 @@
     "p_model": 0.6313
    },
    "markets": {
-    "Kalshi": 0.3229
+    "Kalshi": 0.36
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senateia"
    },
-   "p_market": 0.3229,
-   "p_final": 0.5851,
+   "p_market": 0.36,
+   "p_final": 0.5906,
    "sentiment": null,
    "headlines": [
+    {
+     "title": "Election Results: Josh Turek defeats Ashley Hinson in Iowa Senate race - Iowa Public Radio",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVmlxdWtlRkJ2cHZ4R3JVeVFOVWhDLVY0VzBCenFsVW5YVmpNcVdhYXd5WWtDYnpIQXY2ZlItelNLeTVBVV9VZFRnSlFxRTROMHV1Qzd0YW5Gem5NNnZBd0h3VTBnSXg4NGI2UWduNjl4dUpTZ0tURkJ2aFF2VThBel9uTHhCSkJiWU84aXAyU1lwb1djYU95OHJNa1E1WEtYZklmYzFYYkhSbHBreFk5UkV5NU9YRk90Mkpv?oc=5",
+     "source": "Iowa Public Radio",
+     "date": "Tue, 03 Nov 2026 08:00:00 GMT"
+    },
     {
      "title": "Democrat Josh Turek wins election to the US Senate from Iowa as Democrats win US Senate - AP News",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcGVpN0FpMGlQd3VXVEpjNk0tTnlMYTdyVlNUcjE2NndSLWtrcEVkMGNlaHgtYXBKQVVta0ZxTXdYb0NiQ1VOTFR3UmxkMGtzTHctcTB2WURiQ3dIMkotR2pjRGdZMTR6LTlIVzlUQm5GRlVUQUs2VzZNS01Yc1M1c0M5M1ZXQWtFS0hRMngzTVJ0cl9kV1d0ZVpEbi1sdGtrU1dr?oc=5",
      "source": "AP News",
-     "date": "Wed, 04 Nov 2026 07:16:00 GMT"
+     "date": "Wed, 04 Nov 2026 06:03:27 GMT"
     },
     {
      "title": "Democrat Josh Turek wins Iowa’s U.S. Senate seat, AP projects - Iowa Capital Dispatch",
@@ -1391,12 +1404,6 @@
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQLUNtNVhlSllqZlRzVWpjRVVzUGhCX2o5RnJyYjh3cW5nd3p3WWtrakRFN0NYT3RfalVsTFdLUEZRa1MtcWdVYjhzYm1LdV9zXzFLNTBqRjBIMHR1NmZUWExOcm1qc1hwSUtTUFU3bTJ3Y0I1Q3JfQjVvQk9fc1ZKaW9IX2hheTRpZHNSdzNoRDJNdGxmRjUtZVo3WGJPbHl5RkFnc1lCRTVHV2hEUXIwc0hRSWRvaExoUnh3X3RBNlZGa1VJcW10RllVVDZuUUN3dUdvYXN3?oc=5",
      "source": "KVUE",
      "date": "Wed, 04 Nov 2026 00:47:40 GMT"
-    },
-    {
-     "title": "Live Results: Josh Turek wins Senate election in Iowa - PBS",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS2lDb0x4TExkLWZrbVNTS21MOUg1blBjZWdiSmpoZ25XbmswRjNPdlBHOEFfTVZ6TFhwaUJGeFF0c1FqTlFnTUJPZFRNVC1MSC1rTVVDM0pFV0o2TzVncjhMLTluRWtwVUVHbFl4YUFRU2ZqNmFwbHlqX0VaUkpackZYOGdnQdIBiwFBVV95cUxOWDI3LTI4SmxBc3lrRk9hd1dYSVczbUxqVVhVT093M1M5QWVVNGU5bkxhbjhYTS1YNnk5Zm1feTVfWjhEODhpZk5BRTBieFBCV1ExS3RURTljWGZnYk1sdzhSYjFzUGVLMTJvSzhuMmQzR0tmdTdDNWp4cG5vQVBnbXNFVzJpQU82Ny04?oc=5",
-     "source": "PBS",
-     "date": "Tue, 03 Nov 2026 10:00:42 GMT"
     }
    ],
    "money": [],
@@ -2106,7 +2113,7 @@
    ],
    "n_polls": 41,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
-   "p_sim": 0.5989,
+   "p_sim": 0.6046,
    "rating": "Empate técnico"
   },
   {
@@ -2152,6 +2159,12 @@
      "date": "Wed, 04 Nov 2026 03:39:29 GMT"
     },
     {
+     "title": "Who won US Senate battle in SC? See election results from Darline Graham-Annie Andrews race. - Post and Courier",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWVB2ajVWeXdHOU1VeVNEcnB6RWY4cnVkcEltRWZqMWhMTmJjOWNvRDJiRVA3ZlFZcTRoWXBrMFpDdXB3X3prTENpNTVScGVteFAyUXg2ZWdicFBJOUdNbnptYnpyTlBSLWpudW5OXzNEZDhrTmprY2VtTHRIT2VSdUNWV0UxLWRXZDcyYm9qUXQ0eUxwZWxQNWVWNzMzSEYyZlpnbTZHR3dhS3EzVG0yWmpRNmM1Y1dsV2I3MDM0Ql9ha3gtZkVWNVluYkZKSWQ3cDJLUTB3?oc=5",
+     "source": "Post and Courier",
+     "date": "Tue, 03 Nov 2026 22:00:00 GMT"
+    },
+    {
      "title": "Could a Democrat Win the Race for the Late Lindsey Graham's Seat in Deep-Red South Carolina? - Time Magazine",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOT2RFOGhWWF9HU1QtbWpwT29vNFFlSXVZRng0WFJ3cW8taDh6YXZNTnVGRTBRSWlnY0FRd09WYWtXYktaMkg4S2N5ZkxtclJ6NEFhaVNYX1JhTl9BQUtUR29qdUJWSV8temxrWHM1cG56WnI4LU9Za2M3UXNaTGJRZkQxd3pwREdsTWxiNWcySzYtNVp3dzhONUdrZzU0VDdJLTBid29NSlFPV1I0aGtXUGVuVQ?oc=5",
      "source": "Time Magazine",
@@ -2162,12 +2175,6 @@
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZVNLWUFobmVqUzdVd051LTJJeEt0UXJxNkRqTXJaVUF1Qlc0WlNwbk8za1lvNXZva0t1bGJpclE0TGNkMnZfdHNNN2JkQ2x4SWtnLXB3SU0tN1d3Y3dzc0RkdThuUXZvUGVnQ3UzRERtOUtDSWZsaVJFWGlCSW1ZdnVOU2RqUQ?oc=5",
      "source": "The New York Times",
      "date": "Wed, 04 Nov 2026 03:17:45 GMT"
-    },
-    {
-     "title": "Live Results: Annie Andrews wins Senate race in South Carolina - PBS",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQmxqOFNlb1pMR3Q1ZmdqQXhycEQ1eXFIU0tfUnZEbDJsZmRjMGtaTXhtZDZkNUNxcDhGT2VRUVVTVGRZMk5OcnNSLTVxeTRvMjI2X2d3bE5CMlh5RzRhN0dBcjI2M1lUYmY1b1FaOWtMS3B5NHh4Ui1jYkJlN0lvR1RNTFNQbFZjUXVjLVhRS0x3MUnSAZgBQVVfeXFMT2RTTlM5U04wYkdCVW1PN3EzN096REdyVTRiaU9oUWdWMVVJbkpDLUM1V0FYNkItbmVNYjVnaXNtNlNfcjZMWVU1b3BidWpGNW5LWnJuOGt2bGJxRERkWlk2TnIyTFFWeGYxM3BpVlBtNG0yNGd4QVU2eGZEd2pZck5fdlp4enN1cUdFaWRpdVloMnlIU2JjdlI?oc=5",
-     "source": "PBS",
-     "date": "Tue, 03 Nov 2026 14:30:46 GMT"
     },
     {
      "title": "How did Republicans lose a Senate seat in fireball-red South Carolina? - The Guardian",
@@ -3148,16 +3155,16 @@
      "date": "Wed, 04 Nov 2026 04:10:28 GMT"
     },
     {
-     "title": "Democrat Sherrod Brown unseats Sen. Jon Husted in Ohio, completing comeback bid - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVm1nX3V2akwyNnF5d1NBX0RPMVhjRV82TEkzZ2RjS2VqVU5xckZoSzhScmVSS25vdVM4R2lheUJDSVZNZHhjRm9OU216Sl82RDc1LVhHLXJoYjl0QTRfN1B1ejdzQ3I2ZWVkcV9QcTBDcWZXcU9hTExHaXpkZ3FnNmhIU1Q2X1ZyMW1GMlFtclk3eEhpN0c2RU1iSFhKR1hSUDFFYzdvV0RlaDhrY0FSc29fcExETF9N?oc=5",
-     "source": "NBC News",
-     "date": "Wed, 04 Nov 2026 04:10:00 GMT"
-    },
-    {
      "title": "Democrat Sherrod Brown defeats Republican Jon Husted in Ohio US Senate race - Ohio Capital Journal",
      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMVBPem0wWW5FUUNUc2x1UEZNeklJTWR6TDktVGN1SlFjWi1hVEo3SFQzS1liaU93V1lYT3Mya2dGTTRhcXVYN05rLTRnSzcyUnJDLS0tTDVhWUZXOTJSZWVoMzFYRGdEOHpxalRxckZNZEVOV0doa2tiV2xLRGMxUDZZVFdJV2V0QWRrM3RtSFZuYjI0NVotbVd5Vm5zaW81MFhqUDZfaE9ibVc0cVNXa2dEUm9fb3Z4bzVkRndoOEYzU3BfNjZGNVNR?oc=5",
      "source": "Ohio Capital Journal",
      "date": "Wed, 04 Nov 2026 04:14:12 GMT"
+    },
+    {
+     "title": "Democrat Sherrod Brown unseats Sen. Jon Husted in Ohio, completing comeback bid - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVm1nX3V2akwyNnF5d1NBX0RPMVhjRV82TEkzZ2RjS2VqVU5xckZoSzhScmVSS25vdVM4R2lheUJDSVZNZHhjRm9OU216Sl82RDc1LVhHLXJoYjl0QTRfN1B1ejdzQ3I2ZWVkcV9QcTBDcWZXcU9hTExHaXpkZ3FnNmhIU1Q2X1ZyMW1GMlFtclk3eEhpN0c2RU1iSFhKR1hSUDFFYzdvV0RlaDhrY0FSc29fcExETF9N?oc=5",
+     "source": "NBC News",
+     "date": "Wed, 04 Nov 2026 04:10:00 GMT"
     },
     {
      "title": "Sherrod Brown flips Senate seat in Ohio for Democrats by ousting Sen. Jon Husted - AP News",
@@ -3925,16 +3932,16 @@
      "date": "Wed, 04 Nov 2026 04:06:18 GMT"
     },
     {
-     "title": "James Talarico wins Texas Senate seat in race focused on masculinity and anti-trans attacks - The 19th News",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FbjdUVVlfVTBQeVhqRG5pZEQ4bm93RmpzSEFyQ0toTzVMX1FLZTJRdU1USlBCRHhuWWtjVHZnTGhBT1h3Uk5qN01EV2JOejA1OG1hcGJuVk92YVMtaVRxdWE1a1V6YXVyUURtQVRoLUNyRzBLYnNwU2plOFhlVkE?oc=5",
-     "source": "The 19th News",
-     "date": "Wed, 04 Nov 2026 03:18:15 GMT"
-    },
-    {
      "title": "Democrat James Talarico turns Texas Senate seat blue, defeating Ken Paxton - NBC News",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONmZWUUxrbnBaYWIxekJVdHliU090bXlTTmZlQ1REMWFyb21MaDg1bldsdFA2aVZTOTl5M0R1N0YzRU12OXBITDJaSmx6MDZqelBlaHRrU1I2cWx3V1lQdlczQktVNy12am9CX3VZRXN4c1JSX3RLREktYjFaalVIeFJuR0ZzZXFvSTVfV3FLaG9ONW45OFRaeTRZcHJvVXhSS0ZfTXZ2b09WVXVQVzRIamJCQUNIdw?oc=5",
      "source": "NBC News",
      "date": "Wed, 04 Nov 2026 03:53:00 GMT"
+    },
+    {
+     "title": "James Talarico wins Texas Senate seat in race focused on masculinity and anti-trans attacks - The 19th News",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FbjdUVVlfVTBQeVhqRG5pZEQ4bm93RmpzSEFyQ0toTzVMX1FLZTJRdU1USlBCRHhuWWtjVHZnTGhBT1h3Uk5qN01EV2JOejA1OG1hcGJuVk92YVMtaVRxdWE1a1V6YXVyUURtQVRoLUNyRzBLYnNwU2plOFhlVkE?oc=5",
+     "source": "The 19th News",
+     "date": "Wed, 04 Nov 2026 03:18:15 GMT"
     },
     {
      "title": "Paxton vs. Talarico: Five things to watch in Texas’ tight U.S. Senate race - The Texas Tribune",
@@ -4669,13 +4676,13 @@
     "p_model": 0.8616
    },
    "markets": {
-    "Kalshi": 0.1789
+    "Kalshi": 0.22
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senateks"
    },
-   "p_market": 0.1789,
-   "p_final": 0.7592,
+   "p_market": 0.22,
+   "p_final": 0.7654,
    "sentiment": null,
    "headlines": [
     {
@@ -4685,28 +4692,28 @@
      "date": "Wed, 04 Nov 2026 06:25:54 GMT"
     },
     {
-     "title": "Democrat Adam Hamilton pulls off upset over GOP Sen. Roger Marshall in Kansas - NBC News",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM0lscklFTFhCOTlVTnFELXZ0b3NDaVE5M3dvbXJtY0VieHA4WGdHYndGMjVhM2l6ZlVidkdhUkgwc0NOSGwtcHNJNHlPbTBtaG9yOXhjWUhFYzRnbndaT1o0dXB5WTAtWGxmTEs0dkpZcUF2WEhCLUNxMm4xM1lDenI5Nk9yWGJkUmFsNkJ1MlZxODk4WXQ2Ujh4Y29rZ25Nc1FmeGYySmF2Z3RRMkdUZkpoeE12NkRLWE11OUFIYw?oc=5",
-     "source": "NBC News",
-     "date": "Wed, 04 Nov 2026 04:20:00 GMT"
-    },
-    {
-     "title": "Marshall-Hamilton race has become most expensive election in Kansas history — by a lot - KCUR",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSkNXelpuTy1obGo1V1dOSmwwbVJyZjZwTUxZZGQ2YURHbzNPdVd6dVhGVkZmUmpwdXR0M1h0U3BiQll0NVJLTU9acnhoRk1XeXlHT2hYVDJxZ1pkZW9tcnRfTkRuS0FXZ1pERjJvU2N0RkZySWctcTFpeFVWbVFvSnpIRDRNVXFDNTc3ZUluOGNhejIwa0JFRUJOWGZ4V09GUU5nR0RwZDVpM29Dc3lIRkJNdlYydw?oc=5",
-     "source": "KCUR",
-     "date": "Fri, 30 Oct 2026 09:00:00 GMT"
-    },
-    {
      "title": "Adam Hamilton becomes the first Democratic senator from Kansas in nearly a century - NPR",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcWsyRVFIZXZLWVRobUlrV0FiaHdqYkdLQzdZYjFuWklnR2gxT2w3SDBXRlA2b1dOemJza0RwVWZoTEpLLU5KUjZBS2MxeTBiWVo5MGNSaEdSeUxsYW02VDYtMDh1cU1FYXFNT0xacFFkeE5fMHFJQlZWLU51ZFlKdjV3ZFg3QQ?oc=5",
      "source": "NPR",
      "date": "Wed, 04 Nov 2026 04:25:28 GMT"
     },
     {
+     "title": "November 3, 2026 Election Results: Adam Hamilton defeats U.S. Sen. Roger Marshall - KMBC",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU3VPVzZsd3dOU2FYZjZJeU9XMzZGNGdqTnhNYm45REEyWFdOVDRyUUFNWE0zX0lKazJNYnlsNUNpTTN2YmNIdDNSa3V2T2I0TU9ESGIyazQ1LU9xazdIX0VnTnRkRVdHb2lHelV5d1JETkxmckpidElXekJBa2NaS2pUdG5DQkwtYWdnanFXd1hlc3oxVzE4Ylpn?oc=5",
+     "source": "KMBC",
+     "date": "Wed, 04 Nov 2026 23:19:00 GMT"
+    },
+    {
+     "title": "Democrat Adam Hamilton pulls off upset over GOP Sen. Roger Marshall in Kansas - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM0lscklFTFhCOTlVTnFELXZ0b3NDaVE5M3dvbXJtY0VieHA4WGdHYndGMjVhM2l6ZlVidkdhUkgwc0NOSGwtcHNJNHlPbTBtaG9yOXhjWUhFYzRnbndaT1o0dXB5WTAtWGxmTEs0dkpZcUF2WEhCLUNxMm4xM1lDenI5Nk9yWGJkUmFsNkJ1MlZxODk4WXQ2Ujh4Y29rZ25Nc1FmeGYySmF2Z3RRMkdUZkpoeE12NkRLWE11OUFIYw?oc=5",
+     "source": "NBC News",
+     "date": "Wed, 04 Nov 2026 04:20:00 GMT"
+    },
+    {
      "title": "Pastor Adam Hamilton ousts GOP Sen. Roger Marshall, Democrats' 1st Senate win in Kansas in 94 years - AP News",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcGtpT0Y1cGZfVW9FT1dZX2pqNVcyLUw2RUJHNVk3aHhyQjZLNnd2RFc0Q2gwM19qcGJJVTlJVkJwRDRTdWkyMzh3RWJJamd1eEYxMEZRSUtjcjcyQTNHajhBMkJkbE9vM1Zla2dLSVVUekZSTnBUa0FfWXZtS0h4Yl9jbnBvWDZFeFZiUlhKSVQ5TlI1V2pUUGJoZmJCV3kzNnA3SktnNGVpWS1vanR0eA?oc=5",
      "source": "AP News",
-     "date": "Wed, 04 Nov 2026 05:33:00 GMT"
+     "date": "Thu, 05 Nov 2026 05:04:20 GMT"
     }
    ],
    "money": [],
@@ -5416,7 +5423,7 @@
    ],
    "n_polls": 24,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
-   "p_sim": 0.7816,
+   "p_sim": 0.787,
    "rating": "Inclinado D"
   },
   {
@@ -6212,12 +6219,6 @@
      "date": "Wed, 04 Nov 2026 02:15:00 GMT"
     },
     {
-     "title": "Angie Nixon leaves door open to 2028 Senate run after conceding Florida race to Ashley Moody - CBS News",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQUlXRVRRS2xZNE53REdfb3oxUm1yNUVHRXJRWWVGcTVIN1NJWjJsRk94LXVSZndISVNFRi1PbDEzdFowTS1GYzRyN0ZzMExXQUtiMXFrNUFWdWNjX01wbXZURndoaHd2Yl9aUnVqV09td2FIeE81WndkZk9sV3NjVC1YcDZkUFU?oc=5",
-     "source": "CBS News",
-     "date": "Wed, 04 Nov 2026 04:56:47 GMT"
-    },
-    {
      "title": "Republican Ashley Moody defeats progressive Angie Nixon in Florida Senate race - The Guardian",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdWx2eWN2SDM0cmJ1T2V5Y1JMVE9qMmZyUE5WbkNBYzJ4RzBCLVN4Q2xLTmRWeXZCZzR1dmJYV1FCVTZGSlQ5c3F0eDdMOUlOZEd3eDlYbm41VUR1Q0pPakZhMXctMVpZUWpud015dzNKZzVtZDdfTjdWUW9Yb3llbG9mQ0xMMzZPemtnTXV3?oc=5",
      "source": "The Guardian",
@@ -6228,6 +6229,12 @@
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BUXVHWUp4R2JUWFFRM2RPYU80Yjd6UHRLNW1KbUJ2VFBQc0lyb1pNVnpXcEV5MVhKNWdMMWktWVN6djhvNFExcTdoZ3RnQTZ3bDBiSU1PTzZQaVFwM25kOTlXU01qSGJoNE9LZ3BrVTYyeWVBZGc?oc=5",
      "source": "Axios",
      "date": "Wed, 04 Nov 2026 07:27:58 GMT"
+    },
+    {
+     "title": "GOP Sen. Ashley Moody wins special Senate election for Marco Rubio’s old seat in Florida - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdFZTMk8wSVB5cjUwX0Q5RGFoQnhaT05DRVF3SXc3eGlsVWxuNERGRm9DOHdoTzF2UFpKUVEwV203d09vNGpoOGpMWnJHRGFIbWo5MTZ6Tlh4Z0I1Mk9KbnJiSXpfSUdhaWpxd01RSERkWWNYam5QSmY1WDdsTDNyNWRRZ2VLRThLRmJIMFM2Z2xUQkxwM0N1WFlXQjY5cXllWS1uSGRLQU90M2U3c1djY01HdXlUS3ZGYmc?oc=5",
+     "source": "NBC News",
+     "date": "Wed, 04 Nov 2026 01:32:00 GMT"
     },
     {
      "title": "Sen. Ashley Moody defeats Rep. Angie Nixon for Florida U.S. Senate seat - News4JAX",
@@ -7556,7 +7563,7 @@
      "title": "Democrat Abdul El-Sayed defeats Republican Mike Rogers in key Michigan Senate race - NPR",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPY0R0YVNXTG1ZM2JLTV91ZmxXZlNQa1BaZk5IMnA2S3FQV28yZzlOV3pwTDVQT3ZOdjVpaGdHc0J2Mk9MWWFjSElsRmUtQzJQbHNhNjBGcEd6TWczZnRTbW9LSzdkUzRDNWRXWTQ5cERxWFFaRmtMNEJyRUVtRVdRZVJLMGJaLTVzNDY5UGdWcExTOURP?oc=5",
      "source": "NPR",
-     "date": "Wed, 04 Nov 2026 07:28:00 GMT"
+     "date": "Wed, 04 Nov 2026 07:28:02 GMT"
     },
     {
      "title": "2026 elections: Progressive Democrat Abdul El-Sayed projected to win Michigan Senate race - ABC7 Los Angeles",
@@ -7565,22 +7572,22 @@
      "date": "Wed, 04 Nov 2026 11:55:35 GMT"
     },
     {
-     "title": "Abdul El-Sayed beats Mike Rogers in US Senate race: ‘Michigan, we did it’ - Bridge Michigan",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMnVBT2pBNjZsUTgxZUJ0NGthY2wybVR5bTlaa0t5M0JOWE5XWjJpSVh6Vy1mQ2RFWGxkYXJLOFdjMXlIQlhGTXJRRGZ4eUJrbjlEWEFRQnQ5TFFKU096LU9ldDRHZHo4dWF6Vk11NFBvUGxSUWpKbnc0STJnTEJEZEVPblVDYi03TEhhT0Q1NFAxTk1TbkctY01IWHJ0RXp1NGI3TGZWNmo?oc=5",
+     "title": "Abdul El-Sayed, Mike Rogers make final pitches in Michigan US Senate race - Bridge Michigan",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdFg1NlI5T0FYWnhrd3Vtd2t4NDB1MHAyOFVsTjR2WjNNejlmNWlMZlRaeFl0OHJWbTRVRXZKMHlLWUZ1YThtcEN1T0NsVGo2dElZN2x4ZFNiUGJBQU1wWkc4Mjhpcy1VbGtWODNPVV84d0wtdlRnckZUYmo3OTFzSnB6N0tLLVpFSzMwQ084SHpvd2xKOW1WWTNCOElibHBkZnkySUN4WVlnMU50SnRSSE1R?oc=5",
      "source": "Bridge Michigan",
-     "date": "Wed, 04 Nov 2026 18:41:27 GMT"
-    },
-    {
-     "title": "Progressive Abdul El-Sayed wins Michigan Senate race to become first Muslim US senator | US midterm elections 2026 - The Guardian",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS1oxeEQwZ2xfSi1Ka1Q0WjdiVS15azVOSG5aMldDWmRjSm1URlBkR2hNNTQ3UlJZMVhubUJIZVlacVFwaGV1dXFCVGR1LVh1VkVzTHRHMFd4Q2JfTlRvbXFxeDRDa011ME02OTlTYkstVzFacXo0QXBTdWlrenZ3UFNWYi0zTHhqMU90MjdZR19RWl9K?oc=5",
-     "source": "The Guardian",
-     "date": "Wed, 04 Nov 2026 07:32:00 GMT"
+     "date": "Tue, 03 Nov 2026 10:26:02 GMT"
     },
     {
      "title": "Abdul El-Sayed Wins Michigan Senate Race, Making History as First Muslim Senator - Time Magazine",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRXA5blVfbzBZdldJUkZqZ0JPVjJXWFV4QVpsTk9vZTVzbm5fbFJwMUt5LURXNlRlT2wzejAxM1BfanB1X04xZkhrdE9GNWdRQWRVeTEwREkxOURWU09wTzdMOVd0eVVqVnR5N0o2V0s4OWFEUVlkNXZMVXpvMlU3T3dxNnRxNW45ZWdzdHU1N1hTMVJ5T0NraUFkWk54TUF1Z1U0ag?oc=5",
      "source": "Time Magazine",
      "date": "Wed, 04 Nov 2026 07:30:00 GMT"
+    },
+    {
+     "title": "Progressive Abdul El-Sayed wins Michigan Senate race to become first Muslim US senator | US midterm elections 2026 - The Guardian",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS1oxeEQwZ2xfSi1Ka1Q0WjdiVS15azVOSG5aMldDWmRjSm1URlBkR2hNNTQ3UlJZMVhubUJIZVlacVFwaGV1dXFCVGR1LVh1VkVzTHRHMFd4Q2JfTlRvbXFxeDRDa011ME02OTlTYkstVzFacXo0QXBTdWlrenZ3UFNWYi0zTHhqMU90MjdZR19RWl9K?oc=5",
+     "source": "The Guardian",
+     "date": "Wed, 04 Nov 2026 07:32:00 GMT"
     }
    ],
    "money": [],
@@ -8317,13 +8324,13 @@
     "p_model": 0.1003
    },
    "markets": {
-    "Kalshi": 0.1111
+    "Kalshi": 0.15
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senatela"
    },
-   "p_market": 0.1111,
-   "p_final": 0.1019,
+   "p_market": 0.15,
+   "p_final": 0.1078,
    "sentiment": null,
    "headlines": [
     {
@@ -8530,7 +8537,7 @@
    ],
    "n_polls": 3,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana",
-   "p_sim": 0.0906,
+   "p_sim": 0.0948,
    "rating": "Probable R"
   },
   {
@@ -8560,24 +8567,24 @@
     "p_model": 0.0359
    },
    "markets": {
-    "Polymarket": 0.981,
-    "Kalshi": 0.9721,
-    "PredictIt": 0.9802
+    "Polymarket": 0.982,
+    "Kalshi": 0.981,
+    "PredictIt": 0.99
    },
    "market_urls": {
     "Polymarket": "https://polymarket.com/event/mississippi-senate-election-winner",
     "Kalshi": "https://kalshi.com/markets/senatems",
     "PredictIt": "https://www.predictit.org/markets/detail/8388/Which-party-will-win-the-2026-US-Senate-election-in-Mississippi"
    },
-   "p_market": 0.9778,
-   "p_final": 0.1772,
+   "p_market": 0.9843,
+   "p_final": 0.1782,
    "sentiment": null,
    "headlines": [
     {
      "title": "Mississippi U.S. Senate Election Live Results 2026 - AP News",
      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40QzF6VWVSbVp6Zkx1Q0I1OGU4aG5UVTdmMDM5UTdIVTNDd0t5RmJ1RHUxVW9DMmVialI4TWxCMERpUy1pTk1la01IS1ZVdFJJUnJGNmdBX29GU2M5ZlVqaDJ5VFctbUZtRXpLbVlpNGlYNDdkdkM0UEhod0Jmdw?oc=5",
      "source": "AP News",
-     "date": "Fri, 06 Nov 2026 06:38:33 GMT"
+     "date": "Thu, 05 Nov 2026 08:00:00 GMT"
     },
     {
      "title": "Mississippi Senate: Colom, Hyde-Smith gird for ballot legal fight in razor-thin race - CNBC",
@@ -8598,10 +8605,10 @@
      "date": "Thu, 05 Nov 2026 14:08:50 GMT"
     },
     {
-     "title": "Democrat Scott Colom Leads Mississippi US Senate Race by 43 Votes Against Republican Cindy Hyde-Smith - Mississippi Free Press",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOalRBazMtNjB5ZVRqMmZtTnd1NU5XVldmSmpzZmJYcllXOENpbnlfV2NoMmdSdS1NMXE4MjZ5d2hLQmd5RjdMS1BNVGVWaGtQZmZMcXI4Rk5kc2ZFVnJDclVPWktiOG1feWJmcXd0enpnQmdFQ3RWdDNOcXZ3UGh3dTkwOHVCOUMtV0Z6VjkyVndycGdXZ190TUU2bURLMEI4WXdkYUVnNG93ZmM5RXd0Tm1PTTBlenNMdWF3WmI3c0VtN0RNR21HZmpDLWFYWVFjOUNlWmtR?oc=5",
-     "source": "Mississippi Free Press",
-     "date": "Wed, 04 Nov 2026 07:20:26 GMT"
+     "title": "Votes still being counted in Mississippi Senate race as Republican campaign seeks ballot safeguards - KCRA",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQzJJVUV5UDVKWTdZejE0Ykx3ZWZQazRTWjBGeXlOV2MyYWxNR1E1Tzh5RTk0OWF4NHE0ZklodGZ1eWQ4aVNfcTY0LVNnSXpWemNWV1lQVUo2UTNGY2lHM2tJQzduZl90OVRhZVNDTENySDJfTURLVXpLSXJseE8zUUxtYlo?oc=5",
+     "source": "KCRA",
+     "date": "Thu, 05 Nov 2026 21:16:00 GMT"
     }
    ],
    "money": [],
@@ -8774,7 +8781,7 @@
    ],
    "n_polls": 3,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
-   "p_sim": 0.1536,
+   "p_sim": 0.1547,
    "rating": "Probable R"
   },
   {
@@ -8804,13 +8811,13 @@
     "p_model": 0.9861
    },
    "markets": {
-    "Kalshi": 0.6512
+    "Kalshi": 0.6642
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senatenh"
    },
-   "p_market": 0.6512,
-   "p_final": 0.9358,
+   "p_market": 0.6642,
+   "p_final": 0.9378,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -9512,7 +9519,7 @@
    ],
    "n_polls": 22,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
-   "p_sim": 0.9432,
+   "p_sim": 0.9454,
    "rating": "Probable D"
   },
   {
@@ -10020,13 +10027,13 @@
     "p_model": 0.9951
    },
    "markets": {
-    "Kalshi": 0.7263
+    "Kalshi": 0.74
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senatega"
    },
-   "p_market": 0.7263,
-   "p_final": 0.9547,
+   "p_market": 0.74,
+   "p_final": 0.9568,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -10628,7 +10635,7 @@
    ],
    "n_polls": 17,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
-   "p_sim": 0.9585,
+   "p_sim": 0.9607,
    "rating": "Seguro D"
   },
   {
@@ -10658,13 +10665,13 @@
     "p_model": 0.9986
    },
    "markets": {
-    "Kalshi": 0.7
+    "Kalshi": 0.7071
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senatenc"
    },
-   "p_market": 0.7,
-   "p_final": 0.9538,
+   "p_market": 0.7071,
+   "p_final": 0.9548,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -11412,7 +11419,7 @@
    ],
    "n_polls": 32,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina",
-   "p_sim": 0.9589,
+   "p_sim": 0.9597,
    "rating": "Seguro D"
   },
   {
@@ -11888,13 +11895,13 @@
     "p_model": 0.0007
    },
    "markets": {
-    "Kalshi": 0.0771
+    "Kalshi": 0.078
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senateal"
    },
-   "p_market": 0.0771,
-   "p_final": 0.0122,
+   "p_market": 0.078,
+   "p_final": 0.0123,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -12100,7 +12107,7 @@
    ],
    "n_polls": 4,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alabama",
-   "p_sim": 0.0156,
+   "p_sim": 0.0158,
    "rating": "Seguro R"
   },
   {
@@ -17823,8 +17830,8 @@
      "license": "Uso libre con atribución",
      "what": "Tono y volumen de miles de medios de EE. UU.",
      "status": {
-      "ok": false,
-      "records": 0
+      "ok": true,
+      "records": 1
      }
     },
     {
