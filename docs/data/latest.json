@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T01:06+00:00",
+ "generated_at": "2026-11-18T11:54+00:00",
  "as_of": "2026-11-18",
  "days_left": 0,
  "live_data": true,
@@ -282,11 +282,11 @@
  },
  "control": {
   "senate": {
-   "p_d_control": 0.8887,
-   "p_r_control": 0.1086,
-   "p_depends_on_independent": 0.0027,
+   "p_d_control": 0.8831,
+   "p_r_control": 0.1139,
+   "p_depends_on_independent": 0.003,
    "d_seats_median": 53,
-   "d_seats_mean": 52.8,
+   "d_seats_mean": 52.7,
    "i_seats_mean": 0.2,
    "d_seats_80": [
     50,
@@ -315,59 +315,59 @@
     },
     {
      "seats": 45,
-     "pct": 0.23
+     "pct": 0.235
     },
     {
      "seats": 46,
-     "pct": 0.335
+     "pct": 0.355
     },
     {
      "seats": 47,
-     "pct": 0.66
+     "pct": 0.68
     },
     {
      "seats": 48,
-     "pct": 1.435
+     "pct": 1.525
     },
     {
      "seats": 49,
-     "pct": 2.61
+     "pct": 2.79
     },
     {
      "seats": 50,
-     "pct": 5.525
+     "pct": 5.765
     },
     {
      "seats": 51,
-     "pct": 10.5
+     "pct": 11.015
     },
     {
      "seats": 52,
-     "pct": 16.685
+     "pct": 17.205
     },
     {
      "seats": 53,
-     "pct": 22.82
+     "pct": 22.945
     },
     {
      "seats": 54,
-     "pct": 22.365
+     "pct": 21.5
     },
     {
      "seats": 55,
-     "pct": 11.525
+     "pct": 10.905
     },
     {
      "seats": 56,
-     "pct": 3.585
+     "pct": 3.39
     },
     {
      "seats": 57,
-     "pct": 1.015
+     "pct": 0.985
     },
     {
      "seats": 58,
-     "pct": 0.255
+     "pct": 0.25
     },
     {
      "seats": 59,
@@ -944,60 +944,53 @@
     "expert": 0.86,
     "poll_avg": 2.18,
     "poll_weight": 0.64,
-    "mean": 0.6,
+    "mean": 0.57,
     "race_sd": 4.0,
     "nat_sd": 2.0,
     "total_sd": 4.47,
-    "p_model": 0.5538
+    "p_model": 0.5511
    },
    "markets": {
-    "Kalshi": 0.998,
+    "Kalshi": 0.2727,
     "PredictIt": 0.99
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senateak",
     "PredictIt": "https://www.predictit.org/markets/detail/8271/Which-party-will-win-the-2026-US-Senate-election-in-Alaska"
    },
-   "p_market": 0.994,
-   "p_final": 0.6198,
-   "sentiment": {
-    "tone_non_r": -0.75,
-    "tone_r": -0.88,
-    "articles_non_r": 130,
-    "articles_r": null,
-    "tone_diff": 0.13,
-    "points": 0.03
-   },
+   "p_market": 0.6314,
+   "p_final": 0.5631,
+   "sentiment": null,
    "headlines": [
     {
-     "title": "Peltola leads in U.S. Senate race, nearing 50% mark with almost all ballots counted - Alaska Public Media",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSFhhVEhWdUYwbkhDQkxCM1ZVLWJTUk9mQ1ctV29XMzJXOVdHTjhjLWc0NjRoSjd4OWlDNW9GeG5ILW5aZlZiMjhPbHlIdzZKbEN1UDcwcTh0MlhKMk5PUlR5V2dEY19XcjlsYU5FNVpYdzkwaUZGVlFzcWlFVzhkdGtoVENEX2pKYWRwbUIzaTRMbGszTHRiajhscmIxVU1kbTBHRXBXTC1jT3RTcC1Vcm9Oa2tDa2ZxWXVwNGtVMGR6Vlp4NXo3Y1BJMnFHMkxrUkVLNnVUaw?oc=5",
+     "title": "Peltola elected to fill Alaska US Senate seat, becomes Senate’s 56th Democrat nationally - Alaska Beacon",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZGJBcV9Zc0FQMkdUNHByYTQtLVNBVGtiZXBrOUVnSDgyWjBsSUNGUk56djg0VTlYdnBCSnV5ekE4RzZvb2Q1c1dudmlUV1RyWXVrdjlia19NSGRoTlZCRXNSdVdfMEpIZExWNnMyTlZ2RTRqUnl1NnFta0tyTWMwcVZwcjI4cFpjMWFDTkxaYWYtTV9rSXp3WWozSHVQekl3bGRmYVZiX2pUZ3ljUTc4RHdoWUxOT0pkUFVQMlo1N0FlZw?oc=5",
+     "source": "Alaska Beacon",
+     "date": "Wed, 18 Nov 2026 03:35:41 GMT"
+    },
+    {
+     "title": "Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats - The Guardian",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRnFON3cySVBrTmdNQlVaSjczcExoaEF6UzR2UXNFcGZpb2oyZFU2Y0M1MTIzd01EeXRzTVIwN3FuV24ycWZuQjZPYlMtTmpxZm5Tc1VYa3h6UzJVTk1Qb3ZLT1I4OW9tRVZsZjFDZ3Z0YXhxdFlwczd0RjdDT0E1RkhCeGVIdw?oc=5",
+     "source": "The Guardian",
+     "date": "Wed, 18 Nov 2026 03:25:00 GMT"
+    },
+    {
+     "title": "Democrat Mary Peltola flips Alaska Senate seat, defeating GOP Sen. Dan Sullivan - NBC News",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTUFXQnhSVW81NVFKVmppNzlvajVabHFkWnVxZmdPQXVVemM3dWpIMkQ2c2ZmSFNiR1JrbXFuRmVVM3psNEdUSE9YcGZmeUJRVFI1MzJLdG1zNHlkRTBzbFBhOVBaQUxSRU1VWUMtY1VmbVRmaElHdjhHYUdJamt4NGJEVnFINEU3TkFSM2NfRGNyeld3ZGFOdDlfOTMtM1FGTmJkWTlORnctUlJVV3I2OENiRFRQZw?oc=5",
+     "source": "NBC News",
+     "date": "Wed, 18 Nov 2026 03:19:00 GMT"
+    },
+    {
+     "title": "Mary Peltola wins U.S. Senate seat in Alaska - Alaska Public Media",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb2QtdTVWN21JR3gwcnhsRGx0SHVPX2VySEMtdmhPSXlFZnhLcFN0bFJwWG1ZSmZwM19pa2Q1a25DZGJzX0gtazNDeUw2M1N6Ui1lSWFmam52SEMyeU1UclZmM3dYaTB2eDhwdGNMOW53V3Q5NnhjS1d0SzJsUERLeWkzdnVLV182ZXlUclJPa3lKUVB6NmlEWENNbXkycDE5SmNIWWdn?oc=5",
      "source": "Alaska Public Media",
-     "date": "Sat, 14 Nov 2026 05:02:00 GMT"
+     "date": "Wed, 18 Nov 2026 03:30:00 GMT"
     },
     {
-     "title": "Mary Peltola’s Lead Widens as Alaska Senate Vote Count Continues - The New York Times",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcGRpUnZKOEtydjhyR1RaNXRaVS1xdUk0MkFZTldVUktXM2xNa2JGS3Y4TG5LbmhkWHZ1VVpaaE43RnBaMElMczBHcGQ3LWpQRjFrTy03Y0FzNGx4RXlEOEtERy16RWJ2TkhDVVFYbVlWZmtvMWJ2dGxxbHQxVXhLdW1ZVERVV3VJbmVkLWpENA?oc=5",
-     "source": "The New York Times",
-     "date": "Sat, 14 Nov 2026 05:31:12 GMT"
-    },
-    {
-     "title": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show? - BBC",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vbXFXUWsxanRDclZUbV9abTdzc2VfT0xBSjU1d0JDUGI4bUVRZ0Ryc2dweWRoOVF5b2o0bGlkbkdXXzd1S2sxdFRtWnNQUnIyZktFMzg5dlJCUUk?oc=5",
-     "source": "BBC",
-     "date": "Tue, 17 Nov 2026 02:38:08 GMT"
-    },
-    {
-     "title": "Judge weighs lawsuit brought by Peltola campaign over absentee ballots in Alaska's Senate race - PBS",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVVpTUkhqNzUyaktaMjVEZGVReFEyOGlVdWhPczhGaDFWVXgwX3Y2ODQyMXdLYzhsa291ckh3ZlFzYTdNQm94bi13Wk9lY25KLThRbG84RFA3WHpGUWR5TWlwOWJyOElJdnhxb2dYek4zMEJzNUZfNjRwanpHREdSWDNwQzhUdmxZeGVZclVPa3lteEdVOWFmZTd2NU0wMjlveUh5NkUwN3RlR2JkZUNSR3NVN3BIMnVLQnJFdnFPbUR6U0l2YzRuek5EUEpGbHfSAdQBQVVfeXFMUGRLRmFGX1Babkk2ekNtQUd4Sjk1MG9McWxUai1kZmhOSkNDbEx4akZvSTZpakxGYzVpMEk4MFNFVjloZXpUU1J1d2hXWnZtMkZJeDlfZ041bmdqMDg5M1FsSVc5OWlTQ2JoaHRNcUROZjJ6R3VvM0dodEpvRG9aeC04SmVtODJGZlk2RXBHcnV2R2VoendDbEp1aFlrRXdTNnFKQ05mU2wwMkpIWTRvNWJoeTE0VlVWNzEwM2haSk5lVTNiNVFHelc0SW02VzFZelpWeC0?oc=5",
-     "source": "PBS",
-     "date": "Wed, 11 Nov 2026 16:01:25 GMT"
-    },
-    {
-     "title": "Sullivan and Peltola locked in tight U.S. Senate race as more results come in - KNOM Radio Mission - KNOM Radio Mission",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc0JPQ3ZDQmpoZ3pmZmdJbmx5elZzdC1CTElqblZ3cUdiT3VFSlZ0V05BTkFtTzVVTEhISXdwcnF4TW44eTBOc3JzdXVxaGFFSHlmMkhpTnlJclNxMEZBMjR4cVFEZnBHWEdaMTQzbzJKZnlyaC1Yc3pZTTlONEluQnJPalVPeUk5Z0ZaanRZTVFLQjJCVTNBT3JwUDhWS2RvT2xWbEJXRzM?oc=5",
-     "source": "KNOM Radio Mission",
-     "date": "Sat, 14 Nov 2026 04:59:00 GMT"
+     "title": "Mary Peltola will be the first Alaska Native in the U.S. Senate - The 19th News",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MQUpQSWRwd2VwRFF5V3c5TVpiV2FYSnJLbDhoVUZJUC1WYURoMkQ4VEZhRk1KalVTd1FQdkNXOVdDTC1menlNTl9sc3VxY1JWRE5SSThjNGNpN1JsYW1kb2Y0akFxZ1kzNm5keA?oc=5",
+     "source": "The 19th News",
+     "date": "Wed, 18 Nov 2026 03:21:51 GMT"
     }
    ],
    "money": [],
@@ -1307,7 +1300,7 @@
    ],
    "n_polls": 7,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
-   "p_sim": 0.6426,
+   "p_sim": 0.576,
    "rating": "Empate técnico"
   },
   {
@@ -1337,13 +1330,13 @@
     "p_model": 0.6139
    },
    "markets": {
-    "Kalshi": 0.36
+    "Kalshi": 0.3673
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senateia"
    },
-   "p_market": 0.36,
-   "p_final": 0.5758,
+   "p_market": 0.3673,
+   "p_final": 0.5769,
    "sentiment": null,
    "headlines": [
     {
@@ -1356,13 +1349,7 @@
      "title": "Iowa primary results: Trump-backed Feenstra concedes to Lahn in governor primary; Hinson and Turek will compete for open Senate seat - ABC News - Breaking News, Latest News and Videos",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVVBaNWN1X3lJY292SEY4elgwT1cwd1BSUzdHaUstWFpsNWZwSFh1d2JpZ0czbUl5SUtYNFBNS0pReU9jQ0hNMk1MR2ZXYXJjV1FYME1Td2RSTjRSS2h6ZEliZXVRcHNUT1MxQUNsZEJtcjRPTEdpYmNOanNyMlJ4V1A1Sm0wam5ZVzJjOTJwdELSAZYBQVVfeXFMUDlUU3ItYjBnci1nZF9TaVpoVTk3YjNEQldBS0VGR2l2TXB0STRlQzVrOVZSNjg4OXZ3aUI0YXdFc3BPeldDMGRzOXZlSWl4REhuaE1pY1NIU19qT010Z2NEdk1MajdKaUpxeU5wT0drRVppWm5MR2hoNXhVWjdwbXFsdzByQ0FhdUtxWVFmajdiSjZiNEtn?oc=5",
      "source": "ABC News - Breaking News, Latest News and Videos",
-     "date": "Mon, 16 Nov 2026 16:06:17 GMT"
-    },
-    {
-     "title": "Iowa Democrats to settle a tense Senate primary as the party looks to flip GOP seats this fall - kcentv.com",
-     "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOZzVtdVpHNmdDaGNIeFJHVE0yUTYzb0VRbWpMTlZibXdfUlU2dkF4LV9lbFV4Y2ZrV2JaMFdXSXpzcmliZzVxN3pRbk9nOFpSZV9kMXpMaE9vV2F4aFJKanMyYUJUd1A5X01zVGJjY2xYQWpLaXpidmczNUQ4U0VVWDVoSnFRTUs0cDAtYWdRNHRpSzVWNW4ySXp4eG5QT2ZHRk1hWGFRRTFILVNKc3FuNlo5ajlhVFl5MWFMYzNzSW9mUzFoUGd4a3ZVUDZFM3hJMFdUYWptNXlVd2Z3OFdIRmlwdlNmZzlaTlFMaVluYzFCcmRfSkcwQXZ0ZlRIOTNvVnJYUzBjVUlWbGJ5MTB4T1ZGSXhOVmh1dVFNV0VXcw?oc=5",
-     "source": "kcentv.com",
-     "date": "Wed, 11 Nov 2026 01:35:32 GMT"
+     "date": "Tue, 17 Nov 2026 00:46:51 GMT"
     },
     {
      "title": "7 takeaways from Josh Turek's first news conference as senator-elect - The Des Moines Register",
@@ -1375,6 +1362,12 @@
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQR3BFSU5BNkVvQnM0TGJhWnJNcUpneVNwWXk5ZUxQMmJNV1diTndERnNRQ3VhcHpIUU1lSW9SN1RwZnJ1SGMyQi1tS0pjVTNFVFJZaGsxb3I4UjRTY1c0LTMtbXR2bFpoUkZoS09Ud3lJbTkzaFhyZkRBc0FNWUpVSUJXV0lJZVdIb21IR0VkZ0Z2UQ?oc=5",
      "source": "The Times-Delphic",
      "date": "Tue, 17 Nov 2026 23:45:14 GMT"
+    },
+    {
+     "title": "Josh Turek - Britannica",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56bE9HSWhTOE5FUm1pMXljTWRCWXhCVFo2TVlmUF9fY0YxbmhmaTlkaGJxX0phSmtSeGRWYkJiN19nRWRDakhndHp6T2VjX1o3QVVqUFp6TjY3NEU?oc=5",
+     "source": "Britannica",
+     "date": "Sat, 14 Nov 2026 04:13:24 GMT"
     }
    ],
    "money": [],
@@ -2084,7 +2077,7 @@
    ],
    "n_polls": 41,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
-   "p_sim": 0.5886,
+   "p_sim": 0.5898,
    "rating": "Empate técnico"
   },
   {
@@ -2124,12 +2117,6 @@
    "sentiment": null,
    "headlines": [
     {
-     "title": "South Carolina U.S. Senate Election Live Results 2026 - AP News",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUExDWTZsajA0RFd3MEFVLUVkUEpBeksyNXhieURxS0NxR3EtbW1vU08teHBqc1BDTXVpY0pYZEhDMGVQbG1qQ1IzZko1dGJZbTFjNnNiRTNyeVhNTkRDRzg3VUZsbERVVkpWdTNvYU45NUpIdFJWM2lqQ1ExTHpVbUZn?oc=5",
-     "source": "AP News",
-     "date": "Wed, 11 Nov 2026 08:00:00 GMT"
-    },
-    {
      "title": "Senate rivals Annie Andrews, Darline Graham meet to discuss transition - Greenville Online",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMzM0MWZmeVBKM2pUcU5oRUFRZlJyckx5RS1FbnFXMi1JTC1TMExjTHVXOGRkUGpHOWhmY016NDdjVkJ3MHdTWW5NZGZsLUl3T2NFSDItMGlBR2dlalVuSHI3NWwxUFotTVh2QVJtb1A4RW5oM2NvZFN1MTlvajlETG1yWUJaaWtaU1c5ZEZCQ3NqWFZ2cGdBdWdvSnAwVHUyVU9HaVdWcE15SDg5TklndEh5cWhrYWF3dGJrc3doOHhPRFJ0UG1QMzNtUVV5WF9XMlE?oc=5",
      "source": "Greenville Online",
@@ -2152,6 +2139,12 @@
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcHZpZXhuNXRqd1diS3JlLWdhbngwNThhaW1CZkRrOEc4a3VrQjl6S0IzeFFwNGpnMERfcWZXRVpsQXdiUWhya1UzNUt4VXpKWkhzWGJQTjVwa1FlbGVzWjdTb1pnQi1tTWtKUW85b3F4cEFMbDBGVDgxNnNSN0o4dVNPZ2liNW8xdGNCQUVxWXhwd0xKbFc1WjlVT2jSAbABQVVfeXFMTm9FYmtfV1hZNFBMQjRpMDZ2cGZscHBxOWFMcXo3d0ctTU5DUnJDeUVEZXhrVkVyNlVoSUtOMGZmSGYwYjMtb3F6S25lb2hCUU1WdUU2akc0RDBaNG9yN0lPSjhTSDduaWNkSDk3T0dNdEp0TEtnd0MwYkFNOXhta0p3UVBKNWFabEVzZDRxZ2xrX2RLSl9RbURCQzg0eHdWUm8tNG9xVnB4WmNlTUZqZ3Q?oc=5",
      "source": "WIS News 10",
      "date": "Thu, 12 Nov 2026 21:20:00 GMT"
+    },
+    {
+     "title": "Darline Graham meets with Senator-elect Annie Andrews after election defeat, wishes her a 'smooth transition' - Queen City News",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcjJjSS1PUU9IZWphZzBVQ2xWLW5jcE1jT3Vtb1gxLS1FNjdnOVlfTWNUSXJXaWtqMVpXTldXcUxnbDdOTUhPOHdjM2l3cVFheDQwSGdhVE96a3daREhtLTFVLWNsMHRsaUxtVFlHcm5nY0ZRRk1mZzVFSWJkUkhXb2JOY1NLaDVESWJJbXhhYTBrUUlhTWZ1dC1kMDlQVlF0Y005MmF6cDUyejdmZEJWdFp0LTd3R2xEZWpXTUxkZDdxc1pWb0xtbnZMaHZwQXI3WGZ3QmtxM1lYWHp4?oc=5",
+     "source": "Queen City News",
+     "date": "Fri, 13 Nov 2026 00:56:23 GMT"
     }
    ],
    "money": [],
@@ -2456,12 +2449,6 @@
    "sentiment": null,
    "headlines": [
     {
-     "title": "How Pete Ricketts won reelection despite blue wave - Lincoln Journal Star",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSGxuQjg3OHNFNjBCb1dMVEMydFM4b21peFZuZnVfdjBsUDlfQUVELWduNE9uUGtaR2h2QlNMQ2cyeUUxWmFwREdQbndFMFRNTklFMkpLcTBRYmVJelBMeFFreVc3VUNXU0xCTk42UGVWaEJRWGNWMk93elM5WEhTMGdLVWNlSW9tM3A0Qm8zQXhFdE9QU3NHT1lMTEhjTFRTRmM0VnUweHFldG50V1A5cFNCUnFtN3JoVnNuLXJoU3Q?oc=5",
-     "source": "Lincoln Journal Star",
-     "date": "Sun, 15 Nov 2026 21:30:00 GMT"
-    },
-    {
      "title": "Pete Ricketts touts experience, record in Nebraska U.S. Senate reelection bid - The Beatrice Daily Sun",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM1A2NXQxMHIxUG9XbXhBWHNWdURzMFNvQWVJcFQ4N1NSdzB1ejJDZGoxSHVBQ2pUSG9pemxPUF9JYlZwNkNtR2tuT19ERThtWU5MOGdtb0NFeExzMTFraEVzcjJKQ0VpUUhkTTlXSmhXbGlhWWNrZWxhUU5QbzROQ2MxaDR0dzRVUkNoVHN5SEVRaXN5WUFSaEstN01KNDJPTkhRNVlNLVRFbXNQeENjYlpicjhLSUV3T2c?oc=5",
      "source": "The Beatrice Daily Sun",
@@ -2472,6 +2459,12 @@
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWFhtaGdqeUpCci1hYWdybng3QVZtdGFWNmZhWlR0WUFwY2NaTzBHZWJZbW5uLUk3dEtMMExod0tMRl95TC01STMyTDZidnV1VVJrNWxacDZ1RmRGbVl1TlBfa3FEa3NhR0NXcnVyTGRWdXBLTVBoT25WZXJyUnZRN0lJSlNWS0ROSGdSOTc4U1lVbUNxeEwwTTZhME5SaUszeURDckw3UGxZbUJTQ2syLUt0SXZ6eEdwVk1uZzU4MDNVcG5QZm93?oc=5",
      "source": "Sioux City Journal",
      "date": "Sat, 14 Nov 2026 15:00:00 GMT"
+    },
+    {
+     "title": "How Pete Ricketts won reelection despite blue wave - Omaha World-Herald",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTXI1V3RSWnJRWGVodnl6RU1OTDNEalo4LXA2Rmw5Ump2YjhMNXlrc0V0NktPQzhfbWNyLWJiRUU3aklsRmdhOF9XeVJobDh6R3F2eTViT1MtVjFkMWN4dXdOOFpTd0F2RGVaY0R0bnhTOXhyZjBTN3dDSGNJWWFvLTloV3NnZ2JYQkRfOFVlTlExNGMyOVhTbVpBMWVHNDlZeFZMNmp6VTZqZEE?oc=5",
+     "source": "Omaha World-Herald",
+     "date": "Sun, 15 Nov 2026 21:30:00 GMT"
     },
     {
      "title": "How Pete Ricketts won reelection despite blue wave - The Grand Island Independent",
@@ -3856,20 +3849,20 @@
     "p_model": 0.8397
    },
    "markets": {
-    "Kalshi": 0.25
+    "Kalshi": 0.2476
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senateks"
    },
-   "p_market": 0.25,
-   "p_final": 0.7512,
+   "p_market": 0.2476,
+   "p_final": 0.7509,
    "sentiment": null,
    "headlines": [
     {
      "title": "Kansas U.S. Senate Election Live Results 2026 - AP News",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XVkVGNG9SU0VuMVdUcTVEbjdicUdlUWhFTGdxX0RyZFRKR3RiY1N3OGR0UDZEbHBSRWIwTWhEOE5qNXJlNVhHUmZPZ0F3eGRDZG5zclVxREpCMC1tX2hGQ2dRVHdjX0xtRGpkZmVaNTZsc2RjcjZB?oc=5",
      "source": "AP News",
-     "date": "Mon, 16 Nov 2026 08:00:00 GMT"
+     "date": "Wed, 18 Nov 2026 11:06:18 GMT"
     },
     {
      "title": "Kansas politics are shifting as voters seek change | Opinion - The Topeka Capital-Journal",
@@ -3884,16 +3877,16 @@
      "date": "Thu, 12 Nov 2026 14:33:47 GMT"
     },
     {
+     "title": "Kansas 2026 live midterm elections results: Democrat Cindy Holscher will win governor's race, AP projects - ABC News - Breaking News, Latest News and Videos",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWloxSW5IWWdDZnpMZTRab1JMQW93ZTlaYXVWNjB4dDM0UHE0aTUxRE42UU9nTmJkN3RhWko4QllHY0pBc1NBaVNlakRSMXVwRzJVczVjQUJIRmVrSFZCbjVMXzJxR3dUS2xFblRZTlZDWDI2T2ZzTG1oTlVGMXpDU1pRX013YlVBbmZkYnFyS2RIR2_SAZgBQVVfeXFMTkpaaGVRVnU5V0VHS09OeGVlUnEyRFZhdkpnX2c1T1dYcDFJeE1aamxOU01tajJGS0ZLX3ZETjF6cUQyRmtBaENIUGlKRzM3S0ZUUVRPR1pTZFI0UjJ5N3RHZ0RXSHJsdU90RmlPdjYyOHJCRjZjT0JSSHNySzdNR19YOVNkOGxyTUJhT05DdUM0blpXejBrcmk?oc=5",
+     "source": "ABC News - Breaking News, Latest News and Videos",
+     "date": "Thu, 12 Nov 2026 08:00:00 GMT"
+    },
+    {
      "title": "Pair of college-age Kansas voters yearn for moderation, civility in politics after midterm elections - Kansas Reflector",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTVhlbkU4dzY3M1ZJUTlCNmpzSXVzNUZ3YmVhcGRBSTZGQmp5eEJTcTVSY3RYNW92RFZCdmdEcGVKLTBaOTVoUDJZdTMtWU8xZTR1aGlKeGxmdk5aUng1RnpIb09kX1BFYUxGTmhfaW8zS3RvX0lmSktiLTdQeXo4cENCUk1VTzIyN29TZU1yanNaQ25jamxFM0RWa3ZoeUItMEZyZGo0T3NTMXVkXzI2QjhEMkowcVdIREVoZk9DUEVRMDR3OWNDbXhHUE9SM3Z5MjE2OVZB?oc=5",
      "source": "Kansas Reflector",
      "date": "Mon, 16 Nov 2026 15:07:23 GMT"
-    },
-    {
-     "title": "Kansas Democrat carries faith with him to Washington - WCIV",
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYVZ6TEFIQXRtRkZXVkktQ21QS1Vjcy1kakk2czRIZnUyaEdheEhrbkZ1cVZaYlluUy04dEU3MFpDeGR6U1JoQ0Q3Q29ydkFtNm52UURIbW5neUNteTg4cFRHSENJaVpUWWJwaWtWQk9fdjZlR1JvVVhNZ3hPczJCc2VJbk9lTVZCdHdKX0tmT2tzTWdUdi1sWWlsdEJGQXJwNncweXhGQnRvYkFkMEVOZVpWdDRObWdKajN2bHFwNUthWHJzSG0ycHV2d25GZjg?oc=5",
-     "source": "WCIV",
-     "date": "Wed, 11 Nov 2026 01:28:56 GMT"
     }
    ],
    "money": [],
@@ -4603,7 +4596,7 @@
    ],
    "n_polls": 22,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
-   "p_sim": 0.7725,
+   "p_sim": 0.7719,
    "rating": "Inclinado D"
   },
   {
@@ -4654,7 +4647,7 @@
      "title": "Talarico walks back comments on religion and gender after Paxton's win - ABC News - Breaking News, Latest News and Videos",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTlBjOGxUYUZyTnFyci04a1NVcWZMb1QwMmlXOGdxaThhd0dyRkM3cENLOGhxbUxQWDZadmtWR2ZVNDNMQVJfNG1QR2cyS2JkOHczdHR1SV9KMy1SaUJrZGdPXzAzUW92a1B1N2E1TkxoVWJHbzNqVmhBLW04NkQ1ei1xTy15R1pydjhnV1EwcEtWTlFDUlJvU2hmaU1BM01lWVBGWGhGY1Jpd9IBrwFBVV95cUxNR3ZxR0lCd3piTnlxTDFOQzZHQktKYldfSWV1dmNVcHloUlNfY28ycHR1Y054dnQxSXVDaTVUYU5pWXNadTFuak5OLTRMNWY5QXBYVW5HWmFvTGFPclU4dG9lR0tRTDgyZXRDTGVfRjNRRkdGbjhSeTRVTjZ2Vm1QbHVpUUpqam9MeUlfMXdvbFluOURGWmdidU5OcXA2X3hWQjE5dDhZb0VkcnFvUWFr?oc=5",
      "source": "ABC News - Breaking News, Latest News and Videos",
-     "date": "Tue, 17 Nov 2026 06:50:05 GMT"
+     "date": "Wed, 18 Nov 2026 08:53:37 GMT"
     },
     {
      "title": "James Talarico says Democrats should work with Trump after Texas Senate win - KEYE",
@@ -5404,7 +5397,7 @@
      "title": "Maine Republican Sen. Susan Collins and Democrat Troy Jackson spar over Trump, trade and abortion in Senate Debate - ABC News - Breaking News, Latest News and Videos",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNnBlMktCX0l6dTFDZjI3eDd0aXgyVjJVcUNubVNCb1VpQXNSWDdQV1p5SDI0WHBabDdfUmJJSWlPZUZVV1htYk5tTzB4YkFqOWJNM09zVWdVeEdzYVlyeU56OFVDT1Q1d3dxanUwVVkzbjZHQ2dtdmZ6YnhJU3lCT0pWdnhyNGFDZU1Jemd0aFl0Vlh6WjB0clRZSFBzblA2TDlhbjY0SdIBrAFBVV95cUxPZ3B0WU1fQzRCZlowU1dNVTFRRlFnVmMzT09yakxhN2RWamFrUmwtcjdsTXR1OHFvcTZ0N0ROdENJeGhkUEh0RFVZQlprczJwSU5kTWZsOXBzWnpxWVJCX2NtUlFJR2JyNGh3NVhhemthYndrQm9kb0JxWEwxaG5NSW9mQmtqVXhoNmRYaTM5X2xpbWJ5a0FuZUY5TVc2Ylp6NkNOQWZUdnNVWXpK?oc=5",
      "source": "ABC News - Breaking News, Latest News and Videos",
-     "date": "Mon, 16 Nov 2026 19:45:13 GMT"
+     "date": "Tue, 17 Nov 2026 07:28:01 GMT"
     },
     {
      "title": "Maine U.S. Senate Election Live Results 2026 - AP News",
@@ -5425,10 +5418,10 @@
      "date": "Mon, 16 Nov 2026 08:16:26 GMT"
     },
     {
-     "title": "Opinion | Susan Collins never had a Margaret Chase Smith moment - The Boston Globe",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObTJHYS1nbjh5czVad1VGM0xxbU5ieVZSN3lvZUVPNkxHa3NkZmcxa2Jja1ZzSmc1aFc1b0Z6RVpINzhsS2JUVTZaVXVITmszekhZY1J0Z0ZNWUZhTkVFY19WS19lN0FfaHctYTlvVHdVSC1HRXQ3aWg0cGIzaEE0RFdNZWdVNTFOcFE?oc=5",
-     "source": "The Boston Globe",
-     "date": "Wed, 11 Nov 2026 11:01:00 GMT"
+     "title": "Maine Exit Polling: Susan Collins’ Anti-Abortion Record Cost Her Maine’s Senate Race - Reproductive Freedom for All",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY3djbi10UGdnWHRHaVJ6NC1OMy1zQ2JRdEJsUkotbVdONHlGd09wZzkzZWZ3bkx6aHFpMW4zS1JFUzN2WGVCd0w0Qk12QmJ2cFZVZ2NBbVZqWW1RaEhJUVhUa3RBU0lGRmZKcGNVYUdvdEtoSzRuc19rc3JWQkgyVVVodlVXTEpwS0I3QW5PbjRpaURiek9DdHE4RW9KSzU3OHpVQ3N3ekFRVEpHZjFvem04Tmozcm92emF6bHRVV3RVN2c?oc=5",
+     "source": "Reproductive Freedom for All",
+     "date": "Tue, 17 Nov 2026 19:16:39 GMT"
     }
    ],
    "money": [],
@@ -6155,16 +6148,16 @@
    "sentiment": null,
    "headlines": [
     {
+     "title": "Florida U.S. Senate Special Election Live Results 2026 - AP News",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DeXhyZ05CWkt2R0llZ2Z6OTFCWk9JYlVBOFB5d0dPSGd4LXlOS05wLTVGN01oLUw5bTQ2VS16U0FVNy0wdDV5emVHZWs0THZ4SDJ6Y2h2ejRiNUhkdm1LSEY5VVYzclpMSTdYUlBRMUNrZDl2ZGZ0SQ?oc=5",
+     "source": "AP News",
+     "date": "Mon, 16 Nov 2026 08:00:00 GMT"
+    },
+    {
      "title": "Angie Nixon fires back at Carville: ‘He needs to go retire’ - The Hill",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeXpCWGlzS0FCeFB6SHU2SVFlQ1Vnb0FrSjFZdGxvV3BpX2ZGNVpnNmhhczRocUpGYWZGaFdZVFRHVlNqeTBoSjJTVzJGdFNIdVdNay1DeDY3VkwtQzgzZS1Xc08ySmFVTUxrMnJ6YmNHRUlsVTh5cExCdjNoT2ZNQnd5R29CY195Wkc1OW9Ba1pVZUx10gGaAUFVX3lxTE5ISFZZUnk4MEY1V2FEZ0Y4RmtXVUZ6WTBlWURWcl9ZVElhOXd4TGFTNGh3N0dUM1JaUjhEajNSaHBOWE9LVnB6REJWcVN0elJKaFJUckdtRXJrSThHSlljSkxWckwxYnhuRER0dGNIeTJraVp0NXdwaDVxZTZtZ2oydVpaSkxXQ3FuSEVycDRILTYzcktpeXhfTmc?oc=5",
      "source": "The Hill",
      "date": "Fri, 13 Nov 2026 22:16:00 GMT"
-    },
-    {
-     "title": "Divergent Democratic results in Florida give the party another 2028 proving ground: ANALYSIS - ABC News - Breaking News, Latest News and Videos",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOakxQTm1ZOWZWMExLeHdGS2RXQ2ZzQVA4VHdPRDVXbFBjZ2llV0NMNzVURXNadjZTNFJpYjBkSEtOdjVPc05wZDg0WHVBUU1LbUpac1dhT0k1YkFVcmJMUkV3c0pIams5TGU2UElzSVJ4WE1id2Z4eHowSmJqd3pVYWdzX1Q1eVVLV0RJb3luaGU2NE9LVGFTa0hUelE3OXlTRzl5Skw0MjF5d3VT0gGyAUFVX3lxTFBLazk5b2hrMkZfSnFZSmhCMEY5dWR2NENwVmxyblhsdW1OS3dJOTFub3pDNDFaVFFtRTVIOHp2aHVMcmJzQmt2UDlWY0hLblM4SHNJdllGYVVwczZ2VW1TMl92a1VFbVd5LWdxZmc0TF9YbEQwM1d2d0hWemhyNlN2UE1qdG1YUk1fSFBLYThlUklyYlBkelpYR2pRdDlFOU03M1pzLUVfaDBaSzFiWWwyRUE?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos",
-     "date": "Mon, 16 Nov 2026 17:18:16 GMT"
     },
     {
      "title": "Shevrin Jones launches SD 37 bid with endorsements from Jared Moskowitz, Angie Nixon - Florida Politics",
@@ -6173,16 +6166,16 @@
      "date": "Tue, 17 Nov 2026 09:17:52 GMT"
     },
     {
-     "title": "Angie Nixon Lost Because of Chuck Schumer - Xavier Newswire",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbFphOWZiSVVocVFyck5Za2FBN0FwN1VjQ0NJSURuRWVPLU5WdVlneHdlQlFOelRXN2I2d2xFTzB3UTBnblBxZnc5VmNSOXhJdFEtdVh6VjhRQlVqWW5kcU9HMlhhSi1qTHhxTTlrbDlEaW1VRVBIeU1ibzRDM09TSU1SU1l6dEnSAYwBQVVfeXFMTWRCYjlXaVQwcnFWZllrT3RlYXZHVVNIa0lTSnpBWVR0ckFnZEUxT19ZWUVZcUZ3YmNoRTJfeHliUEJSYXVDQkY2OC14U2RRbm1tbW5wTmtsXzdqSkoySHNEclp1SjVhMHpuZzRsY2hQWkJIM21pak5rUGo4bkNtVDJMU2hvM01SdGhkT18?oc=5",
-     "source": "Xavier Newswire",
-     "date": "Wed, 11 Nov 2026 06:49:35 GMT"
+     "title": "Florida election results: Miami-Dade voters favor Democrats as Republicans win statewide races - The Miami Times",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNc0N4MmdSaHlrWXVGNUpEejRYdHdRTTJTaExHMnlJek1LOHRoYm1iRzlYMjlBZkZpUWl3ajlSVXdrcjhZRWoxZW02TUhkYWRUbGx1a2loam5tU1JISXdXSGRCcENTa2tXTTdhbHJjUjJFRVB3cnpZbHAxRWZOSnlEaDg0cjlfT0tlWTZ4bEF4U3VYLVpQOFcxVG9CaVlpN2JmTFlWQlQtQ3JVNEZVdmxoN3d1eDBrV0pmMmhqRlRYSDQxMUN5NW1SaFJVaS1nelRkbHF6bUxKdkZTWWVHODR6ZndmYXRzUE1ya1UzaTd3RWpQb21CYVVLVzBfYnZRZjBoZzZ6ZlVsVTRvdEJvaHY3YlZJRDlLS1d50gGeAkFVX3lxTE85RjZ0QlZXN21JZVFGVERFN29QZVpnMFY1cjg3elVJWnhyVk16TnZTbllhTGlfUWI3N3Q5cFh2ZHNOU183RlpVRnNDQWhhZ2RmRUxudWxxbDJhdnJGaU5oT2NZSjJxSWJIMXNJX3hUOVRidlNqRWRZTjNjMWVIcER1VjlFT2g3RFpTdUZkU3hidUtJcUh6dHJQZ1pwNDNyeU5fM1R5RXl6TDlaRkl5cGlRdDRfODRVc21NUmoyLWp1RWgya2o5LWJaWmdBVVR6Tk15RkJPUnJScFdfdTBacUdiQ0x0MnVfdEJzUFJiTnA0WmU4TTNUcWUyVHVRSlpxSnN0SzQyYk1zMHVOMWp2RjM5SjFETGlhczdOWHBqYWc?oc=5",
+     "source": "The Miami Times",
+     "date": "Thu, 12 Nov 2026 14:39:37 GMT"
     },
     {
-     "title": "Florida Republicans narrowly retain power as nearly 4 million vote for “democratic socialist” Nixon - World Socialist Web Site",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IYlh3cUNJNmdtNU1IUm5vYzVURUU2cXRvMjhZX1VlSlZrMDdjZF9xWnN3QUpSV2hRTVlaUE9oUExXZWVYWUFXRC1CWm9Zak9kUWdwTUF1dlpyb2UtT1lCSkRQaFBrbkxh?oc=5",
-     "source": "World Socialist Web Site",
-     "date": "Wed, 11 Nov 2026 01:28:15 GMT"
+     "title": "Democrats May Have Won Big In The Midterms, But In Some Ways, They Still Dropped The Ball - NewsOne",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhSDFUcGVHc1RFUW5oVk1NdGpvcGNVOVY1MXk3bVdlZEgwZ3k4MGVrbnRfbkd4d2FNSzJVUHlqS0pjVFlSY0ZDU25yVXRqMzN6WS1JQzltQU1Kdmk5bW5abXpUdTVQOHZISXFTbEk0U1VGdw?oc=5",
+     "source": "NewsOne",
+     "date": "Wed, 11 Nov 2026 16:00:44 GMT"
     }
    ],
    "money": [],
@@ -6737,7 +6730,7 @@
      "title": "Democratic Rep. Haley Stevens endorses GOP candidate Mike Rogers in Michigan US Senate race - ABC News - Breaking News, Latest News and Videos",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTlJYd3c1XzlwSnBGZVIyRDlycXViYzVYUkgtN2IwWjFkNDdHT2I3M09Kb3dZaTZtbGd6VEN1TmpiT3cyZVFIa0w0cEZWWGZPTTNFRV8wcEpyNG95ak1jVTJtQlpwTURCS0dxRzZ3ajJMUGxEMmVRaENoMWRCamQtWDVRbWlVYUdhT3BlVzVSWWwtSnZ4YXZNU2p6ZHhOOV9yVGEyLS16c9IBrAFBVV95cUxPcWtuRkpZT2FsMEtxa3hLcE5jSlg1WFp4Tkx1NjRHVFVDZlprTGRoMVpkbkhjLVVzSV83Q3p6b3pkXzdreklHTVcxZGRUSUZmNXZ5MHRqR0dZdUJvcl9XY0JPVlBvUVNRck96Q2FQWXU1Z01waW5ZbFpwVmk4a09LWHFQWmY1bXBlSW1xQTRNVk1XZnhGUDZJOExyWWJyZUlFRmQtcDBoVmZ5Z25w?oc=5",
      "source": "ABC News - Breaking News, Latest News and Videos",
-     "date": "Mon, 16 Nov 2026 22:55:35 GMT"
+     "date": "Wed, 18 Nov 2026 10:42:09 GMT"
     },
     {
      "title": "El-Sayed’s message to Trump: ‘There’s a lot we could work on’ - NPR",
@@ -7503,18 +7496,6 @@
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM1pWSlVJX3dZbUM2UDB1aXlMbXhQajBNWEpIYmYwYWt2ZXBvLWlQRjNCVzZtWkdoOWNqNWd4dVVNUnlZc1Joa0oxX292M0xSNDI2NE14UlJPck9aYUNqOW1BRlhOdjB1aEVIbHhJd3pLczhCRmVJZVJqY1U3cV9FX2IyTnJLZHJUY0FhdHZEaTk?oc=5",
      "source": "Forbes",
      "date": "Mon, 16 Nov 2026 12:34:00 GMT"
-    },
-    {
-     "title": "In Conversation With Peggy Flanagan, The First Native Woman Elected To The Senate - Yahoo News Singapore",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdGRMRzl1VnVTNEFxb1FOU0ZwZlFhSFNlcU1TZ1UyaGFvelBOMldQaGE2UkR6cGhlbzF0dW53bjFxVEcyTWVlMHh6TFVmcG0tWDFsYXRLY2g3ckQxUVptR1dtNGt1SmJ3eUk2eVRoM1lPNGNmbTlDVFg0U2pEaFNRWlNtdXJjc0My?oc=5",
-     "source": "Yahoo News Singapore",
-     "date": "Mon, 16 Nov 2026 11:00:19 GMT"
-    },
-    {
-     "title": "These Are Minnesota's Most Republican And Most Democratic Towns - Patch",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdnRzTDNnWm9PM3RWWndJd2xaTDlwVjhUd0RGbXZJX0h4bGVsNmsyY1lYYkp6MEIwb2FXeWdOd3RBams1cHoyRlpocTV2YzV0QXI2UWwxajRWNHp0MFNaaU83ZGVxYXNnX1NJd0tTd2pVdzJtNFVyY1kwYXY2em5MQXN0X0Y2cUFReWk2NmNRb3lkQk5PVmNoWHNEcXFDQlXSAbYBQVVfeXFMTXRyRzJLUml5QnJZOGdBRkxmQ1FmN21WTldVZmdPMFJuMmRIVkdIQkI1QTBMYXNGMWNCajdtbGlCX2dfTUxPaGpsbUtGODkxc0VqVXBodXotVzVOeW9FVXBuTUtzME9UNkk5R0FMaVFjV2I0MXNVdXNKWE9QV3NZOUtKNUUzMEVJMHMzLVpFU2hKdFV2QzVDQWV2NDd3UHVSUS10OXFrS200bnVKQ0JIU3pwenVMS1E?oc=5",
-     "source": "Patch",
-     "date": "Thu, 12 Nov 2026 20:11:31 GMT"
     }
    ],
    "money": [],
@@ -9263,7 +9244,7 @@
      "title": "Scott Colom Wins Nail-Biter Mississippi Race, Becoming State’s First Democratic Senator-Elect Since 1982 - Time Magazine",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdm9vRHBWVXVmckxNWllwR0NnTUhHRGd1VG5BRWxkbjF5T3otWXJJamVBYlpZWVJmRklYUUYxSFVaTzJHdmNzazRSNmt4cWdIUkVuMUc3aGFpVGVraHRxQkpvQ1lldjd6Vkg4ZmNEYmQtdHVXMWo4aFRhZ3VBRnRNck5JbW5kUVhuMkExb3FzbzVmTG5uUTl6Ym9DY2JiN3JPR3RMeVhPVDBmSTZaenpFRTFB?oc=5",
      "source": "Time Magazine",
-     "date": "Thu, 12 Nov 2026 03:45:00 GMT"
+     "date": "Thu, 12 Nov 2026 17:10:59 GMT"
     },
     {
      "title": "Scott Colom ousts Cindy Hyde-Smith in historic Mississippi Senate flip - Axios",
@@ -9450,13 +9431,13 @@
     "p_model": 0.9941
    },
    "markets": {
-    "Kalshi": 0.7368
+    "Kalshi": 0.7396
    },
    "market_urls": {
     "Kalshi": "https://kalshi.com/markets/senatega"
    },
-   "p_market": 0.7368,
-   "p_final": 0.9555,
+   "p_market": 0.7396,
+   "p_final": 0.9559,
    "sentiment": null,
    "headlines": [],
    "money": [],
@@ -10030,7 +10011,7 @@
    ],
    "n_polls": 16,
    "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
-   "p_sim": 0.9591,
+   "p_sim": 0.9594,
    "rating": "Seguro D"
   },
   {
@@ -17458,8 +17439,8 @@
      "license": "Uso libre con atribución",
      "what": "Tono y volumen de miles de medios de EE. UU.",
      "status": {
-      "ok": true,
-      "records": 1
+      "ok": false,
+      "records": 0
      }
     },
     {
@@ -17471,7 +17452,7 @@
      "what": "Titulares recientes por carrera, con enlace al medio.",
      "status": {
       "ok": true,
-      "records": 64
+      "records": 62
      }
     }
    ]
